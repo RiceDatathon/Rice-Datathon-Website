@@ -34,17 +34,24 @@
       "static\\xXKSgWo5Siw0gknz2spwY\\pages\\about.js": 10,
       "static\\xXKSgWo5Siw0gknz2spwY\\pages\\faqs.js": 11,
       "static\\xXKSgWo5Siw0gknz2spwY\\pages\\index.js": 12,
-      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\schedule.js": 13
+      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\schedule.js": 13,
+      "static\\x-cgN1069nyvctBrVrNtB\\pages\\_app.js": 0,
+      "static\\x-cgN1069nyvctBrVrNtB\\pages\\_document.js": 1,
+      "static\\x-cgN1069nyvctBrVrNtB\\pages\\_error.js": 2,
+      "static\\x-cgN1069nyvctBrVrNtB\\pages\\about.js": 3,
+      "static\\x-cgN1069nyvctBrVrNtB\\pages\\faqs.js": 4,
+      "static\\x-cgN1069nyvctBrVrNtB\\pages\\index.js": 5,
+      "static\\x-cgN1069nyvctBrVrNtB\\pages\\schedule.js": 6
     },
     "bySource": {},
     "usedIds": [
-      10,
-      11,
-      12,
-      13,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
     ]
   }
 }
