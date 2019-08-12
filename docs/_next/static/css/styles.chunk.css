@@ -1,0 +1,323 @@
+@media screen and (min-width: 651px) {
+    .navbar-visible, .navbar-hidden {
+        position: fixed;
+        top: 0;
+        z-index: 900;
+        background-color: #2B354C;
+        width: 100%;
+        text-align: left;
+    }
+    .navbar-item {
+        display: inline-block;
+        margin: 20px;
+    }
+    .navbar-item p {
+        font-size: 1.5em;
+        margin: 0;
+        color: #748DA5;
+        transition: 0.3s ease-in-out;
+    }
+    .navbar-item p:hover {
+        color: #ffffff;
+    }
+    .navbar-toggle-open, .navbar-toggle-closed {
+        display: none;
+    }
+    .datathon-logo {
+        position: fixed;
+        right: 0;
+        top: 0;
+        padding: 10px 20px;
+        z-index: 9999;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .navbar-visible, .navbar-hidden {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: 998;
+        background-color: #748DA5;
+        transition: 0.5s ease-in-out;
+    }
+    .navbar-visible {
+        left: 0;
+    }
+    .navbar-hidden {
+        left: 100%;
+    }
+    .navbar-item {
+        margin: 40px 0;
+    }
+    .navbar-item:nth-of-type(1) {
+        margin-top: 100px;
+    }
+    .navbar-item p {
+        font-size: 2em;
+        margin: 0;
+        color: #2B354C;
+        transition: 0.3s ease-in-out;
+    }
+    .navbar-item p:hover {
+        color: #ffffff;
+    }
+    .navbar-toggle-open, .navbar-toggle-closed {
+        position: fixed;
+        font-weight: normal;
+        font-size: 3.5em;
+        right: 0;
+        margin: -10px 10px;
+        transition: 0.3s ease-in-out;
+    }
+    .navbar-toggle-open {
+        transform: rotate(45deg);
+        color: #2B354C;
+    }
+    .navbar-toggle-closed {
+        color: #748DA5;
+    }
+    .datathon-logo {
+        top: 0;
+        position: fixed;
+        padding: 5px 10px;
+        z-index: 999;
+    }
+}
+.title {
+    padding: 2% 0;
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        padding: 10% 0;
+    }
+}
+
+.title-style1 {
+    color: #2B354C;
+    background-color: #A7BBCE;
+    border: solid #2B354C;
+    border-width: 4px 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+.title-style2 {
+    color: #A7BBCE;
+    background-color: #2B354C;
+    border: solid #A7BBCE;
+    border-width: 4px 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 500px){
+    .title {
+        margin-top: 15%;
+    }
+    .title-theme {
+        font-size: 1.5em;
+    }
+
+    .title-alternate {
+        font-size: 1.5em;
+    }
+}
+.faqs-page {
+    padding: 7% 0 5% 0;
+}
+
+.questions { 
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.faq-card {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: inherit;
+    color: #A7BBCE;
+    overflow: hidden;
+    border: 1px solid #A7BBCE;
+    margin: 2% 0;
+}
+
+.faq-question, .faq-answer {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.faq-answer {
+    background-color: #A7BBCE;
+    top: 100%;
+    color: #2B354C;
+}
+
+.faq-question p, .faq-answer p {
+    padding: 10px;
+}
+
+.faq-card:hover .faq-answer, .faq-card:focus .faq-answer {
+    top: 0;
+}
+
+.faq-card:hover .faq-question, .faq-card:focus .faq-question {
+    top: -100%;
+}
+
+.faq-card:focus {
+    outline: none;
+}
+
+@media screen and (min-width: 601px) {
+    .faq-card {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .faq-card {
+        height: 110px;
+    }
+}
+.schedule-page {
+    padding: 7% 0 5% 0;
+}
+
+.schedule-items {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    color: #A7BBCE;
+    font-weight: normal;
+}
+
+.schedule-items a {
+  color: #A7BBCE;
+  transition: 0.2s ease-in-out;
+}
+
+.schedule-items a:hover, .schedule-items a:visited {
+    color: #748DA5;
+}
+.about-page {
+    padding: 7% 0 5% 0;
+    background-color: #A7BBCE;
+}
+
+.about-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.about-content-card {
+    margin: 2%;
+}
+
+.about-image-card {
+    margin: 2%;
+    padding: 20px;
+}
+
+.about-content-text {
+    padding: 10px 20px;
+    text-align: left;
+    color: #2B354C;
+    font-size: 1.2em;
+}
+.splashpage {
+    height: 100vh;
+    overflow: hidden;
+}
+.date {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #748DA5;
+    text-align: center;
+}
+
+.intro-link {
+    text-align: center;
+    padding: 0px;
+    color: #748DA5;
+    transition: border-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.intro-link:hover {
+    color: #ffffff;
+}
+
+.sign-up-link-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+.sign-up-link-alt {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+.sponsor-link-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+@media screen and (min-width: 651px) {
+    .date {
+        margin-top: 1%;
+    }
+    .intro-logo {
+        margin-top: 12%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .intro-link {
+        opacity: 0.7;
+    }
+    .intro-link-text {
+        font-size: 1.2em;
+    }
+    .splashpage {
+        margin-bottom: 10%;
+    }
+    .intro-logo {
+        display: none;
+    }
+    .date {
+        margin-top: 40%;
+    }
+}
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    background-color: #2B354C;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*# sourceMappingURL=styles.chunk.css.map*/

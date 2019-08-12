@@ -1,0 +1,178 @@
+.about-page {
+    padding: 7% 0 5% 0;
+    background-color: #A7BBCE;
+}
+
+.about-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.about-content-card {
+    margin: 2%;
+}
+
+.about-image-card {
+    margin: 2%;
+    padding: 20px;
+}
+
+.about-content-text {
+    padding: 10px 20px;
+    text-align: left;
+    color: #2B354C;
+    font-size: 1.2em;
+}
+.faqs-page {
+    padding: 7% 0 5% 0;
+}
+
+.questions { 
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+
+.faq-card {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: inherit;
+    color: #A7BBCE;
+    overflow: hidden;
+    border: 1px solid #A7BBCE;
+    margin: 2% 0;
+}
+
+.faq-question, .faq-answer {
+    width: 100%;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.faq-answer {
+    background-color: #A7BBCE;
+    top: 100%;
+    color: #2B354C;
+}
+
+.faq-question p, .faq-answer p {
+    padding: 10px;
+}
+
+.faq-card:hover .faq-answer, .faq-card:focus .faq-answer {
+    top: 0;
+}
+
+.faq-card:hover .faq-question, .faq-card:focus .faq-question {
+    top: -100%;
+}
+
+.faq-card:focus {
+    outline: none;
+}
+
+@media screen and (min-width: 601px) {
+    .faq-card {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .faq-card {
+        height: 110px;
+    }
+}
+.splashpage {
+    height: 100vh;
+    overflow: hidden;
+}
+.date {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #748DA5;
+    text-align: center;
+}
+
+.intro-link {
+    text-align: center;
+    padding: 0px;
+    color: #748DA5;
+    transition: border-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.intro-link:hover {
+    color: #ffffff;
+}
+
+.sign-up-link-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+.sign-up-link-alt {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
+.sponsor-link-text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 1.9em;
+}
+
+@media screen and (min-width: 651px) {
+    .date {
+        margin-top: 1%;
+    }
+    .intro-logo {
+        margin-top: 12%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .intro-link {
+        opacity: 0.7;
+    }
+    .intro-link-text {
+        font-size: 1.2em;
+    }
+    .splashpage {
+        margin-bottom: 10%;
+    }
+    .intro-logo {
+        display: none;
+    }
+    .date {
+        margin-top: 40%;
+    }
+}
+.schedule-page {
+    padding: 7% 0 5% 0;
+}
+
+.schedule-items {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    color: #A7BBCE;
+    font-weight: normal;
+}
+
+.schedule-items a {
+  color: #A7BBCE;
+  transition: 0.2s ease-in-out;
+}
+
+.schedule-items a:hover, .schedule-items a:visited {
+    color: #748DA5;
+}

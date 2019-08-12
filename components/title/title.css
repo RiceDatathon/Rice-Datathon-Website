@@ -1,0 +1,44 @@
+.title {
+    padding: 2% 0;
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        padding: 10% 0;
+    }
+}
+
+.title-style1 {
+    color: #2B354C;
+    background-color: #A7BBCE;
+    border: solid #2B354C;
+    border-width: 4px 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+.title-style2 {
+    color: #A7BBCE;
+    background-color: #2B354C;
+    border: solid #A7BBCE;
+    border-width: 4px 0;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+}
+
+@media screen and (max-width: 500px){
+    .title {
+        margin-top: 15%;
+    }
+    .title-theme {
+        font-size: 1.5em;
+    }
+
+    .title-alternate {
+        font-size: 1.5em;
+    }
+}

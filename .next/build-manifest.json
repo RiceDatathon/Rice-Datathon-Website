@@ -1,0 +1,57 @@
+{
+  "devFiles": [],
+  "pages": {
+    "/": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.a52e22ad.chunk.css",
+      "static/chunks/commons.b567cd5ccb3c977c38a6.js",
+      "static/css/styles.b804b5f8.chunk.css",
+      "static/chunks/styles.fe4402af2e4386a2f1ad.js",
+      "static/runtime/main-26e5ac0df54e61a665f5.js"
+    ],
+    "/_app": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.a52e22ad.chunk.css",
+      "static/chunks/commons.b567cd5ccb3c977c38a6.js",
+      "static/runtime/main-26e5ac0df54e61a665f5.js"
+    ],
+    "/_error": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.a52e22ad.chunk.css",
+      "static/chunks/commons.b567cd5ccb3c977c38a6.js",
+      "static/runtime/main-26e5ac0df54e61a665f5.js"
+    ],
+    "/about": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.a52e22ad.chunk.css",
+      "static/chunks/commons.b567cd5ccb3c977c38a6.js",
+      "static/css/styles.b804b5f8.chunk.css",
+      "static/chunks/styles.fe4402af2e4386a2f1ad.js",
+      "static/runtime/main-26e5ac0df54e61a665f5.js"
+    ],
+    "/faqs": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.a52e22ad.chunk.css",
+      "static/chunks/commons.b567cd5ccb3c977c38a6.js",
+      "static/css/styles.b804b5f8.chunk.css",
+      "static/chunks/styles.fe4402af2e4386a2f1ad.js",
+      "static/runtime/main-26e5ac0df54e61a665f5.js"
+    ],
+    "/index": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.a52e22ad.chunk.css",
+      "static/chunks/commons.b567cd5ccb3c977c38a6.js",
+      "static/css/styles.b804b5f8.chunk.css",
+      "static/chunks/styles.fe4402af2e4386a2f1ad.js",
+      "static/runtime/main-26e5ac0df54e61a665f5.js"
+    ],
+    "/schedule": [
+      "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
+      "static/css/commons.a52e22ad.chunk.css",
+      "static/chunks/commons.b567cd5ccb3c977c38a6.js",
+      "static/css/styles.b804b5f8.chunk.css",
+      "static/chunks/styles.fe4402af2e4386a2f1ad.js",
+      "static/runtime/main-26e5ac0df54e61a665f5.js"
+    ]
+  }
+}

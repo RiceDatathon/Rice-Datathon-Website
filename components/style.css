@@ -1,0 +1,12 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    background-color: #2B354C;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+}
