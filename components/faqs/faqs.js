@@ -7,10 +7,10 @@ import { faqs } from './faqs.json';
 const Faq = props => (
     <button className='faq-card'>
         <div className='faq-question'>
-            <p>Q: {props.question}</p>
+            <p><strong>Q</strong>: {props.question}</p>
         </div>
         <div className='faq-answer'>
-            <p>A: {props.answer}</p>
+            <p><strong>A</strong>: {props.answer}</p>
         </div>
     </button>
 )

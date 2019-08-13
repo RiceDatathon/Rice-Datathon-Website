@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\Header.js";
 
 
 
@@ -101,7 +101,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _about_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.css */ "./components/about/about.css");
 /* harmony import */ var _about_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_about_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\about\\about.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\about\\about.js";
 
 
 
@@ -118,7 +118,7 @@ var About = function About() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_title_title_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
     title: "About Rice Datathon",
     width: [0.7, 0.5],
-    theme: true,
+    theme: false,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -248,7 +248,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
 
 
 
@@ -388,7 +388,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/title/title.css");
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\title\\title.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\title\\title.js";
 
 
 
@@ -10570,10 +10570,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5Ctemp%5CRice-Datathon-Website%5Cpages%5Cabout.js!./":
-/*!**************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5Ctemp%5CRice-Datathon-Website%5Cpages%5Cabout.js ***!
-  \**************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cabout.js!./":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cabout.js ***!
+  \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -17083,7 +17083,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_about_about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/about/about */ "./components/about/about.js");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/style.css */ "./components/style.css");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_style_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\pages\\about.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\pages\\about.js";
 
 
 
@@ -17122,14 +17122,14 @@ var Page = function Page() {
 
 /***/ }),
 
-/***/ 4:
-/*!******************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5Ctemp%5CRice-Datathon-Website%5Cpages%5Cabout.js ***!
-  \******************************************************************************************************************************************************************/
+/***/ 7:
+/*!***********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cabout.js ***!
+  \***********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5Ctemp%5CRice-Datathon-Website%5Cpages%5Cabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5Ctemp%5CRice-Datathon-Website%5Cpages%5Cabout.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cabout.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cabout.js!./");
 
 
 /***/ }),
@@ -17145,5 +17145,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=about.js.map

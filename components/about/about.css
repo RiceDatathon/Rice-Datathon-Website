@@ -1,6 +1,5 @@
 .about-page {
     padding: 7% 0 5% 0;
-    background-color: #A7BBCE;
 }
 
 .about-content {
@@ -21,6 +20,6 @@
 .about-content-text {
     padding: 10px 20px;
     text-align: left;
-    color: #2B354C;
+    color: #A7BBCE;
     font-size: 1.2em;
 }

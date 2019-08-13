@@ -16,23 +16,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/homepage/splashPage.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/navbar/navbar.css": [
     {
       "modules": {
@@ -50,7 +33,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/schedule/schedule.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/homepage/splashPage.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -85,6 +68,23 @@
     }
   ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/schedule/schedule.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -144,43 +144,25 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\sYKLvm1lNyHx95f4YvFSi\\pages\\_app.js": 4,
-      "static\\sYKLvm1lNyHx95f4YvFSi\\pages\\_error.js": 5,
-      "static\\sYKLvm1lNyHx95f4YvFSi\\pages\\about.js": 6,
-      "static\\sYKLvm1lNyHx95f4YvFSi\\pages\\faqs.js": 7,
-      "static\\sYKLvm1lNyHx95f4YvFSi\\pages\\index.js": 8,
-      "static\\sYKLvm1lNyHx95f4YvFSi\\pages\\schedule.js": 9,
-      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\_app.js": 10,
-      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\_error.js": 11,
-      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\about.js": 12,
-      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\faqs.js": 13,
-      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\index.js": 14,
-      "static\\xXKSgWo5Siw0gknz2spwY\\pages\\schedule.js": 15,
-      "static\\x-cgN1069nyvctBrVrNtB\\pages\\_app.js": 4,
-      "static\\x-cgN1069nyvctBrVrNtB\\pages\\_error.js": 5,
-      "static\\x-cgN1069nyvctBrVrNtB\\pages\\about.js": 6,
-      "static\\x-cgN1069nyvctBrVrNtB\\pages\\faqs.js": 7,
-      "static\\x-cgN1069nyvctBrVrNtB\\pages\\index.js": 8,
-      "static\\x-cgN1069nyvctBrVrNtB\\pages\\schedule.js": 9,
-      "static\\AKNIRIkLZouCdKQAXjw4C\\pages\\_app.js": 10,
-      "static\\AKNIRIkLZouCdKQAXjw4C\\pages\\_error.js": 11,
-      "static\\AKNIRIkLZouCdKQAXjw4C\\pages\\about.js": 12,
-      "static\\AKNIRIkLZouCdKQAXjw4C\\pages\\faqs.js": 13,
-      "static\\AKNIRIkLZouCdKQAXjw4C\\pages\\index.js": 14,
-      "static\\AKNIRIkLZouCdKQAXjw4C\\pages\\schedule.js": 15
+      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\_app.js": 4,
+      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\_error.js": 5,
+      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\about.js": 6,
+      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\faqs.js": 7,
+      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\index.js": 8,
+      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\schedule.js": 9
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
-      11,
-      12,
-      13,
-      14,
-      15,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ]
   }
 }

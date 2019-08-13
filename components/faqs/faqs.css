@@ -33,7 +33,11 @@
     color: #2B354C;
 }
 
-.faq-question p, .faq-answer p {
+.faq-question p {
+    padding: 30px;
+}
+
+.faq-answer p {
     padding: 10px;
 }
 

@@ -129,6 +129,31 @@
         font-size: 1.5em;
     }
 }
+.about-page {
+    padding: 7% 0 5% 0;
+}
+
+.about-content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+}
+
+.about-content-card {
+    margin: 2%;
+}
+
+.about-image-card {
+    margin: 2%;
+    padding: 20px;
+}
+
+.about-content-text {
+    padding: 10px 20px;
+    text-align: left;
+    color: #A7BBCE;
+    font-size: 1.2em;
+}
 .faqs-page {
     padding: 7% 0 5% 0;
 }
@@ -164,7 +189,11 @@
     color: #2B354C;
 }
 
-.faq-question p, .faq-answer p {
+.faq-question p {
+    padding: 30px;
+}
+
+.faq-answer p {
     padding: 10px;
 }
 
@@ -190,53 +219,6 @@
     .faq-card {
         height: 110px;
     }
-}
-.schedule-page {
-    padding: 7% 0 5% 0;
-}
-
-.schedule-items {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4%;
-    color: #A7BBCE;
-    font-weight: normal;
-}
-
-.schedule-items a {
-  color: #A7BBCE;
-  transition: 0.2s ease-in-out;
-}
-
-.schedule-items a:hover, .schedule-items a:visited {
-    color: #748DA5;
-}
-.about-page {
-    padding: 7% 0 5% 0;
-    background-color: #A7BBCE;
-}
-
-.about-content {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4%;
-}
-
-.about-content-card {
-    margin: 2%;
-}
-
-.about-image-card {
-    margin: 2%;
-    padding: 20px;
-}
-
-.about-content-text {
-    padding: 10px 20px;
-    text-align: left;
-    color: #2B354C;
-    font-size: 1.2em;
 }
 .splashpage {
     height: 100vh;
@@ -281,12 +263,13 @@
     font-size: 1.9em;
 }
 
+.splashpage-content {
+    padding: 40px 0;
+}
+
 @media screen and (min-width: 651px) {
     .date {
         margin-top: 1%;
-    }
-    .intro-logo {
-        margin-top: 12%;
     }
 }
 
@@ -299,9 +282,6 @@
     }
     .splashpage {
         margin-bottom: 10%;
-    }
-    .intro-logo {
-        display: none;
     }
     .date {
         margin-top: 40%;

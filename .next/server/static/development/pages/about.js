@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 7);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\Header.js";
 
 
 
@@ -203,7 +203,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _about_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.css */ "./components/about/about.css");
 /* harmony import */ var _about_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_about_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\about\\about.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\about\\about.js";
 
 
 
@@ -219,7 +219,7 @@ const About = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_title_title_js__WEBPACK_IMPORTED_MODULE_1__["default"], {
   title: "About Rice Datathon",
   width: [0.7, 0.5],
-  theme: true,
+  theme: false,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
@@ -347,7 +347,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navbar.css */ "./components/navbar/navbar.css");
 /* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_navbar_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
 
 
 
@@ -492,7 +492,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/title/title.css");
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\title\\title.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\title\\title.js";
 
 
 
@@ -1200,7 +1200,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_about_about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/about/about */ "./components/about/about.js");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/style.css */ "./components/style.css");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_style_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\pages\\about.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\pages\\about.js";
 
 
 
@@ -1237,14 +1237,14 @@ const Page = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("d
 
 /***/ }),
 
-/***/ 7:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/about.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\nmeis\Projects\Websites\temp\Rice-Datathon-Website\pages\about.js */"./pages/about.js");
+module.exports = __webpack_require__(/*! C:\Users\nmeis\Projects\Websites\Rice-Datathon-Website\pages\about.js */"./pages/about.js");
 
 
 /***/ }),

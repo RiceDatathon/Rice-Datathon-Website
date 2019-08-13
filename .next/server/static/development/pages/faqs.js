@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\Header.js";
 
 
 
@@ -205,7 +205,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _faqs_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_faqs_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _faqs_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./faqs.json */ "./components/faqs/faqs.json");
 var _faqs_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./faqs.json */ "./components/faqs/faqs.json", 1);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\faqs\\faqs.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\faqs\\faqs.js";
 
 
 
@@ -232,7 +232,13 @@ const Faq = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
     lineNumber: 10
   },
   __self: undefined
-}, "Q: ", props.question)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "Q"), ": ", props.question)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: "faq-answer",
   __source: {
     fileName: _jsxFileName,
@@ -245,7 +251,13 @@ const Faq = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(
     lineNumber: 13
   },
   __self: undefined
-}, "A: ", props.answer)));
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, "A"), ": ", props.answer)));
 
 const FAQs = () => {
   const qas = [];
@@ -346,7 +358,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navbar.css */ "./components/navbar/navbar.css");
 /* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_navbar_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
 
 
 
@@ -491,7 +503,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/title/title.css");
 /* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\title\\title.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\title\\title.js";
 
 
 
@@ -1199,7 +1211,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_faqs_faqs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/faqs/faqs */ "./components/faqs/faqs.js");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/style.css */ "./components/style.css");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_style_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\pages\\faqs.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\pages\\faqs.js";
 
 
 
@@ -1236,14 +1248,14 @@ const Page = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("d
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!*****************************!*\
   !*** multi ./pages/faqs.js ***!
   \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\nmeis\Projects\Websites\temp\Rice-Datathon-Website\pages\faqs.js */"./pages/faqs.js");
+module.exports = __webpack_require__(/*! C:\Users\nmeis\Projects\Websites\Rice-Datathon-Website\pages\faqs.js */"./pages/faqs.js");
 
 
 /***/ }),

@@ -41,12 +41,13 @@
     font-size: 1.9em;
 }
 
+.splashpage-content {
+    padding: 40px 0;
+}
+
 @media screen and (min-width: 651px) {
     .date {
         margin-top: 1%;
-    }
-    .intro-logo {
-        margin-top: 12%;
     }
 }
 
@@ -59,9 +60,6 @@
     }
     .splashpage {
         margin-bottom: 10%;
-    }
-    .intro-logo {
-        display: none;
     }
     .date {
         margin-top: 40%;

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\Header.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\Header.js";
 
 
 
@@ -202,85 +202,143 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _splashPage_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./splashPage.css */ "./components/homepage/splashPage.css");
 /* harmony import */ var _splashPage_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_splashPage_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\homepage\\splashPage.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\homepage\\splashPage.js";
 
 
 
+const images = ['../../static/data1.jpg', '../../static/data2.jpg', '../../static/data3.jpg', '../../static/data4.jpg'];
+
+class Carousel extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      images: props.images,
+      current: 0,
+      max: props.images.length,
+      interval: null
+    };
+    this.switchImage = this.switchImage.bind(this);
+  }
+
+  switchImage() {
+    let newState = this.state.current + 1;
+
+    if (newState == this.state.max) {
+      newState = 0;
+    }
+
+    this.setState({
+      current: newState
+    });
+  }
+
+  componentDidMount() {
+    this.state.interval = window.setInterval(this.switchImage, 2000);
+  }
+
+  componentWillUnmount() {
+    window.clearInterval(this.state.interval);
+  }
+
+  render() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+      width: [0.9, 0.4],
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+      src: this.state.images[this.state.current],
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38
+      },
+      __self: this
+    }));
+  }
+
+}
 
 const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: "splashpage",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 45
   },
   __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-  width: [0.8, 0.5],
-  ml: "auto",
-  mr: "auto",
-  className: "intro-logo",
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Flex"], {
+  flexDirection: "row",
+  flexWrap: "wrap",
+  justifyContent: "center",
   style: {
     marginTop: '10%'
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 49
   },
   __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-  src: "../../static/datathon-logo.png",
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Carousel, {
+  images: images,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 50
   },
   __self: undefined
-})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+  width: [0.9, 0.3],
+  className: "splashpage-content",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 51
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
   className: "date",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 52
   },
   __self: undefined
-}, "Jan 24st - 25th 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-  width: [0.5, 0.4, 0.35, 0.2],
+}, "Jan 24 - 25th 2020"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
   ml: "auto",
   mr: "auto",
   mt: 40,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 53
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: "intro-link",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 54
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
   className: "sign-up-link-text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 55
   },
   __self: undefined
 }, "Sign Up"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
   className: "sign-up-link-alt",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 15
+    lineNumber: 56
   },
   __self: undefined
 }, "Registration will open fall 2019"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
-  width: [0.7, 0.27],
   ml: "auto",
   mr: "auto",
   mt: 20,
   className: "sponsor-button",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 59
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -292,33 +350,24 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   rel: "noopener noreferrer",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 60
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   className: "intro-link",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 61
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
   className: "sponsor-link-text",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 62
   },
   __self: undefined
-}, "Become a Sponsor")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  style: {
-    height: '100px'
-  },
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
-}));
+}, "Become a Sponsor")))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (SplashPage);
 
@@ -354,7 +403,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./navbar.css */ "./components/navbar/navbar.css");
 /* harmony import */ var _navbar_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_navbar_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\navbar\\navbar.js";
 
 
 
@@ -1153,7 +1202,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_homepage_splashPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/homepage/splashPage */ "./components/homepage/splashPage.js");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/style.css */ "./components/style.css");
 /* harmony import */ var _components_style_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_style_css__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\temp\\Rice-Datathon-Website\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\pages\\index.js";
 
 
 
@@ -1190,14 +1239,14 @@ const Home = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("d
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\nmeis\Projects\Websites\temp\Rice-Datathon-Website\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\nmeis\Projects\Websites\Rice-Datathon-Website\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
