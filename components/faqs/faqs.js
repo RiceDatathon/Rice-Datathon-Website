@@ -27,7 +27,7 @@ const FAQs = () => {
 
     return (
         <div className='faqs-page'>
-            <Title title="FAQs" width={[0.5, 0.15]} theme={false} />
+            <Title title="FAQs" width={[0.5, 0.15]} />
             <Box width={[0.9, 0.5]} ml='auto' mr='auto'>
                 <Flex className='questions' flexDirection='row' flexWrap='wrap' justifyContent='center'>
                     {qas}

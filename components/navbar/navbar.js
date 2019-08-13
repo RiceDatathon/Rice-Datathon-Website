@@ -1,5 +1,4 @@
 import React from 'react';
-import * as Scroll from 'react-scroll';
 import Link from 'next/link';
 import { Box, Image } from 'rebass';
 import './navbar.css';

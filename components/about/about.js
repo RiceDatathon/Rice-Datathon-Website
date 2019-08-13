@@ -4,7 +4,7 @@ import './about.css';
 
 const About = () => (
     <div className='about-page'>
-        <Title title="About Rice Datathon" width={[0.7, 0.5]} theme={false} />
+        <Title title="About Rice Datathon" width={[0.7, 0.5]} />
         <Box className='about-content' width={[1, 0.9, 0.8, 0.7]} ml='auto' mr='auto'>
             <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
                 <Box width={350} className='about-content-card'>

@@ -33,6 +33,23 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/homepage/splashPage.css": [
     {
       "modules": {
@@ -51,23 +68,6 @@
     }
   ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -144,12 +144,12 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\_app.js": 4,
-      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\_error.js": 5,
-      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\about.js": 6,
-      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\faqs.js": 7,
-      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\index.js": 8,
-      "static\\B_dr1NnfNmL9WGk0rVdhg\\pages\\schedule.js": 9
+      "static\\BAw1MyO9FFcJc_0MU_tLJ\\pages\\_app.js": 4,
+      "static\\BAw1MyO9FFcJc_0MU_tLJ\\pages\\_error.js": 5,
+      "static\\BAw1MyO9FFcJc_0MU_tLJ\\pages\\about.js": 6,
+      "static\\BAw1MyO9FFcJc_0MU_tLJ\\pages\\faqs.js": 7,
+      "static\\BAw1MyO9FFcJc_0MU_tLJ\\pages\\index.js": 8,
+      "static\\BAw1MyO9FFcJc_0MU_tLJ\\pages\\schedule.js": 9
     },
     "bySource": {},
     "usedIds": [

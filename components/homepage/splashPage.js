@@ -1,70 +1,119 @@
 import React from 'react';
-import { Box, Flex, Image } from 'rebass';
+import Link from 'next/link';
+import { Box, Flex } from 'rebass';
 import './splashPage.css';
 
-const images = ['../../static/data1.jpg', '../../static/data2.jpg', '../../static/data3.jpg', '../../static/data4.jpg']
-
-class Carousel extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            images: props.images,
-            current: 0,
-            max: props.images.length,
-            interval: null
-        }
-        this.switchImage = this.switchImage.bind(this)
+const tiles = [
+    {
+        image: '../../static/data1.jpg',
+        caption: 'January 24 - 25th 2020',
+        to: '/schedule'
+    },
+    {
+        image: '../../static/data2.jpg',
+        caption: 'Sign Up (This Fall)',
+        href: ''
+    },
+    {
+        image: '../../static/data3.jpg',
+        caption: 'Become a Sponsor',
+        href: "../../static/SponsorshipPacket.pdf"
+    },
+    {
+        image: '../../static/data4.jpg',
+        caption: 'About the Datathon',
+        to: '/about'
     }
+]
 
-    switchImage() {
-        let newState = this.state.current + 1;
-        if (newState == this.state.max) {
-            newState = 0;
-        }
-        this.setState({ current: newState })
-    }
-
-    componentDidMount() {
-        this.state.interval = window.setInterval(this.switchImage, 2000)
-    }
-
-    componentWillUnmount() {
-        window.clearInterval(this.state.interval)
-    }
-
-    render() {
-        return (
-            <Box width={[0.9, 0.4]}>
-                <Image src={this.state.images[this.state.current]} />
-            </Box>
-        )
-    }
-}
+const Image = (props) => (
+    <div className='image'>
+        <Box className={`image-box${props.index}`} width={350}>
+            {
+                props.to !== undefined ? (
+                    <Link href={props.to}>
+                        <h1 className='image-caption'>{props.caption}</h1>
+                    </Link>
+                ) : (
+                        <a href={props.href}>
+                            <h1 className='image-caption'>{props.caption}</h1>
+                        </a>
+                    )
+            }
+        </Box>
+        <style>{`
+            .image-box${props.index} {
+                width: 350px;
+                height: 200px;
+                position: relative;
+                z-index: 200;
+                overflow: hidden;
+                margin: 20px;
+            }
+            .image-box${props.index}:before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                background-image: url(${props.image});
+                background-position: center;
+                background-size: cover;
+                transition: 0.3s ease-in-out;
+            }
+            .image-box${props.index}:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 100px;
+                z-index: -1;
+                background-color: black;
+                opacity: 0.5;
+                box-shadow: 0 0 20px 20px black;
+                transition: 0.3s ease-in-out;
+            }
+            .image-caption {
+                color: white;
+                position: absolute;
+                top: 90px;
+                text-align: center;
+                width: 100%;
+                font-weight: normal;
+                transition: 0.3s ease-in-out;
+            }
+            .image-box${props.index}:hover:before {
+                transform: scale(1.3);
+            }
+            .image-box${props.index}:hover:after {
+                height: 100%;
+                opacity: 0.8
+            }
+            .image-box${props.index}:hover .image-caption {
+                top: 50px;
+            }
+            .image-caption:hover {
+                cursor: pointer;
+            }
+        `}</style>
+    </div>
+)
 
 const SplashPage = () => (
     <div className='splashpage'>
-        {/* <Box width={[0.8, 0.5]} ml='auto' mr='auto' className='intro-logo' style={{marginTop: '10%'}}>
-            <Image src='../../static/datathon-logo.png' />
-        </Box> */}
-        <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' style={{marginTop: '10%'}}>
-            <Carousel images={images} />
-            <Box width={[0.9, 0.3]} className='splashpage-content'>
-                <h2 className='date'>Jan 24 - 25th 2020</h2>
-                <Box  ml='auto' mr='auto' mt={40}>
-                    <div className='intro-link'>
-                        <h4 className='sign-up-link-text'>Sign Up</h4>
-                        <p className='sign-up-link-alt'>Registration will open fall 2019</p>
-                    </div>
-                </Box>
-                <Box ml='auto' mr='auto' mt={20} className='sponsor-button'>
-                    <a href='../../static/SponsorshipPacket.pdf' style={{ textDecoration: 'none' }} target='_blank' rel="noopener noreferrer">
-                        <div className='intro-link'>
-                            <h4 className='sponsor-link-text'>Become a Sponsor</h4>
-                        </div>
-                    </a>
-                </Box>
-            </Box>
-        </Flex>
+        <Box width={[1, 0.7]} ml='auto' mr='auto'>
+            <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
+                {
+                    tiles.map(tile => (
+                        <Image image={tile.image} index={tiles.indexOf(tile)} caption={tile.caption} to={tile.to} href={tile.href} key={tile.image} />
+                    ))
+                }
+            </Flex>
+        </Box>
+
     </div>
 )
 
