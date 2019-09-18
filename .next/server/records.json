@@ -34,17 +34,24 @@
       "static\\JgIt90orwB65ygGeojOrK\\pages\\about.js": 10,
       "static\\JgIt90orwB65ygGeojOrK\\pages\\faqs.js": 11,
       "static\\JgIt90orwB65ygGeojOrK\\pages\\index.js": 12,
-      "static\\JgIt90orwB65ygGeojOrK\\pages\\schedule.js": 13
+      "static\\JgIt90orwB65ygGeojOrK\\pages\\schedule.js": 13,
+      "static\\A2eu_DXZQ_8s57p4co_em\\pages\\_app.js": 0,
+      "static\\A2eu_DXZQ_8s57p4co_em\\pages\\_document.js": 1,
+      "static\\A2eu_DXZQ_8s57p4co_em\\pages\\_error.js": 2,
+      "static\\A2eu_DXZQ_8s57p4co_em\\pages\\about.js": 3,
+      "static\\A2eu_DXZQ_8s57p4co_em\\pages\\faqs.js": 4,
+      "static\\A2eu_DXZQ_8s57p4co_em\\pages\\index.js": 5,
+      "static\\A2eu_DXZQ_8s57p4co_em\\pages\\schedule.js": 6
     },
     "bySource": {},
     "usedIds": [
-      10,
-      11,
-      12,
-      13,
-      7,
-      8,
-      9
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
     ]
   }
 }
