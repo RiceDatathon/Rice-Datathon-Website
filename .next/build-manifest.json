@@ -3,7 +3,7 @@
   "pages": {
     "/": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/css/commons.dfe29a07.chunk.css",
+      "static/css/commons.bbdcd34e.chunk.css",
       "static/chunks/commons.6ebb62109e94ca7705be.js",
       "static/css/styles.97113af1.chunk.css",
       "static/chunks/styles.fe4402af2e4386a2f1ad.js",
@@ -11,19 +11,19 @@
     ],
     "/_app": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/css/commons.dfe29a07.chunk.css",
+      "static/css/commons.bbdcd34e.chunk.css",
       "static/chunks/commons.6ebb62109e94ca7705be.js",
       "static/runtime/main-26e5ac0df54e61a665f5.js"
     ],
     "/_error": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/css/commons.dfe29a07.chunk.css",
+      "static/css/commons.bbdcd34e.chunk.css",
       "static/chunks/commons.6ebb62109e94ca7705be.js",
       "static/runtime/main-26e5ac0df54e61a665f5.js"
     ],
     "/about": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/css/commons.dfe29a07.chunk.css",
+      "static/css/commons.bbdcd34e.chunk.css",
       "static/chunks/commons.6ebb62109e94ca7705be.js",
       "static/css/styles.97113af1.chunk.css",
       "static/chunks/styles.fe4402af2e4386a2f1ad.js",
@@ -31,7 +31,7 @@
     ],
     "/faqs": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/css/commons.dfe29a07.chunk.css",
+      "static/css/commons.bbdcd34e.chunk.css",
       "static/chunks/commons.6ebb62109e94ca7705be.js",
       "static/css/styles.97113af1.chunk.css",
       "static/chunks/styles.fe4402af2e4386a2f1ad.js",
@@ -39,7 +39,7 @@
     ],
     "/index": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/css/commons.dfe29a07.chunk.css",
+      "static/css/commons.bbdcd34e.chunk.css",
       "static/chunks/commons.6ebb62109e94ca7705be.js",
       "static/css/styles.97113af1.chunk.css",
       "static/chunks/styles.fe4402af2e4386a2f1ad.js",
@@ -47,7 +47,7 @@
     ],
     "/schedule": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/css/commons.dfe29a07.chunk.css",
+      "static/css/commons.bbdcd34e.chunk.css",
       "static/chunks/commons.6ebb62109e94ca7705be.js",
       "static/css/styles.97113af1.chunk.css",
       "static/chunks/styles.fe4402af2e4386a2f1ad.js",

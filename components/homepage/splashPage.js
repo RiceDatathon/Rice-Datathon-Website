@@ -6,23 +6,23 @@ import './splashPage.css';
 const tiles = [
     {
         image: '../../static/data1.jpg',
-        caption: 'January 24 - 25th 2020',
+        caption: 'Schedule →',
         to: '/schedule'
     },
     {
         image: '../../static/data2.jpg',
-        caption: 'Sign Up (This Fall)',
-        href: ''
+        caption: 'Sign Up →',
+        href: 'https://docs.google.com/forms/d/e/1FAIpQLSfkF9heSXz8COzuALDl-ihmkZcZI94wphnvnhWmc8W77KJL0A/viewform?fbclid=IwAR2h6Bn-58m-thXqp9VhOD-TcK0dSgCry29_yoTwO-gyIYjiDaonKgD-ZOw'
     },
     {
         image: '../../static/data3.jpg',
-        caption: 'Become a Sponsor',
+        caption: 'Become a Sponsor →',
         href: "../../static/SponsorshipPacket.pdf"
     },
     {
         image: '../../static/data4.jpg',
-        caption: 'About the Datathon',
-        to: '/about'
+        caption: 'Facebook Event →',
+        href: 'https://www.facebook.com/events/2614689505291723/'
     }
 ]
 
@@ -32,11 +32,16 @@ const Image = (props) => (
             {
                 props.to !== undefined ? (
                     <Link href={props.to}>
-                        <h1 className='image-caption'>{props.caption}</h1>
+                        <div className='image-caption-container'>
+                            <h1 className='image-caption'>{props.caption}</h1>
+                        </div>
                     </Link>
                 ) : (
                         <a href={props.href}>
-                            <h1 className='image-caption'>{props.caption}</h1>
+                            <div className='image-caption-container'>
+
+                                <h1 className='image-caption'>{props.caption}</h1>
+                            </div>
                         </a>
                     )
             }
@@ -76,6 +81,9 @@ const Image = (props) => (
                 box-shadow: 0 0 20px 20px black;
                 transition: 0.3s ease-in-out;
             }
+            .image-caption-container {
+                height: 100%;
+            }
             .image-caption {
                 color: white;
                 position: absolute;
@@ -95,7 +103,7 @@ const Image = (props) => (
             .image-box${props.index}:hover .image-caption {
                 top: 50px;
             }
-            .image-caption:hover {
+            .image-caption-container:hover {
                 cursor: pointer;
             }
         `}</style>

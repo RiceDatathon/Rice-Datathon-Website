@@ -21,6 +21,7 @@
     }
     .navbar-item p:hover {
         color: #ffffff;
+        cursor: pointer;
     }
     .navbar-toggle-open, .navbar-toggle-closed {
         display: none;

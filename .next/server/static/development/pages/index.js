@@ -211,20 +211,20 @@ var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\
 
 const tiles = [{
   image: '../../static/data1.jpg',
-  caption: 'January 24 - 25th 2020',
+  caption: 'Schedule →',
   to: '/schedule'
 }, {
   image: '../../static/data2.jpg',
-  caption: 'Sign Up (This Fall)',
-  href: ''
+  caption: 'Sign Up →',
+  href: 'https://docs.google.com/forms/d/e/1FAIpQLSfkF9heSXz8COzuALDl-ihmkZcZI94wphnvnhWmc8W77KJL0A/viewform?fbclid=IwAR2h6Bn-58m-thXqp9VhOD-TcK0dSgCry29_yoTwO-gyIYjiDaonKgD-ZOw'
 }, {
   image: '../../static/data3.jpg',
-  caption: 'Become a Sponsor',
+  caption: 'Become a Sponsor →',
   href: "../../static/SponsorshipPacket.pdf"
 }, {
   image: '../../static/data4.jpg',
-  caption: 'About the Datathon',
-  to: '/about'
+  caption: 'Facebook Event →',
+  href: 'https://www.facebook.com/events/2614689505291723/'
 }];
 
 const Image = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -249,31 +249,45 @@ const Image = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElemen
     lineNumber: 34
   },
   __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-  className: "image-caption",
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: "image-caption-container",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 35
   },
   __self: undefined
-}, props.caption)) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+  className: "image-caption",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, props.caption))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   href: props.href,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 38
+    lineNumber: 40
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  className: "image-caption-container",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
   className: "image-caption",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 39
+    lineNumber: 43
   },
   __self: undefined
-}, props.caption))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+}, props.caption)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 44
+    lineNumber: 49
   },
   __self: undefined
 }, `
@@ -311,6 +325,9 @@ const Image = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElemen
                 box-shadow: 0 0 20px 20px black;
                 transition: 0.3s ease-in-out;
             }
+            .image-caption-container {
+                height: 100%;
+            }
             .image-caption {
                 color: white;
                 position: absolute;
@@ -330,7 +347,7 @@ const Image = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElemen
             .image-box${props.index}:hover .image-caption {
                 top: 50px;
             }
-            .image-caption:hover {
+            .image-caption-container:hover {
                 cursor: pointer;
             }
         `));
@@ -339,7 +356,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   className: "splashpage",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 106
+    lineNumber: 114
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -348,7 +365,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   mr: "auto",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 107
+    lineNumber: 115
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -357,7 +374,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   justifyContent: "center",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 108
+    lineNumber: 116
   },
   __self: undefined
 }, tiles.map(tile => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Image, {
@@ -369,7 +386,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   key: tile.image,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 111
+    lineNumber: 119
   },
   __self: undefined
 })))));

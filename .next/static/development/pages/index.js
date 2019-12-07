@@ -109,20 +109,20 @@ var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\
 
 var tiles = [{
   image: '../../static/data1.jpg',
-  caption: 'January 24 - 25th 2020',
+  caption: 'Schedule →',
   to: '/schedule'
 }, {
   image: '../../static/data2.jpg',
-  caption: 'Sign Up (This Fall)',
-  href: ''
+  caption: 'Sign Up →',
+  href: 'https://docs.google.com/forms/d/e/1FAIpQLSfkF9heSXz8COzuALDl-ihmkZcZI94wphnvnhWmc8W77KJL0A/viewform?fbclid=IwAR2h6Bn-58m-thXqp9VhOD-TcK0dSgCry29_yoTwO-gyIYjiDaonKgD-ZOw'
 }, {
   image: '../../static/data3.jpg',
-  caption: 'Become a Sponsor',
+  caption: 'Become a Sponsor →',
   href: "../../static/SponsorshipPacket.pdf"
 }, {
   image: '../../static/data4.jpg',
-  caption: 'About the Datathon',
-  to: '/about'
+  caption: 'Facebook Event →',
+  href: 'https://www.facebook.com/events/2614689505291723/'
 }];
 
 var Image = function Image(props) {
@@ -148,34 +148,48 @@ var Image = function Image(props) {
       lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-    className: "image-caption",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "image-caption-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, props.caption)) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
+    className: "image-caption",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, props.caption))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: props.href,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "image-caption-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "image-caption",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 43
     },
     __self: this
-  }, props.caption))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
+  }, props.caption)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 49
     },
     __self: this
-  }, "\n            .image-box".concat(props.index, " {\n                width: 350px;\n                height: 200px;\n                position: relative;\n                z-index: 200;\n                overflow: hidden;\n                margin: 20px;\n            }\n            .image-box").concat(props.index, ":before {\n                content: \"\";\n                position: absolute;\n                top: 0;\n                left: 0;\n                width: 100%;\n                height: 100%;\n                z-index: -1;\n                background-image: url(").concat(props.image, ");\n                background-position: center;\n                background-size: cover;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":after {\n                content: \"\";\n                position: absolute;\n                bottom: 0;\n                left: 0;\n                width: 100%;\n                height: 100px;\n                z-index: -1;\n                background-color: black;\n                opacity: 0.5;\n                box-shadow: 0 0 20px 20px black;\n                transition: 0.3s ease-in-out;\n            }\n            .image-caption {\n                color: white;\n                position: absolute;\n                top: 90px;\n                text-align: center;\n                width: 100%;\n                font-weight: normal;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":hover:before {\n                transform: scale(1.3);\n            }\n            .image-box").concat(props.index, ":hover:after {\n                height: 100%;\n                opacity: 0.8\n            }\n            .image-box").concat(props.index, ":hover .image-caption {\n                top: 50px;\n            }\n            .image-caption:hover {\n                cursor: pointer;\n            }\n        ")));
+  }, "\n            .image-box".concat(props.index, " {\n                width: 350px;\n                height: 200px;\n                position: relative;\n                z-index: 200;\n                overflow: hidden;\n                margin: 20px;\n            }\n            .image-box").concat(props.index, ":before {\n                content: \"\";\n                position: absolute;\n                top: 0;\n                left: 0;\n                width: 100%;\n                height: 100%;\n                z-index: -1;\n                background-image: url(").concat(props.image, ");\n                background-position: center;\n                background-size: cover;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":after {\n                content: \"\";\n                position: absolute;\n                bottom: 0;\n                left: 0;\n                width: 100%;\n                height: 100px;\n                z-index: -1;\n                background-color: black;\n                opacity: 0.5;\n                box-shadow: 0 0 20px 20px black;\n                transition: 0.3s ease-in-out;\n            }\n            .image-caption-container {\n                height: 100%;\n            }\n            .image-caption {\n                color: white;\n                position: absolute;\n                top: 90px;\n                text-align: center;\n                width: 100%;\n                font-weight: normal;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":hover:before {\n                transform: scale(1.3);\n            }\n            .image-box").concat(props.index, ":hover:after {\n                height: 100%;\n                opacity: 0.8\n            }\n            .image-box").concat(props.index, ":hover .image-caption {\n                top: 50px;\n            }\n            .image-caption-container:hover {\n                cursor: pointer;\n            }\n        ")));
 };
 
 var SplashPage = function SplashPage() {
@@ -183,7 +197,7 @@ var SplashPage = function SplashPage() {
     className: "splashpage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106
+      lineNumber: 114
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -192,7 +206,7 @@ var SplashPage = function SplashPage() {
     mr: "auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107
+      lineNumber: 115
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -201,7 +215,7 @@ var SplashPage = function SplashPage() {
     justifyContent: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 116
     },
     __self: this
   }, tiles.map(function (tile) {
@@ -214,7 +228,7 @@ var SplashPage = function SplashPage() {
       key: tile.image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 111
+        lineNumber: 119
       },
       __self: this
     });
