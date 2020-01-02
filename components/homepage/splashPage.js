@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
-import { Box, Flex } from 'rebass';
+import { Box, Flex, Image } from 'rebass';
+import Title from '../title/title'
 import './splashPage.css';
 
 const tiles = [
@@ -26,7 +27,7 @@ const tiles = [
     }
 ]
 
-const Image = (props) => (
+const CoolImage = (props) => (
     <div className='image'>
         <Box className={`image-box${props.index}`} width={350}>
             {
@@ -116,13 +117,32 @@ const SplashPage = () => (
             <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
                 {
                     tiles.map(tile => (
-                        <Image image={tile.image} index={tiles.indexOf(tile)} caption={tile.caption} to={tile.to} href={tile.href} key={tile.image} />
+                        <CoolImage image={tile.image} index={tiles.indexOf(tile)} caption={tile.caption} to={tile.to} href={tile.href} key={tile.image} />
                     ))
                 }
             </Flex>
+            <Title title="Thank you to our Sponsors!" width={[1, 0.6]} />
+            <Box width={[0.9, 0.8]} ml='auto' mr='auto'>
+                <h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>
+                <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
+                    <Box width={340}>
+                        <Image src="../../static/bbva.png" alt="" mt={35} />
+
+                    </Box>
+                    <Box width={180}>
+                        <Image src="../../static/d2k.png" alt="" />
+                    </Box>
+                </Flex>
+                <h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Silver Sponsors</h2>
+                <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
+                    <Box width={180}>
+                        <Image src="../../static/chevron.svg" alt="" />
+                    </Box>
+                </Flex>
+            </Box>
         </Box>
 
-    </div>
+    </div >
 )
 
 export default SplashPage;

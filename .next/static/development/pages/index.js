@@ -100,9 +100,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
 /* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _splashPage_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./splashPage.css */ "./components/homepage/splashPage.css");
-/* harmony import */ var _splashPage_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_splashPage_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _title_title__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../title/title */ "./components/title/title.js");
+/* harmony import */ var _splashPage_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./splashPage.css */ "./components/homepage/splashPage.css");
+/* harmony import */ var _splashPage_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_splashPage_css__WEBPACK_IMPORTED_MODULE_4__);
 var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\homepage\\splashPage.js";
+
 
 
 
@@ -125,12 +127,12 @@ var tiles = [{
   href: 'https://www.facebook.com/events/2614689505291723/'
 }];
 
-var Image = function Image(props) {
+var CoolImage = function CoolImage(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -138,55 +140,55 @@ var Image = function Image(props) {
     width: 350,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 32
     },
     __self: this
   }, props.to !== undefined ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: props.to,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "image-caption-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "image-caption",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 37
     },
     __self: this
   }, props.caption))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: props.href,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "image-caption-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "image-caption",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 44
     },
     __self: this
   }, props.caption)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: this
   }, "\n            .image-box".concat(props.index, " {\n                width: 350px;\n                height: 200px;\n                position: relative;\n                z-index: 200;\n                overflow: hidden;\n                margin: 20px;\n            }\n            .image-box").concat(props.index, ":before {\n                content: \"\";\n                position: absolute;\n                top: 0;\n                left: 0;\n                width: 100%;\n                height: 100%;\n                z-index: -1;\n                background-image: url(").concat(props.image, ");\n                background-position: center;\n                background-size: cover;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":after {\n                content: \"\";\n                position: absolute;\n                bottom: 0;\n                left: 0;\n                width: 100%;\n                height: 100px;\n                z-index: -1;\n                background-color: black;\n                opacity: 0.5;\n                box-shadow: 0 0 20px 20px black;\n                transition: 0.3s ease-in-out;\n            }\n            .image-caption-container {\n                height: 100%;\n            }\n            .image-caption {\n                color: white;\n                position: absolute;\n                top: 90px;\n                text-align: center;\n                width: 100%;\n                font-weight: normal;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":hover:before {\n                transform: scale(1.3);\n            }\n            .image-box").concat(props.index, ":hover:after {\n                height: 100%;\n                opacity: 0.8\n            }\n            .image-box").concat(props.index, ":hover .image-caption {\n                top: 50px;\n            }\n            .image-caption-container:hover {\n                cursor: pointer;\n            }\n        ")));
@@ -197,7 +199,7 @@ var SplashPage = function SplashPage() {
     className: "splashpage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 115
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -206,7 +208,7 @@ var SplashPage = function SplashPage() {
     mr: "auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 116
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -215,11 +217,11 @@ var SplashPage = function SplashPage() {
     justifyContent: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 117
     },
     __self: this
   }, tiles.map(function (tile) {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Image, {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CoolImage, {
       image: tile.image,
       index: tiles.indexOf(tile),
       caption: tile.caption,
@@ -228,11 +230,112 @@ var SplashPage = function SplashPage() {
       key: tile.image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 119
+        lineNumber: 120
       },
       __self: this
     });
-  }))));
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_title_title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Thank you to our Sponsors!",
+    width: [1, 0.6],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 124
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: [0.9, 0.8],
+    ml: "auto",
+    mr: "auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    style: {
+      fontWeight: "normal",
+      color: "#2B354C"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 126
+    },
+    __self: this
+  }, "Gold Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
+    justifyContent: "center",
+    flexWrap: "wrap",
+    flexDirection: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 127
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 340,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 128
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: "../../static/bbva.png",
+    alt: "",
+    mt: 35,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 129
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 180,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 132
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: "../../static/d2k.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 133
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    style: {
+      fontWeight: "normal",
+      color: "#2B354C"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 136
+    },
+    __self: this
+  }, "Silver Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
+    justifyContent: "center",
+    flexWrap: "wrap",
+    flexDirection: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 137
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 180,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: "../../static/chevron.svg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 139
+    },
+    __self: this
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SplashPage);
@@ -389,6 +492,51 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Navbar);
+
+/***/ }),
+
+/***/ "./components/title/title.js":
+/*!***********************************!*\
+  !*** ./components/title/title.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rebass */ "./node_modules/rebass/dist/index.js");
+/* harmony import */ var rebass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(rebass__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./title.css */ "./components/title/title.css");
+/* harmony import */ var _title_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_title_css__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "C:\\Users\\nmeis\\Projects\\Websites\\Rice-Datathon-Website\\components\\title\\title.js";
+
+
+
+
+var Title = function Title(props) {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_1__["Box"], {
+    className: "title",
+    width: props.width,
+    ml: "auto",
+    mr: "auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "title-style",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, props.title));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Title);
 
 /***/ }),
 
