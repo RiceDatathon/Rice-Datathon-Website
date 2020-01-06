@@ -16,23 +16,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/schedule/schedule.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/navbar/navbar.css": [
     {
       "modules": {
@@ -67,7 +50,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -84,7 +67,24 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/schedule/schedule.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -144,12 +144,12 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\htsGawxAYsOHmXc6yorKp\\pages\\_app.js": 4,
-      "static\\htsGawxAYsOHmXc6yorKp\\pages\\_error.js": 5,
-      "static\\htsGawxAYsOHmXc6yorKp\\pages\\about.js": 6,
-      "static\\htsGawxAYsOHmXc6yorKp\\pages\\faqs.js": 7,
-      "static\\htsGawxAYsOHmXc6yorKp\\pages\\index.js": 8,
-      "static\\htsGawxAYsOHmXc6yorKp\\pages\\schedule.js": 9
+      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\_app.js": 4,
+      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\_error.js": 5,
+      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\about.js": 6,
+      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\faqs.js": 7,
+      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\index.js": 8,
+      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\schedule.js": 9
     },
     "bySource": {},
     "usedIds": [

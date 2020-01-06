@@ -444,10 +444,28 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   },
   __self: undefined
 })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-  width: 180,
+  width: 300,
+  my: 80,
+  mx: 40,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 132
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+  src: "../../static/exxonmobil.png",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 133
+  },
+  __self: undefined
+})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+  width: 180,
+  m: 30,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 135
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -455,7 +473,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 133
+    lineNumber: 136
   },
   __self: undefined
 }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
@@ -465,7 +483,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 136
+    lineNumber: 139
   },
   __self: undefined
 }, "Silver Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -474,14 +492,14 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   flexDirection: "row",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 137
+    lineNumber: 140
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
   width: 180,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 138
+    lineNumber: 141
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -489,7 +507,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 139
+    lineNumber: 142
   },
   __self: undefined
 }))))));
