@@ -120,6 +120,27 @@
         font-size: 1.5em;
     }
 }
+.schedule-page {
+    padding: 7% 0 5% 0;
+}
+
+.schedule-items {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    color: #2B354C;
+    font-weight: normal;
+}
+
+.schedule-items a {
+  color: #2B354C;
+  transition: 0.2s ease-in-out;
+}
+
+.schedule-items a:hover, .schedule-items a:visited {
+    color: #748DA5;
+}
 @media screen and (min-width: 651px) {
     .splashpage {
         margin-top: 8%;

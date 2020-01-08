@@ -125,16 +125,19 @@ const SplashPage = () => (
             <Box width={[0.9, 0.8]} ml='auto' mr='auto'>
                 <h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>
                 <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
-                    <Box width={340}>
+                    <Box width={340} mt={30}>
                         <Image src="../../static/bbva.png" alt="" mt={35} />
-
                     </Box>
-                    <Box width={300} my={80} mx={40}>
-                        <Image src="../../static/exxonmobil.png" alt="" />
-                    </Box>
-                    <Box width={180} m={30}>
+                    <Box width={180} m={10}>
                         <Image src="../../static/d2k.png" alt="" />
                     </Box>
+                    <Box width={300} mt={80} mx={40} mb={40}>
+                        <Image src="../../static/exxonmobil.png" alt="" />
+                    </Box>
+                    <Box width={280} my={40}>
+                        <Image src="../../static/bill.svg" alt="" />
+                    </Box>
+
                 </Flex>
                 <h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Silver Sponsors</h2>
                 <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">

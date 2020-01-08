@@ -21,13 +21,13 @@
   },
   "chunks": {
     "byName": {
-      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\_app.js": 0,
-      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\_document.js": 1,
-      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\_error.js": 2,
-      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\about.js": 3,
-      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\faqs.js": 4,
-      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\index.js": 5,
-      "static\\EWP_HTD3Y4OBJGRdSgB-3\\pages\\schedule.js": 6
+      "static\\hazvlOyEesszURpYClbBw\\pages\\_app.js": 0,
+      "static\\hazvlOyEesszURpYClbBw\\pages\\_document.js": 1,
+      "static\\hazvlOyEesszURpYClbBw\\pages\\_error.js": 2,
+      "static\\hazvlOyEesszURpYClbBw\\pages\\about.js": 3,
+      "static\\hazvlOyEesszURpYClbBw\\pages\\faqs.js": 4,
+      "static\\hazvlOyEesszURpYClbBw\\pages\\index.js": 5,
+      "static\\hazvlOyEesszURpYClbBw\\pages\\schedule.js": 6
     },
     "bySource": {},
     "usedIds": [
