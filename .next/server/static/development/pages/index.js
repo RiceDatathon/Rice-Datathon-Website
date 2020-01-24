@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -494,6 +494,21 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
     lineNumber: 138
   },
   __self: undefined
+})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+  width: 240,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 140
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+  src: "../../static/nov.png",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 141
+  },
+  __self: undefined
 }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
   style: {
     fontWeight: "normal",
@@ -501,7 +516,7 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   },
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 142
+    lineNumber: 145
   },
   __self: undefined
 }, "Silver Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -510,14 +525,14 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   flexDirection: "row",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 143
+    lineNumber: 146
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
   width: 180,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 144
+    lineNumber: 147
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -525,7 +540,22 @@ const SplashPage = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElem
   alt: "",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 145
+    lineNumber: 148
+  },
+  __self: undefined
+})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+  width: 200,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 150
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+  src: "../../static/accenture.png",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 151
   },
   __self: undefined
 }))))));
@@ -1457,7 +1487,7 @@ const Home = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("d
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

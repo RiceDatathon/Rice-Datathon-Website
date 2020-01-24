@@ -25,15 +25,15 @@
   },
   "chunks": {
     "byName": {
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\_app.js": 0,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\_document.js": 1,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\_error.js": 2,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\about.js": 3,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\faqs.js": 4,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\index.js": 5,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\prizes.js": 6,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\schedule.js": 7,
-      "static\\HAZKCBlj3Q69f9_xqcALQ\\pages\\tracks.js": 8
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_app.js": 0,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_document.js": 1,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_error.js": 2,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\about.js": 3,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\faqs.js": 4,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\index.js": 5,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\prizes.js": 6,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\schedule.js": 7,
+      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\tracks.js": 8
     },
     "bySource": {},
     "usedIds": [

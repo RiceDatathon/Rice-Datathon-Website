@@ -123,25 +123,6 @@
         font-size: 1.5em;
     }
 }
-.tracks {
-    margin-top: 8%;
-}
-
-.track-list {
-    color: #2B354C;
-    padding-bottom: 10%;
-}
-.prizes {
-    margin-top: 8%;
-    padding-bottom: 5%;
-}
-
-.prize-list div {
-    background-color: #2B354C;
-    margin: 20px;
-    padding: 20px;
-    color: #A7BBCE;
-}
 @media screen and (min-width: 651px) {
     .splashpage {
         margin-top: 8%;
@@ -154,6 +135,17 @@
         margin-top: 20%;
         margin-bottom: 10%;
     }
+}
+.prizes {
+    margin-top: 8%;
+    padding-bottom: 5%;
+}
+
+.prize-list div {
+    background-color: #2B354C;
+    margin: 20px;
+    padding: 20px;
+    color: #A7BBCE;
 }
 html, body {
     font-family: 'Montserrat', sans-serif;

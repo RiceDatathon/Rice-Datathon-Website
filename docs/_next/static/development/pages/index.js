@@ -337,6 +337,21 @@ var SplashPage = function SplashPage() {
       lineNumber: 138
     },
     __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 240,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 140
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: "../../static/nov.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 141
+    },
+    __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     style: {
       fontWeight: "normal",
@@ -344,7 +359,7 @@ var SplashPage = function SplashPage() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 145
     },
     __self: this
   }, "Silver Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -353,14 +368,14 @@ var SplashPage = function SplashPage() {
     flexDirection: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143
+      lineNumber: 146
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
     width: 180,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144
+      lineNumber: 147
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -368,7 +383,22 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 148
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 200,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 150
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: "../../static/accenture.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 151
     },
     __self: this
   }))))));
@@ -15072,7 +15102,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 7:
+/***/ 6:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cindex.js ***!
   \******************************************************************************************************************************************************/
@@ -15095,5 +15125,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
