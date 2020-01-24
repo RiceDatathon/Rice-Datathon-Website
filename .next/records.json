@@ -16,6 +16,23 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/homepage/splashPage.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/navbar/navbar.css": [
     {
       "modules": {
@@ -50,41 +67,24 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/homepage/splashPage.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -144,12 +144,12 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\hazvlOyEesszURpYClbBw\\pages\\_app.js": 4,
-      "static\\hazvlOyEesszURpYClbBw\\pages\\_error.js": 5,
-      "static\\hazvlOyEesszURpYClbBw\\pages\\about.js": 6,
-      "static\\hazvlOyEesszURpYClbBw\\pages\\faqs.js": 7,
-      "static\\hazvlOyEesszURpYClbBw\\pages\\index.js": 8,
-      "static\\hazvlOyEesszURpYClbBw\\pages\\schedule.js": 9
+      "static\\4yRnSTlhtO1WOfgOZRJmu\\pages\\_app.js": 4,
+      "static\\4yRnSTlhtO1WOfgOZRJmu\\pages\\_error.js": 5,
+      "static\\4yRnSTlhtO1WOfgOZRJmu\\pages\\about.js": 6,
+      "static\\4yRnSTlhtO1WOfgOZRJmu\\pages\\faqs.js": 7,
+      "static\\4yRnSTlhtO1WOfgOZRJmu\\pages\\index.js": 8,
+      "static\\4yRnSTlhtO1WOfgOZRJmu\\pages\\schedule.js": 9
     },
     "bySource": {},
     "usedIds": [

@@ -3,19 +3,24 @@
 }
 
 .schedule-items {
-    width: 60%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 4%;
+    margin-top: 2%;
     color: #2B354C;
     font-weight: normal;
 }
 
 .schedule-items a {
-  color: #2B354C;
-  transition: 0.2s ease-in-out;
+    color: #2B354C;
+    transition: 0.2s ease-in-out;
 }
 
 .schedule-items a:hover, .schedule-items a:visited {
     color: #748DA5;
+}
+
+.schedule-events {
+    border: 2px solid #2B354C;
+    padding: 10px;
 }
