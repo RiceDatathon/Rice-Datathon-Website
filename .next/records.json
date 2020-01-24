@@ -16,23 +16,6 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/tracks/tracks.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/navbar/navbar.css": [
     {
       "modules": {
@@ -50,41 +33,24 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/prizes/prizes.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -135,7 +101,41 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/prizes/prizes.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/title/title.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/tracks/tracks.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -182,14 +182,14 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_app.js": 4,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_error.js": 5,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\about.js": 6,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\faqs.js": 7,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\index.js": 8,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\prizes.js": 9,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\schedule.js": 10,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\tracks.js": 11
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\_app.js": 4,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\_error.js": 5,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\about.js": 6,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\faqs.js": 7,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\index.js": 8,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\prizes.js": 9,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\schedule.js": 10,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\tracks.js": 11
     },
     "bySource": {},
     "usedIds": [

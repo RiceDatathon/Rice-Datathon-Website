@@ -25,15 +25,15 @@
   },
   "chunks": {
     "byName": {
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_app.js": 0,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_document.js": 1,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\_error.js": 2,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\about.js": 3,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\faqs.js": 4,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\index.js": 5,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\prizes.js": 6,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\schedule.js": 7,
-      "static\\0Yn0r-PpIwRUY8qQJVwyi\\pages\\tracks.js": 8
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\_app.js": 0,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\_document.js": 1,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\_error.js": 2,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\about.js": 3,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\faqs.js": 4,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\index.js": 5,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\prizes.js": 6,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\schedule.js": 7,
+      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\tracks.js": 8
     },
     "bySource": {},
     "usedIds": [

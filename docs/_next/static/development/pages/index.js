@@ -15102,7 +15102,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 6:
+/***/ 0:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cindex.js ***!
   \******************************************************************************************************************************************************/
@@ -15125,5 +15125,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[6,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

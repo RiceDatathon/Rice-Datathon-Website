@@ -136,16 +136,23 @@
         margin-bottom: 10%;
     }
 }
-.prizes {
+.tracks {
     margin-top: 8%;
-    padding-bottom: 5%;
 }
 
-.prize-list div {
-    background-color: #2B354C;
-    margin: 20px;
-    padding: 20px;
-    color: #A7BBCE;
+.track-list {
+    color: #2B354C;
+    padding-bottom: 10%;
+}
+
+.main-track {
+    border: 2px solid #2B354C;
+    padding: 30px;
+    text-align: left;
+}
+
+.main-track h2 {
+    text-align: center;
 }
 html, body {
     font-family: 'Montserrat', sans-serif;
