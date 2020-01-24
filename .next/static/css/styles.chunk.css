@@ -1,16 +1,20 @@
-@media screen and (min-width: 651px) {
+@media screen and (min-width: 1001px) {
     .navbar-visible, .navbar-hidden {
         position: fixed;
-        top: 3%;
-        left: 2%;
+        /* top: 3%; */
+        /* left: 2%; */
+        top: 0;
         z-index: 900;
         background-color: #2B354C;
-        width: 96%;
+        /* width: 96%; */
+        width: 100%;
+        height: 80px;
         text-align: left;
         box-shadow: 0 0 8px 2px rgba(43, 53, 76, 0.733);
     }
     .navbar-item {
         display: inline-block;
+        padding-top: 15px;
         margin: 15px 20px;
     }
     .navbar-item p {
@@ -29,13 +33,13 @@
     .datathon-logo {
         position: fixed;
         right: 2%;
-        top: 3%;
-        padding: 10px 20px;
+        top: 2%;
+        padding: 5px 20px;
         z-index: 9999;
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1000px) {
     .navbar-visible, .navbar-hidden {
         position: fixed;
         top: 0;
@@ -85,7 +89,7 @@
         top: 0;
         position: fixed;
         padding: 5px 10px;
-        z-index: 999;
+        z-index: 9;
     }
 }
 .title {
@@ -99,26 +103,44 @@
 }
 
 .title-style {
-    color: #A7BBCE;
-    background-color: #2B354C;
-    box-shadow: 0 0 10px 2px rgba(43, 53, 76, 0.733);
+    color: #2B354C;
+    border: 2px solid #2B354C;
     padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     font-size: 3em;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .title {
         margin-top: 15%;
     }
     .title-theme {
         font-size: 1.5em;
     }
-
     .title-alternate {
         font-size: 1.5em;
     }
+}
+.tracks {
+    margin-top: 8%;
+}
+
+.track-list {
+    color: #2B354C;
+    padding-bottom: 10%;
+}
+.prizes {
+    margin-top: 8%;
+    padding-bottom: 5%;
+}
+
+.prize-list div {
+    background-color: #2B354C;
+    margin: 20px;
+    padding: 20px;
+    color: #A7BBCE;
 }
 @media screen and (min-width: 651px) {
     .splashpage {
@@ -132,32 +154,6 @@
         margin-top: 20%;
         margin-bottom: 10%;
     }
-}
-.schedule-page {
-    padding: 7% 0 5% 0;
-}
-
-.schedule-items {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    color: #2B354C;
-    font-weight: normal;
-}
-
-.schedule-items a {
-    color: #2B354C;
-    transition: 0.2s ease-in-out;
-}
-
-.schedule-items a:hover, .schedule-items a:visited {
-    color: #748DA5;
-}
-
-.schedule-events {
-    border: 2px solid #2B354C;
-    padding: 10px;
 }
 html, body {
     font-family: 'Montserrat', sans-serif;

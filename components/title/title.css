@@ -9,23 +9,22 @@
 }
 
 .title-style {
-    color: #A7BBCE;
-    background-color: #2B354C;
-    box-shadow: 0 0 10px 2px rgba(43, 53, 76, 0.733);
+    color: #2B354C;
+    border: 2px solid #2B354C;
     padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
     font-size: 3em;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     .title {
         margin-top: 15%;
     }
     .title-theme {
         font-size: 1.5em;
     }
-
     .title-alternate {
         font-size: 1.5em;
     }

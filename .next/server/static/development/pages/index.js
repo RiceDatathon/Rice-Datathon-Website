@@ -577,6 +577,12 @@ const links = [{
   name: 'Schedule',
   href: 'schedule'
 }, {
+  name: 'Tracks',
+  href: 'tracks'
+}, {
+  name: 'Prizes',
+  href: 'prizes'
+}, {
   name: 'FAQs',
   href: 'faqs'
 }];
@@ -600,15 +606,15 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40
+        lineNumber: 48
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-      width: [0.8, 0.25],
+      width: [0.8, 0.3],
       className: "datathon-logo",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41
+        lineNumber: 49
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -616,14 +622,14 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       alt: "Rice Datathon",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 42
+        lineNumber: 50
       },
       __self: this
     })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: this.state.open ? 'navbar-visible' : 'navbar-hidden',
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44
+        lineNumber: 52
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -631,7 +637,7 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onClick: this.toggleNavbar,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45
+        lineNumber: 53
       },
       __self: this
     }, "+"), links.map(({
@@ -644,20 +650,20 @@ class Navbar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       onClick: this.toggleNavbar,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48
+        lineNumber: 56
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       href: href,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49
+        lineNumber: 57
       },
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50
+        lineNumber: 58
       },
       __self: this
     }, name))))));

@@ -422,6 +422,12 @@ var links = [{
   name: 'Schedule',
   href: 'schedule'
 }, {
+  name: 'Tracks',
+  href: 'tracks'
+}, {
+  name: 'Prizes',
+  href: 'prizes'
+}, {
   name: 'FAQs',
   href: 'faqs'
 }];
@@ -459,15 +465,15 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 40
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Box"], {
-        width: [0.8, 0.25],
+        width: [0.8, 0.3],
         className: "datathon-logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 49
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_8__["Image"], {
@@ -475,14 +481,14 @@ function (_React$Component) {
         alt: "Rice Datathon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 50
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
         className: this.state.open ? 'navbar-visible' : 'navbar-hidden',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 52
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h1", {
@@ -490,7 +496,7 @@ function (_React$Component) {
         onClick: this.toggleNavbar,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 53
         },
         __self: this
       }, "+"), links.map(function (_ref) {
@@ -503,20 +509,20 @@ function (_React$Component) {
           onClick: _this2.toggleNavbar,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 48
+            lineNumber: 56
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
           href: href,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 49
+            lineNumber: 57
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50
+            lineNumber: 58
           },
           __self: this
         }, name)));
@@ -15066,7 +15072,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 7:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cnmeis%5CProjects%5CWebsites%5CRice-Datathon-Website%5Cpages%5Cindex.js ***!
   \******************************************************************************************************************************************************/
@@ -15089,5 +15095,5 @@ module.exports = dll_129a35c7ec57967eb265;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

@@ -17,6 +17,14 @@ const links = [
         href: 'schedule'
     },
     {
+        name: 'Tracks',
+        href: 'tracks'
+    },
+    {
+        name: 'Prizes',
+        href: 'prizes'
+    },
+    {
         name: 'FAQs',
         href: 'faqs'
     }
@@ -38,7 +46,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div>
-                <Box width={[0.8, 0.25]} className='datathon-logo'>
+                <Box width={[0.8, 0.3]} className='datathon-logo'>
                     <Image src='../../static/datathon-logo.png' alt='Rice Datathon' />
                 </Box>
                 <div className={this.state.open ? ('navbar-visible') : ('navbar-hidden')}>
