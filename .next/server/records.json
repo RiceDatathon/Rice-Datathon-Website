@@ -51,19 +51,28 @@
       "static\\bBqlUhPvyMKquEut9CaBh\\pages\\index.js": 5,
       "static\\bBqlUhPvyMKquEut9CaBh\\pages\\prizes.js": 6,
       "static\\bBqlUhPvyMKquEut9CaBh\\pages\\schedule.js": 7,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\tracks.js": 8
+      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\tracks.js": 8,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\_app.js": 9,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\_document.js": 10,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\_error.js": 11,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\about.js": 12,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\faqs.js": 13,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\index.js": 14,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\prizes.js": 15,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\schedule.js": 16,
+      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\tracks.js": 17
     },
     "bySource": {},
     "usedIds": [
-      0,
-      1,
-      2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      9
     ]
   }
 }

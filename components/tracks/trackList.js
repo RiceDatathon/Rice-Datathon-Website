@@ -7,7 +7,7 @@ const TrackList = [
              Your task is to use historic drilling data to build a model that can predict the rate of penetration conditional on controllable drilling parameters and/or parameters that are known before the drilling process begins.  This model could then be used as part of the “Drilling Roadmap” development process, where the WOB and RPM (Among other variables) are determined before drilling begins.
         </p>
         <h4>Download the rest of the information and the data here:</h4>
-        {/* <a href="../../static/chevronChallenge.zip">Chevron Challenge Zip File</a> */}
+        <a href="../../static/chevronChallenge.zip">Chevron Challenge Zip File</a>
     </div>,
     <div>
         <h2>Predicting the Severity of Forest Fires Applied Machine Learning for Social Good Sponsored by Accenture</h2>
