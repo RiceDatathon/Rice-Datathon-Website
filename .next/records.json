@@ -33,24 +33,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/prizes/prizes.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -84,6 +67,40 @@
       }
     }
   ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/about/about.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/faqs/faqs.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/schedule/schedule.css": [
     {
       "modules": {
@@ -101,7 +118,7 @@
       }
     }
   ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/prizes/prizes.css": [
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/tracks/tracks.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -119,23 +136,6 @@
     }
   ],
   "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/title/title.css": [
-    {
-      "modules": {
-        "byIdentifier": {},
-        "usedIds": {}
-      },
-      "chunks": {
-        "byName": {
-          "mini-css-extract-plugin": 0
-        },
-        "bySource": {},
-        "usedIds": [
-          0
-        ]
-      }
-    }
-  ],
-  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!components/tracks/tracks.css": [
     {
       "modules": {
         "byIdentifier": {},
@@ -182,53 +182,29 @@
       "static/runtime/webpack.js": 1,
       "styles": 2,
       "static/runtime/main.js": 3,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\_app.js": 4,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\_error.js": 5,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\about.js": 6,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\faqs.js": 7,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\index.js": 8,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\prizes.js": 9,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\schedule.js": 10,
-      "static\\TBV-u8eshcSDhz26o8SAY\\pages\\tracks.js": 11,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\_app.js": 12,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\_error.js": 13,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\about.js": 14,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\faqs.js": 15,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\index.js": 16,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\prizes.js": 17,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\schedule.js": 18,
-      "static\\QatlVfzvCgsK9tpseG9P7\\pages\\tracks.js": 19,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\_app.js": 4,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\_error.js": 5,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\about.js": 6,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\faqs.js": 7,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\index.js": 8,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\prizes.js": 9,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\schedule.js": 10,
-      "static\\bBqlUhPvyMKquEut9CaBh\\pages\\tracks.js": 11,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\_app.js": 12,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\_error.js": 13,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\about.js": 14,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\faqs.js": 15,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\index.js": 16,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\prizes.js": 17,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\schedule.js": 18,
-      "static\\w_cCbd_fnBKFTLZlPWlwA\\pages\\tracks.js": 19
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\_app.js": 4,
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\_error.js": 5,
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\about.js": 6,
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\faqs.js": 7,
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\index.js": 8,
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\prizes.js": 9,
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\schedule.js": 10,
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\tracks.js": 11
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      12,
-      13,
-      14,
-      15,
-      16,
-      17,
-      18,
-      19,
+      10,
+      11,
       2,
-      3
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
     ]
   }
 }

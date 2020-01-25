@@ -136,23 +136,20 @@
         margin-bottom: 10%;
     }
 }
-.tracks {
-    margin-top: 8%;
-}
 
-.track-list {
-    color: #2B354C;
-    padding-bottom: 10%;
-}
-
-.main-track {
+.quick-links a {
+    background-color: #A7BBCE;
     border: 2px solid #2B354C;
-    padding: 30px;
-    text-align: left;
+    color: #2B354C;
+    margin: 20px;
+    padding: 5px 20px;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
 }
 
-.main-track h2 {
-    text-align: center;
+.quick-links a:hover {
+    background-color: #2B354C;
+    color: #A7BBCE;
 }
 html, body {
     font-family: 'Montserrat', sans-serif;

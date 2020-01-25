@@ -211,13 +211,83 @@ var SplashPage = function SplashPage() {
       lineNumber: 116
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_title_title__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    title: "Quick Links",
+    width: [0.8, 0.4],
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
+    className: "quick-links",
     flexDirection: "row",
     flexWrap: "wrap",
     justifyContent: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 118
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://rice-datathon-2020.devpost.com/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, "Devpost")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://piazza.com/class/k58n0jdmc721zx",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }, "Piazza")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://ricedatathon2020.slack.com/join/shared_invite/enQtODU2NTAxNzU0MzQxLTBiYmFlYzkxZDNjMDFjNGJiYzQ2YmVhMzFlMDEyMTMyZGNiZDJlZDUxY2JlM2QzZmJkODRiMGQxMzI0MjYyMDk",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }, "Slack")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://docs.google.com/presentation/d/1TlqM4wdSpreIJPW0M-eEt-kRJRZ1_yGtwdIVXcCUE5M/edit?usp=sharing",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, "Opening Presentation"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    justifyContent: "center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125
     },
     __self: this
   }, tiles.map(function (tile) {
@@ -230,7 +300,7 @@ var SplashPage = function SplashPage() {
       key: tile.image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 120
+        lineNumber: 128
       },
       __self: this
     });
@@ -239,7 +309,7 @@ var SplashPage = function SplashPage() {
     width: [1, 0.6],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 132
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -248,7 +318,7 @@ var SplashPage = function SplashPage() {
     mr: "auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 133
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
@@ -258,7 +328,7 @@ var SplashPage = function SplashPage() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 134
     },
     __self: this
   }, "Gold Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -267,7 +337,7 @@ var SplashPage = function SplashPage() {
     flexDirection: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 135
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -275,7 +345,7 @@ var SplashPage = function SplashPage() {
     mt: 30,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 136
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -284,7 +354,7 @@ var SplashPage = function SplashPage() {
     mt: 35,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129
+      lineNumber: 137
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -292,7 +362,7 @@ var SplashPage = function SplashPage() {
     m: 10,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131
+      lineNumber: 139
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -300,7 +370,7 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 140
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -310,7 +380,7 @@ var SplashPage = function SplashPage() {
     mb: 40,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 142
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -318,7 +388,7 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
+      lineNumber: 143
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -326,7 +396,7 @@ var SplashPage = function SplashPage() {
     my: 40,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137
+      lineNumber: 145
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -334,14 +404,14 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138
+      lineNumber: 146
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
     width: 240,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 148
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -349,7 +419,7 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 149
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
@@ -359,7 +429,7 @@ var SplashPage = function SplashPage() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145
+      lineNumber: 153
     },
     __self: this
   }, "Silver Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -368,14 +438,14 @@ var SplashPage = function SplashPage() {
     flexDirection: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146
+      lineNumber: 154
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
     width: 180,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 155
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -383,14 +453,14 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 156
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
     width: 200,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 158
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -398,7 +468,7 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 159
     },
     __self: this
   }))))));

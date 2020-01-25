@@ -114,6 +114,14 @@ const CoolImage = (props) => (
 const SplashPage = () => (
     <div className='splashpage'>
         <Box width={[1, 0.7]} ml='auto' mr='auto'>
+            <Title title="Quick Links" width={[0.8, 0.4]} />
+            <Flex className="quick-links" flexDirection='row' flexWrap='wrap' justifyContent='center'>
+                <a href="https://rice-datathon-2020.devpost.com/"><h3>Devpost</h3></a>
+                <a href="https://piazza.com/class/k58n0jdmc721zx"><h3>Piazza</h3></a>
+                <a href="https://ricedatathon2020.slack.com/join/shared_invite/enQtODU2NTAxNzU0MzQxLTBiYmFlYzkxZDNjMDFjNGJiYzQ2YmVhMzFlMDEyMTMyZGNiZDJlZDUxY2JlM2QzZmJkODRiMGQxMzI0MjYyMDk"><h3>Slack</h3></a>
+                <a href="https://docs.google.com/presentation/d/1TlqM4wdSpreIJPW0M-eEt-kRJRZ1_yGtwdIVXcCUE5M/edit?usp=sharing"><h3>Opening Presentation</h3></a>
+            </Flex>
+
             <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
                 {
                     tiles.map(tile => (
