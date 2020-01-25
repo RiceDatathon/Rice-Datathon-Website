@@ -189,22 +189,30 @@
       "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\index.js": 8,
       "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\prizes.js": 9,
       "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\schedule.js": 10,
-      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\tracks.js": 11
+      "static\\bYTMCIZQK4sCoKDPBniqR\\pages\\tracks.js": 11,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\_app.js": 12,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\_error.js": 13,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\about.js": 14,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\faqs.js": 15,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\index.js": 16,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\prizes.js": 17,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\schedule.js": 18,
+      "static\\6OqGyPoEO5prY3zhgm8eJ\\pages\\tracks.js": 19
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
-      10,
-      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
       2,
-      3,
-      4,
-      5,
-      6,
-      7,
-      8,
-      9
+      3
     ]
   }
 }

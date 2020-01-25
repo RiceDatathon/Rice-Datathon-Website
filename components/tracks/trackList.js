@@ -8,6 +8,7 @@ const TrackList = [
         </p>
         <h4>Download the rest of the information and the data here:</h4>
         <a href="../../static/chevronChallenge.zip">Chevron Challenge Zip File</a>
+        <a href="../../static/scoring.csv">Scoring.csv File</a>
     </div>,
     <div>
         <h2>Predicting the Severity of Forest Fires Applied Machine Learning for Social Good Sponsored by Accenture</h2>
