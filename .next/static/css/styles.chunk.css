@@ -151,6 +151,24 @@
     background-color: #2B354C;
     color: #A7BBCE;
 }
+.tracks {
+    margin-top: 8%;
+}
+
+.track-list {
+    color: #2B354C;
+    padding-bottom: 10%;
+}
+
+.main-track {
+    border: 2px solid #2B354C;
+    padding: 30px;
+    text-align: left;
+}
+
+.main-track h2 {
+    text-align: center;
+}
 html, body {
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
