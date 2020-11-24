@@ -1,0 +1,51 @@
+{
+  "modules": {
+    "byIdentifier": {
+      "multi private-next-pages/about.js": 0,
+      "multi private-next-pages/faqs.js": 1,
+      "multi private-next-pages/index.js": 2,
+      "multi private-next-pages/prizes.js": 3,
+      "multi private-next-pages/schedule.js": 4,
+      "multi private-next-pages/tracks.js": 5,
+      "multi next/dist/pages/_app": 6,
+      "multi next/dist/pages/_error": 7,
+      "multi next/dist/pages/_document": 8
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    }
+  },
+  "chunks": {
+    "byName": {
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\_app.js": 0,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\_document.js": 1,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\_error.js": 2,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\about.js": 3,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\faqs.js": 4,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\index.js": 5,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\prizes.js": 6,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\schedule.js": 7,
+      "static\\36W3fjyz1Slu641ioJeAZ\\pages\\tracks.js": 8
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}
