@@ -12,9 +12,14 @@ const tiles = [
     },
     {
         image: '../../static/data2.jpg',
-        caption: 'Sign Up →',
+        caption: 'Sign Up for Rice Students →',
         href: 'https://docs.google.com/forms/d/1tFTTyBX3lrXdHI732LT0OXrGkJzgr277grncbTM_f64/edit'
     },
+    // {
+    //     image: '../../static/data5.jpg',
+    //     caption: 'Sign Up for None-Rice Students →',
+    //     href: 'https://docs.google.com/forms/d/1EIr1aHaG0kyHbfaAVxmOV_2yNxqKPtdH0stHpVyTAlg/edit'
+    // },
     {
         image: '../../static/data3.jpg',
         caption: 'Become a Sponsor →',
