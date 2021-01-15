@@ -115,8 +115,12 @@ var tiles = [{
   to: '/schedule'
 }, {
   image: '../../static/data2.jpg',
-  caption: 'Sign Up →',
+  caption: 'Sign Up for Rice Students →',
   href: 'https://docs.google.com/forms/d/1tFTTyBX3lrXdHI732LT0OXrGkJzgr277grncbTM_f64/edit'
+}, {
+  image: '../../static/data5.jpg',
+  caption: 'Sign Up for None-Rice Students →',
+  href: 'https://docs.google.com/forms/d/1EIr1aHaG0kyHbfaAVxmOV_2yNxqKPtdH0stHpVyTAlg/edit'
 }, {
   image: '../../static/data3.jpg',
   caption: 'Become a Sponsor →',
@@ -132,7 +136,7 @@ var CoolImage = function CoolImage(props) {
     className: "image",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -140,55 +144,55 @@ var CoolImage = function CoolImage(props) {
     width: 350,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 37
     },
     __self: this
   }, props.to !== undefined ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: props.to,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "image-caption-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "image-caption",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 42
     },
     __self: this
   }, props.caption))) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: props.href,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "image-caption-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: "image-caption",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 49
     },
     __self: this
   }, props.caption)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("style", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 55
     },
     __self: this
   }, "\n            .image-box".concat(props.index, " {\n                width: 350px;\n                height: 200px;\n                position: relative;\n                z-index: 200;\n                overflow: hidden;\n                margin: 20px;\n            }\n            .image-box").concat(props.index, ":before {\n                content: \"\";\n                position: absolute;\n                top: 0;\n                left: 0;\n                width: 100%;\n                height: 100%;\n                z-index: -1;\n                background-image: url(").concat(props.image, ");\n                background-position: center;\n                background-size: cover;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":after {\n                content: \"\";\n                position: absolute;\n                bottom: 0;\n                left: 0;\n                width: 100%;\n                height: 100px;\n                z-index: -1;\n                background-color: black;\n                opacity: 0.5;\n                box-shadow: 0 0 20px 20px black;\n                transition: 0.3s ease-in-out;\n            }\n            .image-caption-container {\n                height: 100%;\n            }\n            .image-caption {\n                color: white;\n                position: absolute;\n                top: 90px;\n                text-align: center;\n                width: 100%;\n                font-weight: normal;\n                transition: 0.3s ease-in-out;\n            }\n            .image-box").concat(props.index, ":hover:before {\n                transform: scale(1.3);\n            }\n            .image-box").concat(props.index, ":hover:after {\n                height: 100%;\n                opacity: 0.8\n            }\n            .image-box").concat(props.index, ":hover .image-caption {\n                top: 50px;\n            }\n            .image-caption-container:hover {\n                cursor: pointer;\n            }\n        ")));
@@ -199,7 +203,7 @@ var SplashPage = function SplashPage() {
     className: "splashpage",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115
+      lineNumber: 120
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -208,7 +212,7 @@ var SplashPage = function SplashPage() {
     mr: "auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 121
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_title_title__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -216,7 +220,7 @@ var SplashPage = function SplashPage() {
     width: [0.8, 0.4],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117
+      lineNumber: 122
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -226,59 +230,59 @@ var SplashPage = function SplashPage() {
     justifyContent: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118
+      lineNumber: 123
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://rice-datathon-2020.devpost.com/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 124
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 124
     },
     __self: this
   }, "Devpost")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://piazza.com/class/k58n0jdmc721zx",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 125
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 125
     },
     __self: this
   }, "Piazza")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://ricedatathon2020.slack.com/join/shared_invite/enQtODU2NTAxNzU0MzQxLTBiYmFlYzkxZDNjMDFjNGJiYzQ2YmVhMzFlMDEyMTMyZGNiZDJlZDUxY2JlM2QzZmJkODRiMGQxMzI0MjYyMDk",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 126
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 126
     },
     __self: this
   }, "Slack")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "https://docs.google.com/presentation/d/1TlqM4wdSpreIJPW0M-eEt-kRJRZ1_yGtwdIVXcCUE5M/edit?usp=sharing",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 127
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 127
     },
     __self: this
   }, "Opening Presentation"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
@@ -287,7 +291,7 @@ var SplashPage = function SplashPage() {
     justifyContent: "center",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125
+      lineNumber: 130
     },
     __self: this
   }, tiles.map(function (tile) {
@@ -300,7 +304,7 @@ var SplashPage = function SplashPage() {
       key: tile.image,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 128
+        lineNumber: 133
       },
       __self: this
     });
@@ -309,7 +313,7 @@ var SplashPage = function SplashPage() {
     width: [1, 0.6],
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 137
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
@@ -318,74 +322,30 @@ var SplashPage = function SplashPage() {
     mr: "auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 138
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    style: {
-      fontWeight: "normal",
-      color: "#2B354C"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 134
-    },
-    __self: this
-  }, "Gold Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
     justifyContent: "center",
     flexWrap: "wrap",
     flexDirection: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 340,
-    mt: 30,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 136
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "../../static/bbva.png",
-    alt: "",
-    mt: 35,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 137
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 180,
-    m: 10,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 139
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "../../static/d2k.png",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 140
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 300,
-    mt: 80,
-    mx: 40,
-    mb: 40,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 240,
+    mt: 30,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 142
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "../../static/exxonmobil.png",
+    src: "../../static/2ndMD.png",
     alt: "",
+    mt: 35,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 143
@@ -393,59 +353,10 @@ var SplashPage = function SplashPage() {
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
     width: 280,
-    my: 40,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 145
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "../../static/bill.svg",
-    alt: "",
+    mt: 50,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 146
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 240,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 148
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "../../static/nov.png",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 149
-    },
-    __self: this
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    style: {
-      fontWeight: "normal",
-      color: "#2B354C"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 153
-    },
-    __self: this
-  }, "Silver Sponsors"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Flex"], {
-    justifyContent: "center",
-    flexWrap: "wrap",
-    flexDirection: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 154
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 180,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 155
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -453,22 +364,39 @@ var SplashPage = function SplashPage() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 147
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
-    width: 200,
+    width: 280,
+    mt: 30,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158
+      lineNumber: 150
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "../../static/accenture.png",
+    src: "../../static/bill.svg",
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159
+      lineNumber: 151
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Box"], {
+    width: 180,
+    m: 10,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 154
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(rebass__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: "../../static/d2k.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 155
     },
     __self: this
   }))))));
