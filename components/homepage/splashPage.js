@@ -15,11 +15,11 @@ const tiles = [
         caption: 'Sign Up for Rice Students →',
         href: 'https://docs.google.com/forms/d/1tFTTyBX3lrXdHI732LT0OXrGkJzgr277grncbTM_f64/edit'
     },
-    // {
-    //     image: '../../static/data5.jpg',
-    //     caption: 'Sign Up for None-Rice Students →',
-    //     href: 'https://docs.google.com/forms/d/1EIr1aHaG0kyHbfaAVxmOV_2yNxqKPtdH0stHpVyTAlg/edit'
-    // },
+    {
+        image: '../../static/data5.jpg',
+        caption: 'Sign Up for None-Rice Students →',
+        href: 'https://docs.google.com/forms/d/1EIr1aHaG0kyHbfaAVxmOV_2yNxqKPtdH0stHpVyTAlg/edit'
+    },
     {
         image: '../../static/data3.jpg',
         caption: 'Become a Sponsor →',
@@ -136,34 +136,34 @@ const SplashPage = () => (
             </Flex>
             <Title title="Thank you to our Sponsors!" width={[1, 0.6]} />
             <Box width={[0.9, 0.8]} ml='auto' mr='auto'>
-                <h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>
+                {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>*/}
                 <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
-                    <Box width={340} mt={30}>
-                        <Image src="../../static/bbva.png" alt="" mt={35} />
+
+                    <Box width={240} mt={30}>
+                        <Image src="../../static/2ndMD.png" alt="" mt={35} />
                     </Box>
+
+                    <Box width={280} mt={50}>
+                        <Image src="../../static/chevron.svg" alt="" />
+                    </Box>
+
+                    <Box width={280} mt={30}>
+                        <Image src="../../static/bill.svg" alt="" />
+                    </Box>
+
                     <Box width={180} m={10}>
                         <Image src="../../static/d2k.png" alt="" />
                     </Box>
-                    <Box width={300} mt={80} mx={40} mb={40}>
-                        <Image src="../../static/exxonmobil.png" alt="" />
-                    </Box>
-                    <Box width={280} my={40}>
-                        <Image src="../../static/bill.svg" alt="" />
-                    </Box>
-                    <Box width={240}>
-                        <Image src="../../static/nov.png" alt="" />
-                    </Box>
-
                 </Flex>
-                <h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Silver Sponsors</h2>
-                <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
-                    <Box width={180}>
-                        <Image src="../../static/chevron.svg" alt="" />
-                    </Box>
-                    <Box width={200}>
-                        <Image src="../../static/accenture.png" alt="" />
-                    </Box>
-                </Flex>
+                {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Silver Sponsors</h2>*/}
+                {/*<Flex justifyContent="center" flexWrap="wrap" flexDirection="row">*/}
+                {/*    <Box width={180}>*/}
+                {/*        <Image src="../../static/chevron.svg" alt="" />*/}
+                {/*    </Box>*/}
+                {/*    <Box width={200}>*/}
+                {/*        <Image src="../../static/accenture.png" alt="" />*/}
+                {/*    </Box>*/}
+                {/*</Flex>*/}
             </Box>
         </Box>
 
