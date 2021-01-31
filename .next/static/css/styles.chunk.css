@@ -123,57 +123,33 @@
         font-size: 1.5em;
     }
 }
-.about-page {
-    padding: 7% 0 5% 0;
+.tracks {
+    margin-top: 8%;
 }
 
-.about-content {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4%;
-}
-
-.about-content-card {
-    margin: 2%;
-}
-
-.about-image-card {
-    margin: 2%;
-    padding: 20px;
-}
-
-.about-content-text {
-    padding: 10px 20px;
-    text-align: left;
+.track-list {
     color: #2B354C;
-    font-size: 1.2em;
-}
-@media screen and (min-width: 651px) {
-    .splashpage {
-        margin-top: 8%;
-        margin-bottom: 8%;
-    }
+    padding-bottom: 10%;
 }
 
-@media screen and (max-width: 650px) {
-    .splashpage {
-        margin-top: 20%;
-        margin-bottom: 10%;
-    }
-}
-
-.quick-links a {
-    background-color: #A7BBCE;
+.main-track {
     border: 2px solid #2B354C;
-    color: #2B354C;
-    margin: 20px;
-    padding: 5px 20px;
-    transition: 0.2s ease-in-out;
-    text-decoration: none;
+    padding: 30px;
+    text-align: left;
 }
 
-.quick-links a:hover {
+.main-track h2 {
+    text-align: center;
+}
+.prizes {
+    margin-top: 8%;
+    padding-bottom: 5%;
+}
+
+.prize-list div {
     background-color: #2B354C;
+    margin: 20px;
+    padding: 20px;
     color: #A7BBCE;
 }
 html, body {
