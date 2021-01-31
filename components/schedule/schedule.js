@@ -18,7 +18,7 @@ const Schedule = () => (
                                         if (event.link.length === 0) {
                                             return <p key={event.name}><strong>{event.time}</strong> : {event.name} </p>;
                                         } else {
-                                            return <p key={event.name}><strong>{event.time}</strong> : <a href={event.link}> {event.name} </a></p>;
+                                            return <p key={event.name}><strong>{event.time}</strong> : <a href={event.link} target="_blank"> {event.name} </a></p>;
                                         }
                                     }
 
