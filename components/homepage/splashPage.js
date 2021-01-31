@@ -139,20 +139,24 @@ const SplashPage = () => (
                 {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>*/}
                 <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
 
-                    <Box width={240} mt={30}>
-                        <Image src="../../static/2ndMD.png" alt="" mt={35} />
+                    <Box width={240} mt={15}>
+                        <Image src="../../static/color_logo/1.png" alt="" mt={35} />
                     </Box>
 
                     <Box width={280} mt={50}>
-                        <Image src="../../static/chevron.svg" alt="" />
+                        <Image src="../../static/color_logo/2.png" alt="" />
                     </Box>
 
-                    <Box width={280} mt={30}>
-                        <Image src="../../static/bill.svg" alt="" />
+                    <Box width={280} mt={50}>
+                        <Image src="../../static/color_logo/3.png" alt="" />
                     </Box>
 
                     <Box width={180} m={10}>
-                        <Image src="../../static/d2k.png" alt="" />
+                        <Image src="../../static/color_logo/4.png" alt="" />
+                    </Box>
+
+                    <Box width={180} m={10}>
+                        <Image src="../../static/color_logo/5.png" alt="" />
                     </Box>
                 </Flex>
                 {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Silver Sponsors</h2>*/}
