@@ -6,7 +6,7 @@
                 {
                     "time": "4:00-5:00pm",
                     "name": "Find a Team Activity",
-                    "link": "Glimpse"
+                    "link": ""
                 },
                 {
                     "time": "5:00-5:30pm",
@@ -20,13 +20,13 @@
                 },
                 {
                     "time": "5:30-7:30pm",
-                    "name": "Networking and Track Q&A with Companies",
+                    "name": "Companies Networking and Q&A",
                     "link": "https://docs.google.com/document/d/1Va1AnPCC4ZO5t6Bwj4E_qIjtgOwb9wbdl9aYFTW4IIY/edit"
                 },
                 {
                     "time": "8:30-10:00pm",
                     "name": "Mentor Office Hours",
-                    "link": "Zoom"
+                    "link": ""
                 }
             ]
         },
@@ -36,17 +36,17 @@
                 {
                     "time": "10:00-11:30am",
                     "name": "Mentor Office Hours",
-                    "link": "Zoom"
+                    "link": ""
                 },
                 {
                     "time": "2:00-3:00pm",
                     "name": "Project Submission",
-                    "link": "Devpost"
+                    "link": ""
                 },
                 {
                     "time": "3:00-4:30pm",
                     "name": "Judging",
-                    "link": "Zoom"
+                    "link": ""
                 },
                 {
                     "time": "5:00-6:00pm",
