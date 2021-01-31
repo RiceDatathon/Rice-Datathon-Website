@@ -17,7 +17,8 @@
 }
 
 .schedule-items a:hover, .schedule-items a:visited {
-    color: #748DA5;
+    /*color: #748DA5;*/
+    color: #49669C;
 }
 
 .schedule-events {

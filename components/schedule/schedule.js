@@ -14,7 +14,7 @@ const Schedule = () => (
                             <h2>{day.day}</h2>
                             {
                                 day.events.map(event => (
-                                    <p key={event.name}><strong>{event.time}</strong> : {event.name}</p>
+                                    <p key={event.name}><strong>{event.time}</strong> : <a href={event.link}> {event.name} </a></p>
                                 ))
                             }
                         </Box>
