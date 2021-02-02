@@ -154,11 +154,11 @@ const SplashPage = () => (
                         <Image src="../../static/color_logo/3.png" alt="" />
                     </Box>
 
-                    <Box width={180} m={10}>
+                    <Box width={280} m={50}>
                         <Image src="../../static/color_logo/4.png" alt="" />
                     </Box>
 
-                    <Box width={180} m={10}>
+                    <Box width={280} m={50}>
                         <Image src="../../static/color_logo/5.png" alt="" />
                     </Box>
                 </Flex>
