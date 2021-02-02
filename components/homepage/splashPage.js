@@ -6,27 +6,27 @@ import './splashPage.css';
 
 const tiles = [
     {
-        image: '../../static/data1.jpg',
+        image: '../../static/cover/data1.jpg',
         caption: 'Schedule →',
         to: '/schedule'
     },
     {
-        image: '../../static/data2.jpg',
+        image: '../../static/cover/data2.jpg',
         caption: 'Sign Up for Rice Students →',
         href: 'https://docs.google.com/forms/d/1tFTTyBX3lrXdHI732LT0OXrGkJzgr277grncbTM_f64/edit'
     },
     {
-        image: '../../static/data5.jpg',
+        image: '../../static/cover/data5.jpg',
         caption: 'Sign Up for Non-Rice Students →',
         href: 'https://docs.google.com/forms/d/1EIr1aHaG0kyHbfaAVxmOV_2yNxqKPtdH0stHpVyTAlg/edit'
     },
     {
-        image: '../../static/data3.jpg',
+        image: '../../static/cover/data3.jpg',
         caption: 'Become a Sponsor →',
         href: "../../static/SponsorshipPacket.pdf"
     },
     {
-        image: '../../static/data4.jpg',
+        image: '../../static/cover/data4.jpg',
         caption: 'Facebook Event →',
         href: 'https://www.facebook.com/events/1628573120683113?acontext=%7B%22source%22%3A%2229%22%2C%22ref_notif_type%22%3A%22plan_user_invited%22%2C%22action_history%22%3A%22null%22%7D&notif_id=1606185224129347&notif_t=plan_user_invited&ref=notif'
     }

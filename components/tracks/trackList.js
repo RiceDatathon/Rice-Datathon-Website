@@ -3,14 +3,23 @@ const TrackList = []
 //     <div>
 //         <h2>Chevron Challenge</h2>
 //         <p>
-//             The process of drilling new wells, especially offshore, is extremely challenging and costly. After reaching the seabed more than 3,000 feet under water, rigs in the Gulf of Mexico must drill through an additional 20,000 feet of rock. In these extreme environments, where temperatures and pressures far exceed regular drilling conditions, specialized equipment and teams are required.
-//              These operations can involve hundreds of people and equipment with very high daily drilling costs. Reducing the time it takes to drill by even a few hours per well can result in significant savings for the company and provide a significant competitive advantage as more and more wells are drilled.
-//              Your task is to use historic drilling data to build a model that can predict the rate of penetration conditional on controllable drilling parameters and/or parameters that are known before the drilling process begins.  This model could then be used as part of the “Drilling Roadmap” development process, where the WOB and RPM (Among other variables) are determined before drilling begins.
+//             Every year thousands of hot dogs are toss into the garbage by Fuel Station Managers due to sanitary restrictions on how much time they are kept warm.
+//             Having a robust cook plan for every day would grant the stores a sales forecast and a money saving tool.
+//             During this challenge, the participants are requested to create a cook plan for certain buckets of time.
+//             Stores are open from 8 am to 8 pm every day, including weekends.
+//             The 3-hour time buckets provided are:
+//             1 = 8am to 10 am,
+//             2 = 11am to 1 pm,
+//             3 = 2pm to 4 pm,
+//             4 = 5pm to 8 pm.
+//             <br></br>
+//             When planning the logistics of the store, the store managers need to know with time in advance how many hot dogs are they going to sell during that month. In this Data Science Challenge, you are tasked with developing a model to predict:
+//             The Gross Sold quantity of hot dogs for different days and buckets for some stores. Please keep in mind that your model must predict an integer number of hotdogs to be sold, there is no such thing as 7.5 hot dogs.
 //         </p>
 //         <h4>Download the rest of the information and the data here:</h4>
-//         <a href="../../static/chevronChallenge.zip">Chevron Challenge Zip File</a>
-//         <p></p>
-//         <a href="../../static/scoring.csv">Scoring.csv File</a>
+//         <a href="../../static/tracks/Chevron 2021 Datathon Challenge.zip">Chevron Challenge Zip File</a>
+//         {/*<p></p>*/}
+//         {/*<a href="../../static/scoring.csv">Scoring.csv File</a>*/}
 //     </div>,
 //     <div>
 //         <h2>Predicting the Severity of Forest Fires Applied Machine Learning for Social Good Sponsored by Accenture</h2>
