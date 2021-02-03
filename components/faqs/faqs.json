@@ -14,19 +14,15 @@
         },
         {
             "question":"How many people can be on a team?",
-            "answer":"You are allowed a maximum of 5 people on a team."
-        },
-        {
-            "question":"Are we required to stay at the venue for the duration of the Datathon?",
-            "answer":"No, we would like everyone to be present for the opening and closing ceremonies, but you can choose where you would like to work on your project."
+            "answer":"You are allowed a maximum of 4 people on a team."
         },
         {
             "question":"How can I find a team to join?",
-            "answer":"There will be time right after opening ceremony to find teammates!"
+            "answer":"There will be time before the opening ceremony to find teammates!"
         },
         {
             "question":"Who can compete in the Datathon?",
-            "answer":"Datathon 2020 will be open to all Rice students as well as students from other colleges and universities in and around Houston."
+            "answer":"Datathon 2021 will be open to all Rice students as well as students from other colleges and universities."
         },
         {
             "question":"What is the acceptance process?",
@@ -38,11 +34,7 @@
         },
         {
             "question":"Will there be food?",
-            "answer":"Yes, we will provide dinner on Friday followed by breakfast and lunch on Saturday. We'll also have a variety of snacks throughout the event."
-        },
-        {
-            "question":"Do you reimburse travel expenses?",
-            "answer":"Yes, we will reimburse travel from within the Houston area up to a certain amount."
+            "answer":"No since we're virtual. But the first 200 who signed-up will receive DoorDash credits."
         },
         {
             "question":"How much experience is required to participate in the Datathon?",
@@ -50,7 +42,7 @@
         },
         {
             "question":"What should I bring?",
-            "answer":"Definitely bring a laptop and anything else necessary for your project. Besides that, we'd recommend a sleeping bag, a couple friends, and an open mind."
+            "answer":"Definitely bring a laptop and anything else necessary for your project. Besides that, we'd recommend a couple friends and an open mind."
         }
     ]
 }
