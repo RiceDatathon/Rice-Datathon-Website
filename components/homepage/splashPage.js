@@ -128,7 +128,7 @@ const SplashPage = () => (
                 <a href="https://piazza.com/rice/spring2021/rds103" target="_blank"><h3>Piazza</h3></a>
                 <a href="https://join.slack.com/t/riceds/shared_invite/zt-lrztdod3-AUOkRTFPobdtG_PEbAEBaA" target="_blank"><h3>Slack</h3></a>
                 {/*<a href="https://docs.google.com/presentation/d/1TlqM4wdSpreIJPW0M-eEt-kRJRZ1_yGtwdIVXcCUE5M/edit?usp=sharing"  target="_blank"><h3>Opening Presentation</h3></a>*/}
-                <a href=""><h3>Opening Presentation</h3></a>
+                <a href="http://bit.ly/ricedatathon2021-oc" target="_blank"><h3>Opening Presentation</h3></a>
             </Flex>
 
             <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
