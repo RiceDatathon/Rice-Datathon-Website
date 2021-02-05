@@ -31,7 +31,7 @@ const TrackList = []
 //             The Gross Sold quantity of hot dogs for different days and buckets for some stores. Please keep in mind that your model must predict an integer number of hotdogs to be sold, there is no such thing as 7.5 hot dogs.
 //         </p>
 //         <h4>Download the rest of the information and the data here:</h4>
-//         <a href="../../static/tracks/Chevron 2021 Datathon Challenge.zip">Chevron Challenge Zip File</a>
+//         <a href="../../static/tracks/Chevron_2021_Datathon_Challenge.zip">Chevron Challenge Zip File</a>
 //         {/*<p></p>*/}
 //         {/*<a href="../../static/scoring.csv">Scoring.csv File</a>*/}
 //     </div>,
@@ -42,19 +42,23 @@ const TrackList = []
 //         <h3>Objective</h3>
 //         <p>The goal of this challenge is to develop a trading strategy to exploit market volatility to maximize the amount of BTC held in a given period. To be explicit – the success of a strategy will not be evaluated based on the USD value of the holdings but by the total BTC held at the end of the period.</p>
 //         <h3>Dataset Description</h3>
-//         <a href="https://rice.box.com/s/kyte1zcv83tbb5vad8d6rxz0d4orlotm">Quantlab x Rice Datathon 2021 Box Folder</a>
+//         <a href="https://rice.box.com/s/kyte1zcv83tbb5vad8d6rxz0d4orlotm" target="_blank">Quantlab x Rice Datathon 2021 Box Folder</a>
 //         <p>More details can be found in the box folder. The ql_datathon folder contains a notebook that can be used by the students to obtain the data they need for this exercise.</p>
 //     </div>,
 //     <div>
 //         <h2>2nd.MD Challenge</h2>
 //         <h3>Background</h3>
-//         <p>As a consequence of the COVID-19 pandemic, there has been a global shift towards remote business operations. The medical field is no different, as the shift towards telemedicine was heavily accelerated by the pandemic. Data from the CDC shows that there was a 154% YoY increase in telemedicine visits during March 2020 compared to the same period in 2019.
-//             By summer 2020, however, there was a sharp decline in telemedicine appointments as patients opted to return to in-office appointments. This distinct change in behavior brings into question what the future of telemedicine will look like.</p>
+//         <p>As a consequence of the COVID-19 pandemic, there has been a global shift towards remote business operations. The medical field is no different, as the shift towards telemedicine was heavily accelerated by the pandemic. Data from the CDC shows that there was a 154% YoY increase in telemedicine visits during March 2020 compared to the same period in 2019<sup><a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6943a3.htm">1</a></sup>.
+//             By summer 2020, however, there was a sharp decline in telemedicine appointments as patients opted to return to in-office appointments<sup><a href="https://www.statnews.com/2020/09/01/telehealth-visits-decline-covid19-hospitals/">2</a></sup>. This This distinct change in behavior brings into question what the future of telemedicine will look like.</p>
 //         <h3>Objective</h3>
-//         <p>Using the corpus of publications provided and any supplemental datasets of interest, identify key areas of concern or opportunity for the telemedicine industry. A successful project will be able to synthesize the results of analysis on the provided dataset in the context of the conditions of the COVID-19 pandemic.</p>
+//         <p>Using the corpus of publications provided and any supplemental datasets of interest, identify key areas of concern or opportunity for the telemedicine industry. A successful project will be able to synthesize the results of analysis on the provided dataset in the context of the conditions of the COVID-19 pandemic. Feel free to incorporate any supplemental datasets of interest.</p>
 //         <h3>Dataset Description</h3>
 //         <a href="https://zenodo.org/record/4031923#.YBsadehKg2w">https://zenodo.org/record/4031923#.YBsadehKg2w</a>
 //         <p>This dataset contains metadata from 143 Scopus-indexed publications, each of which features the subject “telemedicine” and was published in a “trade journal”. Among the information contained in the metadata are the publication title, authors, journal, abstract text, and article URL.</p>
+//         <h3>Potential Resources of Interest:</h3>
+//         <h4><a href="https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx">Study conducted by Doximity</a></h4>
+//         <h4><a href="https://www.cdc.gov/pcd/issues/2020/20_0254.htm">Study published by CDC</a></h4>
+//         <h4><a href="https://mhealthintelligence.com/news/what-15-medical-specialties-are-most-interested-in-telehealth">Article about telehealth adoption by various medical specialities</a></h4>
 //     </div>,
 //     <div>
 //         <h2>Houston/Texas Trends Track</h2>
