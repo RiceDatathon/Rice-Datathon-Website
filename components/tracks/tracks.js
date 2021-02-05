@@ -13,12 +13,12 @@ const Tracks = () => (
             {/*<h3>We have 5 Tracks at the Datathon this year!</h3>*/}
             <h3>Tracks will be released soon!</h3>
             <ol style={{ textAlign: 'left', width: '80%', marginLeft: 'auto', marginRight: 'auto' }}>
-                <li>Bill.com Challenge</li>
-                <li>Chevron Challenge</li>
-                <li>Quantlab Challenge</li>
-                <li>2nd.MD Challenge</li>
-                <li>Houston/Texas Trends Track</li>
-                <li>Various Other Provided Datasets</li>
+                {/*<li>Bill.com Challenge</li>*/}
+                {/*<li>Chevron Challenge</li>*/}
+                {/*<li>Quantlab Challenge</li>*/}
+                {/*<li>2nd.MD Challenge</li>*/}
+                {/*<li>Houston/Texas Trends Track</li>*/}
+                {/*<li>Various Other Provided Datasets</li>*/}
             </ol>
             {
                 TrackList.map(track => (
