@@ -37,7 +37,7 @@ const Prizes = () => (
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Bill.com </h1>
-                <p>32GB iPad</p>
+                <p>Latest-Gen 32GB iPad</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Chevron 1st Place</h1>
@@ -55,8 +55,8 @@ const Prizes = () => (
                 <h1 style={{ fontWeight: 'normal' }}>2nd.MD</h1>
                 <p>Apple Watch SE</p>
             </Box>
-            <p>All prizes are per person</p>
         </Flex>
+        <p>All prizes are per person</p>
     </div >
 );
 
