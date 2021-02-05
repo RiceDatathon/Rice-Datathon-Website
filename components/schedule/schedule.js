@@ -30,7 +30,7 @@ const Schedule = () => (
             </Flex>
 
             {/*<h1 style={{ fontWeight: 'normal' }}><img src='https://icon.now.sh/pin/A7BBCE/50' alt='' />The Datathon will be held in <a href="https://goo.gl/maps/m3tKWrdj84y5RpY6A" target="_blank" rel="noopener noreferrer">Duncan Hall</a> on the Rice Campus</h1>*/}
-            <h1 style={{ fontWeight: 'normal' }}><img src='https://icon.now.sh/pin/A7BBCE/50' alt='' />The Datathon will be virtual.</h1>
+            {/*<h1 style={{ fontWeight: 'normal' }}><img src='https://icon.now.sh/pin/A7BBCE/50' alt='' />The Datathon will be virtual.</h1>*/}
         </div>
     </div>
 )

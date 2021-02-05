@@ -9,52 +9,53 @@ const Prizes = () => (
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>1st Place</h1>
-                <p>$400 per person</p>
+                <p>$400</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>2nd Place</h1>
-                <p>$200 per person</p>
+                <p>$200</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>3rd Place</h1>
-                <p>$100 per person</p>
+                <p>$100</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Best Underclass-men Team</h1>
-                <p>$100 per person</p>
+                <p>$100</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Best Visualization</h1>
-                <p>$75 per person</p>
+                <p>$75</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Best Social Impact</h1>
-                <p>$75 per person</p>
+                <p>$75</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Houston/ COVID Track</h1>
-                <p>$75 per person</p>
+                <p>$75</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Bill.com </h1>
-                <p>8th generation iPad 32GB per person</p>
+                <p>32GB iPad</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Chevron 1st Place</h1>
-                <p>Airpods Pro per person</p>
+                <p>Airpods Pro</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Chevron 2nd Place</h1>
-                <p>$100 Amazon gift card per person</p>
+                <p>$100 Amazon gift card</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>Quantlab</h1>
-                <p>0.005 Bitcoin per person</p>
+                <p>0.005 Bitcoin</p>
             </Box>
             <Box width={220}>
                 <h1 style={{ fontWeight: 'normal' }}>2nd.MD</h1>
-                <p>Apple Watch SE per person</p>
+                <p>Apple Watch SE</p>
             </Box>
+            <p>All prizes are per person</p>
         </Flex>
     </div >
 );

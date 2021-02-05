@@ -38,9 +38,9 @@ const TrackList = [
     <div>
         <h2>Quantlab Challenge</h2>
         <h3>Background</h3>
-        <p>In the last 3 months of 2020, Bitcoin (BTC) saw significant volatility as the price climbed from about$10,000 to nearly$30,000.  A simple buy and hold strategy in this period would yield phenomenal USDreturns but would see no growth in total BTC held.</p>
+        <p>In the last 3 months of 2020, Bitcoin (BTC) saw significant volatility as the price climbed from about$10,000 to nearly $30,000. A simple buy and hold strategy in this period would yield phenomenal USD returns but would see no growth in total BTC held.</p>
         <h3>Objective</h3>
-        <p>The goal of this challenge is to develop a trading strategy to exploit market volatilityto maximize the amount of BTC held in a given period.To be explicit – the success of a strategy will not be evaluated based on the USD value ofthe holdings but by the total BTC held at the end of the period.</p>
+        <p>The goal of this challenge is to develop a trading strategy to exploit market volatility to maximize the amount of BTC held in a given period.To be explicit – the success of a strategy will not be evaluated based on the USD value of the holdings but by the total BTC held at the end of the period.</p>
         <h3>Dataset Description</h3>
         <a href="https://rice.box.com/s/kyte1zcv83tbb5vad8d6rxz0d4orlotm">Quantlab x Rice Datathon 2021 Box Folder</a>
         <p>More details can be found in the box folder. The ql_datathon folder contains a notebook that can be used by the students to obtain the data they need for this exercise.</p>
@@ -88,12 +88,12 @@ const TrackList = [
         <a href="https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx">Get the Dataset Here</a>
 
         <h3>Various Institutional Characteristics of US Colleges and Universities</h3>
-        <a href="https://github.com/fivethirtyeight/data/tree/master/world-cup-2018">Get the Dataset Here</a>
-        <a href="https://nces.ed.gov/ipeds/datacenter/data/HD2018_Dict.zip">Guide to names of columns</a>
+        <li><a href="https://github.com/fivethirtyeight/data/tree/master/world-cup-2018">Get the Dataset Here</a></li>
+        <li><a href="https://nces.ed.gov/ipeds/datacenter/data/HD2018_Dict.zip">Guide to names of columns</a></li>
 
         <h3>Graduation Rates and Outcomes US Colleges and Universities</h3>
-        <a href="https://nces.ed.gov/ipeds/datacenter/data/OM2018.zip">Get the Dataset Here</a>
-        <a href="https://nces.ed.gov/ipeds/datacenter/data/OM2018_Dict.zip">Guide to names of columns</a>
+        <li><a href="https://nces.ed.gov/ipeds/datacenter/data/OM2018.zip">Get the Dataset Here</a></li>
+        <li><a href="https://nces.ed.gov/ipeds/datacenter/data/OM2018_Dict.zip">Guide to names of columns</a></li>
 
         <h3>Wide Collection Of Different Type of Datasets</h3>
         <a href="https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f ">Get the Dataset Here</a>
