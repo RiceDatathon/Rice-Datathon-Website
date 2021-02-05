@@ -126,7 +126,7 @@ const SplashPage = () => (
                 {/*https://ricedatathon2020.slack.com/join/shared_invite/enQtODU2NTAxNzU0MzQxLTBiYmFlYzkxZDNjMDFjNGJiYzQ2YmVhMzFlMDEyMTMyZGNiZDJlZDUxY2JlM2QzZmJkODRiMGQxMzI0MjYyMDk*/}
                 <a href="https://the-2021-rice-datathon.devpost.com/" target="_blank"><h3>Devpost</h3></a>
                 <a href="https://piazza.com/rice/spring2021/rds103" target="_blank"><h3>Piazza</h3></a>
-                <a href="" ><h3>Slack</h3></a>
+                <a href="https://join.slack.com/t/riceds/shared_invite/zt-axgz13ad-C7rskdPAHEu8Rr6jHgEhMg" target="_blank"><h3>Slack</h3></a>
                 {/*<a href="https://docs.google.com/presentation/d/1TlqM4wdSpreIJPW0M-eEt-kRJRZ1_yGtwdIVXcCUE5M/edit?usp=sharing"  target="_blank"><h3>Opening Presentation</h3></a>*/}
                 <a href=""><h3>Opening Presentation</h3></a>
             </Flex>
