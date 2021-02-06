@@ -32,8 +32,8 @@ const TrackList = [
         </p>
         <h4>Download the rest of the information and the data here:</h4>
         <a href="../../static/tracks/Chevron_2021_Datathon_Challenge.zip">Chevron Challenge Zip File</a>
-        {/*<p></p>*/}
-        {/*<a href="../../static/scoring.csv">Scoring.csv File</a>*/}
+        <p></p>
+        <a href="../../static/tracks/chevron_scoring.zip">Chevron Scoring Zip File</a>
     </div>,
     <div>
         <h2>Quantlab Challenge</h2>
