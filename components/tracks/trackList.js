@@ -31,7 +31,7 @@ const TrackList = [
             The Gross Sold quantity of hot dogs for different days and buckets for some stores. Please keep in mind that your model must predict an integer number of hotdogs to be sold, there is no such thing as 7.5 hot dogs.
         </p>
         <h4>Download the rest of the information and the data here:</h4>
-        {/*<a href="../../static/tracks/Chevron_2021_Datathon_Challenge.zip">Chevron Challenge Zip File</a>*/}
+        <a href="../../static/tracks/Chevron_2021_Datathon_Challenge.zip">Chevron Challenge Zip File</a>
         {/*<p></p>*/}
         {/*<a href="../../static/scoring.csv">Scoring.csv File</a>*/}
     </div>,
