@@ -56,7 +56,7 @@ const TrackList = [
         <a href="https://zenodo.org/record/4031923#.YBsadehKg2w">https://zenodo.org/record/4031923#.YBsadehKg2w</a>
         <p>This dataset contains metadata from 143 Scopus-indexed publications, each of which features the subject “telemedicine” and was published in a “trade journal”. Among the information contained in the metadata are the publication title, authors, journal, abstract text, and article URL.</p>
         <h3>Potential Resources of Interest:</h3>
-        <h4><a href="https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx">Study conducted by Doximity</a></h4>
+        <h4><a href="https://drive.google.com/file/d/1Nv9Do5yuN2eGjrKHO00kVZ5yi57AN76z/view?usp=sharing?">Study conducted by Doximity</a></h4>
         <h4><a href="https://www.cdc.gov/pcd/issues/2020/20_0254.htm">Study published by CDC</a></h4>
         <h4><a href="https://mhealthintelligence.com/news/what-15-medical-specialties-are-most-interested-in-telehealth">Article about telehealth adoption by various medical specialities</a></h4>
     </div>,
