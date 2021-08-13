@@ -20,7 +20,7 @@
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
     "latest-version": "^5.1.0",
-    "next": "^9.5.5",
+    "next": "^11.1.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-parallax": "^2.2.4",
