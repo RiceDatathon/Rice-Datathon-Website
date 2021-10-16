@@ -46,7 +46,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div>
-                <Box width={[0.8, 0.3]} className='datathon-logo'>
+                <Box width={[1, .35]} className='datathon-logo'>
                     <Image src='../../static/datathon-logo.png' alt='Rice Datathon' />
                 </Box>
                 <div className={this.state.open ? ('navbar-visible') : ('navbar-hidden')}>

@@ -3,9 +3,8 @@
     padding-bottom: 5%;
 }
 
-.prize-list div {
-    background-color: #2B354C;
+.prize-list {
+    color: #ffffff;
     margin: 20px;
     padding: 20px;
-    color: #A7BBCE;
 }

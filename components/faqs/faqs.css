@@ -12,10 +12,10 @@
     width: 100%;
     height: 100px;
     background-color: inherit;
-    color: #2B354C;
+    color: #ffffff;
     border: none;
     overflow: hidden;
-    box-shadow: 0 0 10px 2px rgba(43, 53, 76, 0.733);
+    box-shadow: 0 0 10px 2px rgb(255, 255, 255);
     margin: 2% 0;
 }
 
@@ -29,9 +29,9 @@
 }
 
 .faq-answer {
-    background-color: #2B354C;
+    background-color: #1F4068;
     top: 100%;
-    color: #A7BBCE;
+    color: #ffffff;
 }
 
 .faq-question p {
