@@ -1,5 +1,12 @@
 {
+  "/about": "pages/about.html",
+  "/faqs": "pages/faqs.html",
+  "/": "pages/index.html",
+  "/prizes": "pages/prizes.html",
+  "/schedule": "pages/schedule.html",
+  "/tracks": "pages/tracks.html",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
