@@ -153,7 +153,7 @@ const SplashPage = () => (
                     </Box>
 
                     <Box width={240} m={40}>
-                        <Image src="../../static/color_logo/goldman_sachs.png" alt="" />
+                        <Image src="../../static/color_logo/Goldman_Sachs.png" alt="" />
                     </Box>
 
                     <Box width={240} m={40}>
@@ -164,7 +164,7 @@ const SplashPage = () => (
                             <Image src="../../static/color_logo/mic.png" alt=""/>
                     </Box>
 
-                    <Box width={280} m={55}>
+                    <Box width={280} m={50}>
                         <Image src="../../static/color_logo/aimpoint.svg" alt=""/>
                     </Box>
 
