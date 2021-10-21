@@ -124,7 +124,7 @@ const SplashPage = () => (
                 }
             </Flex>
             {/* <Title title="Thank you to our Sponsors!" width={[1, 0.6]} /> */}
-            <Box width={[0.9, 0.8]} ml='auto' mr='auto'>
+            <Box width={[.9, .9]} ml='auto' mr='auto'>
                 {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>*/}
                 <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
 
@@ -144,13 +144,34 @@ const SplashPage = () => (
                         {/* <Image src="../../static/color_logo/4.png" alt="" /> */}
                     {/* </Box> */}
 
-                    <Box width={280} m={50}>
+                    <Box width={280} m={40}>
                         <Image src="../../static/white_logo/d2k.png" alt="" />
                     </Box>
 
-                    <Box width={280} m={50}>
+                    <Box width={280} m={40}>
                         <Image src="../../static/color_logo/square_uppercase.png" alt="" />
                     </Box>
+
+                    <Box width={240} m={40}>
+                        <Image src="../../static/color_logo/goldman_sachs.png" alt="" />
+                    </Box>
+
+                    <Box width={240} m={40}>
+                        <Image src="../../static/color_logo/chevron.png" alt="" />
+                    </Box>
+
+                    <Box width={280} m={40}>
+                            <Image src="../../static/color_logo/mic.png" alt=""/>
+                    </Box>
+
+                    <Box width={280} m={55}>
+                        <Image src="../../static/color_logo/aimpoint.svg" alt=""/>
+                    </Box>
+
+                    <Box width={280} m={40}>
+                        <Image src="../../static/white_logo/teknoir.svg" alt=""/>
+                    </Box>
+
                 </Flex>
                 {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Silver Sponsors</h2>*/}
                 {/*<Flex justifyContent="center" flexWrap="wrap" flexDirection="row">*/}
