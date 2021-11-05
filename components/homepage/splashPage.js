@@ -133,7 +133,7 @@ const SplashPage = () => (
                 {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>*/}
                 <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
 
-                    <Box width={150} m={15}>
+                    <Box width={130} m={15}>
                         <Image src="../../static/white_logo/d2k.png" alt="" />
                     </Box>
                     
