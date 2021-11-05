@@ -1,7 +1,9 @@
 @media screen and (min-width: 651px) {
     .splashpage {
-        margin-top: 8%;
-        margin-bottom: 8%;
+        margin-top: 6%;
+        margin-bottom: 4%;
+        align-items: middle;
+        color: #ffffff;
     }
 }
 
@@ -9,13 +11,15 @@
     .splashpage {
         margin-top: 20%;
         margin-bottom: 10%;
+        align-items: middle;
+        color: #ffffff;
     }
 }
 
 .quick-links a {
     background-color: #A7BBCE;
     border: 2px solid #2B354C;
-    color: #2B354C;
+    color: #ffffff;
     margin: 20px;
     padding: 5px 20px;
     transition: 0.2s ease-in-out;

@@ -9,7 +9,7 @@ const tiles = [
     caption: 'Become a Sponsor →',
     href: "../../static/SponsorshipPacket2022.pdf"},
 
-    {image: '../../static/cover/2022bannerlarge.png',
+    {image: '../../static/cover/data7.jpg',
     caption: 'Datathon Highlights →',
     href: "https://www.youtube.com/watch?v=ekMC3uENZC8"
     }
@@ -102,8 +102,13 @@ const CoolImage = (props) => (
 
 const SplashPage = () => (
     <div className='splashpage'>
-        <Title title="Rice Datathon 2022 will take place on January 21-22, 2022. Check back later for updates!" width={[1, .65]}/>
-        <Box width={[1, 0.7]} ml='auto' mr='auto'>
+        {/* <Title title="Rice Datathon 2022 will take place on January 21-22, 2022. Check back later for updates!" width={[1, .65]}/> */}
+        <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
+        <Box width={1150} m={0}>
+            <Image src="../../static/cover/Datathon 2022 logo (transparent background).png" alt="" />
+        </Box>
+        </Flex>
+        <Box width={[2, 1]} ml='auto' mr='auto'>
             {/* <Title title="Quick Links" width={[0.8, 0.4]} /> */}
             <Flex className="quick-links" flexDirection='row' flexWrap='wrap' justifyContent='center'>
                 {/*https://rice-datathon-2020.devpost.com/*/}
@@ -123,54 +128,63 @@ const SplashPage = () => (
                     ))
                 }
             </Flex>
-            {/* <Title title="Thank you to our Sponsors!" width={[1, 0.6]} /> */}
+            <Title title="Thank you to our Sponsors!" width={[1, 0.6]} />
             <Box width={[.9, .9]} ml='auto' mr='auto'>
                 {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Gold Sponsors</h2>*/}
                 <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
 
-                    {/* <Box width={240} mt={15}> */}
-                        {/* <Image src="../../static/color_logo/1.png" alt="" mt={35} /> */}
-                    {/* </Box> */}
-
-                    {/* <Box width={280} mt={50}> */}
-                        {/* <Image src="../../static/color_logo/2.png" alt="" /> */}
-                    {/* </Box> */}
-
-                    {/* <Box width={280} mt={50}> */}
-                        {/* <Image src="../../static/color_logo/3.png" alt="" /> */}
-                    {/* </Box> */}
-
-                    {/* <Box width={280} m={50}> */}
-                        {/* <Image src="../../static/color_logo/4.png" alt="" /> */}
-                    {/* </Box> */}
-
-                    <Box width={280} m={40}>
+                    <Box width={130} m={15}>
                         <Image src="../../static/white_logo/d2k.png" alt="" />
                     </Box>
+                    
+                    <Box width={780} m={20}>
+                            <Image src="../../static/color_logo/bill.png" alt="" />
+                    </Box>
 
-                    <Box width={280} m={40}>
+                    <Box width={200} m={20}>
                         <Image src="../../static/color_logo/square_uppercase.png" alt="" />
                     </Box>
 
-                    <Box width={240} m={40}>
-                        <Image src="../../static/color_logo/Goldman_Sachs.png" alt="" />
+                    <Box width={435} m={40}>
+                        <Image src="../../static/color_logo/goldman long.png" alt="" />
                     </Box>
 
-                    <Box width={240} m={40}>
-                        <Image src="../../static/color_logo/chevron.png" alt="" />
+                    <Box width={475} m={40}>
+                        <Image src="../../static/color_logo/google.png" alt="" />
                     </Box>
 
-                    <Box width={280} m={40}>
+                    <Box>
+
+                    <Flex justifyContent="center" flexWrap="wrap" flexDirection="row">
+
+                    <Box width={400} m={40}>
+                        <Image src="../../static/color_logo/chevron long.png" alt="" />
+                    </Box>
+
+                    <Box width={400} m={30}>
                             <Image src="../../static/color_logo/mic.png" alt=""/>
                     </Box>
 
-                    <Box width={280} m={50}>
+                    <Box width={400} m={30}>
                         <Image src="../../static/color_logo/aimpoint.svg" alt=""/>
                     </Box>
 
-                    <Box width={280} m={40}>
+                    <Box width={400} m={40}>
                         <Image src="../../static/white_logo/teknoir.svg" alt=""/>
                     </Box>
+
+                    </Flex>
+
+                    </Box>
+
+                    <Box width={140} m={20}>
+                        <Image src="../../static/color_logo/shell.png" alt=""/>
+                    </Box>
+
+                    <Box width={350} m={45}>
+                        <Image src="../../static/color_logo/baker_ripley.png" alt=""/>
+                    </Box>
+
 
                 </Flex>
                 {/*<h2 style={{ fontWeight: "normal", color: "#2B354C" }}>Silver Sponsors</h2>*/}
@@ -184,7 +198,11 @@ const SplashPage = () => (
                 {/*</Flex>*/}
             </Box>
         </Box>
-
+        <div className='end'>
+        <h3>If you have any comments, questions, or concerns about the Datathon, please contact any of the Datathon Directors: <br/>
+            Gazi (gff1@rice.edu), Michael (mpk7@rice.edu), Caleb (cdh7@rice.edu) or the D2K Lab (d2k@rice.edu)
+        </h3>
+        </div>
     </div >
 )
 
