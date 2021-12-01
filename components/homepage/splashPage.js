@@ -12,6 +12,11 @@ const tiles = [
     {image: '../../static/cover/data7.jpg',
     caption: 'Datathon Highlights →',
     href: "https://www.youtube.com/watch?v=ekMC3uENZC8"
+    },
+
+    {image: '../../static/cover/data9.jpg',
+    caption: 'Registration →',
+    href: "https://forms.gle/9QeWCzu65q9a2dBH8"
     }
     
 ]
