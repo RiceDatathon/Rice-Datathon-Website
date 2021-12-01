@@ -8,8 +8,8 @@ const Schedule = () => (
         <Title title="Datathon Schedule" width={[0.7, 0.4]} />
         {/*<h3>Tracks will be released soon!</h3>*/}
         <div className='schedule-items'>
-        <h3>Rice Datathon 2022 will occur on January 21-22, 2022. Check back later for a finalized schedule!</h3>
-            {/* <Flex className='schedule-events' flexDirection='row' flexWrap='wrap' justifyContent='center' width={[1, 0.8]} ml='auto' mr='auto'>
+        <h3>The tentative schedule for the Datathon can be seen below! This schedule is subject to change.</h3>
+            {<Flex className='schedule-events' flexDirection='row' flexWrap='wrap' justifyContent='center' width={[1, 0.8]} ml='auto' mr='auto'>
                 {
                     schedule.map(day => (
                         <Box width={[1, 0.5]} key={day.day}>
@@ -29,7 +29,7 @@ const Schedule = () => (
                         </Box>
                     ))
                 }
-            </Flex> */}
+            </Flex>}
 
             {/*<h1 style={{ fontWeight: 'normal' }}><img src='https://icon.now.sh/pin/A7BBCE/50' alt='' />The Datathon will be held in <a href="https://goo.gl/maps/m3tKWrdj84y5RpY6A" target="_blank" rel="noopener noreferrer">Duncan Hall</a> on the Rice Campus</h1>*/}
             {/*<h1 style={{ fontWeight: 'normal' }}><img src='https://icon.now.sh/pin/A7BBCE/50' alt='' />The Datathon will be virtual.</h1>*/}

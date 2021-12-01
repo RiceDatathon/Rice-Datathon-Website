@@ -1,50 +1,55 @@
 {
     "schedule": [
         {
-            "day": "Friday February 5th",
+            "day": "Friday, January 21st",
             "events": [
                 {
-                    "time": "4:00-5:00pm",
-                    "name": "Find a Team Activity",
-                    "link": "https://app.joinglimpse.com/room?key=4E764E"
-                },
-                {
-                    "time": "5:00-5:30pm",
-                    "name": "Opening Ceremony",
+                    "time": "5:00-6:00pm",
+                    "name": "Dinner, Check-in, Team Search",
                     "link": ""
                 },
                 {
-                    "time": "5:30pm",
+                    "time": "6:30-7:30pm",
+                    "name": "Opening Ceremonies",
+                    "link": ""
+                },
+                {
+                    "time": "7:30pm",
                     "name": "Release the tracks!",
                     "link": ""
                 },
                 {
-                    "time": "5:30-7:00pm",
-                    "name": "Companies Networking and Q&A",
-                    "link": ""
-                },
-                {
-                    "time": "7:30-9:00pm",
-                    "name": "Mentor Office Hours",
+                    "time": "8:00-9:30pm",
+                    "name": "Networking with Companies and Q&A",
                     "link": ""
                 }
             ]
         },
         {
-            "day": "Saturday February 6th",
+            "day": "Saturday, January 22nd",
             "events": [
                 {
-                    "time": "2:00-3:00pm",
-                    "name": "Project Submission",
-                    "link": "https://the-2021-rice-datathon.devpost.com/"
+                    "time": "8:00-10:00am",
+                    "name": "Breakfast",
+                    "link": ""
                 },
                 {
-                    "time": "3:00-4:30pm",
+                    "time": "12:00-1:00pm",
+                    "name": "Lunch",
+                    "link": ""
+                },
+                {
+                    "time": "3:00-4:00pm",
+                    "name": "Project Submission Timeframe",
+                    "link": ""
+                },
+                {
+                    "time": "4:00-6:00pm",
                     "name": "Judging",
                     "link": ""
                 },
                 {
-                    "time": "5:00-6:00pm",
+                    "time": "6:30-7:30pm",
                     "name": "Final Presentations & Awards",
                     "link": ""
                 }
