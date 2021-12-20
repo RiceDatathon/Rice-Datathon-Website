@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/DChaLDu6gtm9uw16zd9VQ/_buildManifest.js",
-    "static/DChaLDu6gtm9uw16zd9VQ/_ssgManifest.js"
+    "static/Acv3RsFXovNGtF6PhIsD-/_buildManifest.js",
+    "static/Acv3RsFXovNGtF6PhIsD-/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -15,9 +15,9 @@
       "static/chunks/commons.ad720c57ca44538a9a16.js",
       "static/chunks/main-a22b4783d2a05d876389.js",
       "static/chunks/1c971d4c136e1ba364a85a7b9dfc0b56aaeb4d68.d445a40703a702e85504.js",
-      "static/css/styles.7c4e2f99.chunk.css",
+      "static/css/styles.1cc47af7.chunk.css",
       "static/chunks/styles.9d22ceb307061cf55496.js",
-      "static/chunks/pages/index-865eaece6969223b965f.js"
+      "static/chunks/pages/index-2b3165203ed470934ca8.js"
     ],
     "/_app": [
       "static/chunks/webpack-8b91dc2029ebd044c29c.js",
@@ -39,7 +39,7 @@
       "static/chunks/commons.ad720c57ca44538a9a16.js",
       "static/chunks/main-a22b4783d2a05d876389.js",
       "static/chunks/1c971d4c136e1ba364a85a7b9dfc0b56aaeb4d68.d445a40703a702e85504.js",
-      "static/css/styles.7c4e2f99.chunk.css",
+      "static/css/styles.1cc47af7.chunk.css",
       "static/chunks/styles.9d22ceb307061cf55496.js",
       "static/chunks/pages/about-2204c4db0c60d830feb5.js"
     ],
@@ -49,9 +49,9 @@
       "static/chunks/commons.ad720c57ca44538a9a16.js",
       "static/chunks/main-a22b4783d2a05d876389.js",
       "static/chunks/1c971d4c136e1ba364a85a7b9dfc0b56aaeb4d68.d445a40703a702e85504.js",
-      "static/css/styles.7c4e2f99.chunk.css",
+      "static/css/styles.1cc47af7.chunk.css",
       "static/chunks/styles.9d22ceb307061cf55496.js",
-      "static/chunks/pages/faqs-5d979f2e2a9a4e7cd267.js"
+      "static/chunks/pages/faqs-c5929ac0cafac569f427.js"
     ],
     "/prizes": [
       "static/chunks/webpack-8b91dc2029ebd044c29c.js",
@@ -59,9 +59,9 @@
       "static/chunks/commons.ad720c57ca44538a9a16.js",
       "static/chunks/main-a22b4783d2a05d876389.js",
       "static/chunks/1c971d4c136e1ba364a85a7b9dfc0b56aaeb4d68.d445a40703a702e85504.js",
-      "static/css/styles.7c4e2f99.chunk.css",
+      "static/css/styles.1cc47af7.chunk.css",
       "static/chunks/styles.9d22ceb307061cf55496.js",
-      "static/chunks/pages/prizes-7218c84b001354d2861a.js"
+      "static/chunks/pages/prizes-6c53bf962913d4f97166.js"
     ],
     "/schedule": [
       "static/chunks/webpack-8b91dc2029ebd044c29c.js",
@@ -69,7 +69,7 @@
       "static/chunks/commons.ad720c57ca44538a9a16.js",
       "static/chunks/main-a22b4783d2a05d876389.js",
       "static/chunks/1c971d4c136e1ba364a85a7b9dfc0b56aaeb4d68.d445a40703a702e85504.js",
-      "static/css/styles.7c4e2f99.chunk.css",
+      "static/css/styles.1cc47af7.chunk.css",
       "static/chunks/styles.9d22ceb307061cf55496.js",
       "static/chunks/pages/schedule-d4b9e9e4b735b3abb787.js"
     ],
@@ -79,7 +79,7 @@
       "static/chunks/commons.ad720c57ca44538a9a16.js",
       "static/chunks/main-a22b4783d2a05d876389.js",
       "static/chunks/1c971d4c136e1ba364a85a7b9dfc0b56aaeb4d68.d445a40703a702e85504.js",
-      "static/css/styles.7c4e2f99.chunk.css",
+      "static/css/styles.1cc47af7.chunk.css",
       "static/chunks/styles.9d22ceb307061cf55496.js",
       "static/chunks/pages/tracks-801818e3c75a42650cd4.js"
     ]

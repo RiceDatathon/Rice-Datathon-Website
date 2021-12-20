@@ -11,6 +11,7 @@
 .title-style {
     color: #EEF4ED;
     border: 2px solid #EEF4ED;
+    box-shadow: 0 0 10px 2px rgb(255, 255, 255);
     padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;

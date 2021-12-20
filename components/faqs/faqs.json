@@ -1,16 +1,20 @@
 {
     "faqs":[
         {
+            "question":"Will the Datathon be in-person or online?",
+            "answer":"Currently, we're planning on hosting the Datathon in a hybrid fashion, with both in-person and online components. However, due to the constantly changing situation with the pandemic, we're currently developing contingency plans for any scenario."
+        },
+        {
             "question":"How do I become a sponsor?",
-            "answer":"Check out the sponsorship packet under 'Become a Sponsor' on the homepage and/or email us directly!"
+            "answer":"We are not longer accepting sponsors for the Rice Datathon 2022. Please consider reaching out next year!"
         },
         {
             "question":"How do I register?",
-            "answer":"There will be a link on this website once registration opens."
+            "answer":"Click on the registration link on our homepage and fill out the Google form by January 19th, 2022."
         },
         {
             "question":"When does registration open?",
-            "answer":"We will open registration for the Datathon later this fall into the winter."
+            "answer":"It's open right now! Go on our homepage!"
         },
         {
             "question":"How many people can be on a team?",

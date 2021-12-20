@@ -5,10 +5,6 @@ import Title from '../title/title'
 import './splashPage.css';
 
 const tiles = [
-    {image: '../../static/cover/data6.jpg',
-    caption: 'Become a Sponsor →',
-    href: "../../static/SponsorshipPacket2022.pdf"},
-
     {image: '../../static/cover/data7.jpg',
     caption: 'Datathon Highlights →',
     href: "https://www.youtube.com/watch?v=ekMC3uENZC8"
@@ -182,12 +178,16 @@ const SplashPage = () => (
 
                     </Box>
 
-                    <Box width={140} m={20}>
+                    <Box width={146} m={20}>
                         <Image src="../../static/color_logo/shell.png" alt=""/>
                     </Box>
 
                     <Box width={350} m={45}>
                         <Image src="../../static/color_logo/baker_ripley.png" alt=""/>
+                    </Box>
+
+                    <Box width={180} m={0}>
+                        <Image src="../../static/white_logo/cognite_white.png" alt=""/>
                     </Box>
 
 

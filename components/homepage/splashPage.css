@@ -1,7 +1,7 @@
 @media screen and (min-width: 651px) {
     .splashpage {
-        margin-top: 6%;
-        margin-bottom: 4%;
+        margin-top: 8%;
+        margin-bottom: 8%;
         align-items: middle;
         color: #ffffff;
     }
@@ -18,7 +18,7 @@
 
 .quick-links a {
     background-color: #A7BBCE;
-    border: 2px solid #2B354C;
+    border: 2px solid #ffffff;
     color: #ffffff;
     margin: 20px;
     padding: 5px 20px;
@@ -29,4 +29,11 @@
 .quick-links a:hover {
     background-color: #2B354C;
     color: #A7BBCE;
+}
+
+.end {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    align-items: middle;
+    color: #ffffff;
 }
