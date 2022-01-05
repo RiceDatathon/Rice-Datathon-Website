@@ -12,7 +12,7 @@ const About = () => (
                         The Rice Datathon is the annual data science competition hosted by the Rice Data Science Club and the Rice Data to Knowledge Lab.
                     </p>
                     <p className='about-content-text'>
-                        Students have 24 hours to work in teams, or individually, to design and implement data science related projects and win great prizes.
+                        During the 24 hour event, students work in teams, or individually, to design and implement data science related projects and win great prizes.
                     </p>
                 </Box>
                 <Box width={350} className='about-image-card'>

@@ -106,7 +106,7 @@ const SplashPage = () => (
         {/* <Title title="Rice Datathon 2022 will take place on January 21-22, 2022. Check back later for updates!" width={[1, .65]}/> */}
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center'>
         <Box width={1150} m={0}>
-            <Image src="../../static/cover/Datathon 2022 logo (transparent background).png" alt="" />
+            <Image src="../../static/cover/Datathon Website (New Dates).png" alt="" />
         </Box>
         </Flex>
         <Box width={[2, 1]} ml='auto' mr='auto'>

@@ -1,32 +1,32 @@
 {
     "schedule": [
         {
-            "day": "Friday, January 21st",
+            "day": "Friday, January 28th",
             "events": [
                 {
-                    "time": "5:00-6:00pm",
-                    "name": "Dinner, Check-in, Team Search",
+                    "time": "4:30-5:30pm",
+                    "name": "Check-in & Team Search",
                     "link": ""
                 },
                 {
-                    "time": "6:30-7:30pm",
+                    "time": "5:30-6:30pm",
                     "name": "Opening Ceremonies",
                     "link": ""
                 },
                 {
-                    "time": "7:30pm",
+                    "time": "6:45pm",
                     "name": "Release the tracks!",
                     "link": ""
                 },
                 {
-                    "time": "8:00-9:30pm",
+                    "time": "7:00-9:00pm",
                     "name": "Networking with Companies and Q&A",
                     "link": ""
                 }
             ]
         },
         {
-            "day": "Saturday, January 22nd",
+            "day": "Saturday, January 29th",
             "events": [
                 {
                     "time": "8:00-10:00am",
