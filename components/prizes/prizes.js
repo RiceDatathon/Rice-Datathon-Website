@@ -54,7 +54,7 @@ const Prizes = () => (
         </Flex>
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
             <Box width={370}>
-                <h1 style={{ fontWeight: 'normal' }}>BakerRipley Track Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>BakerRipley Challenge Winner</h1>
                 <h1 style={{ fontWeight: 'normal' }}>3rd-generation AirPods</h1>
             </Box>
         </Flex>

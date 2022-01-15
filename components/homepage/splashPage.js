@@ -13,6 +13,26 @@ const tiles = [
     {image: '../../static/cover/data9.jpg',
     caption: 'Registration →',
     href: "https://forms.gle/9QeWCzu65q9a2dBH8"
+    },
+
+    {image: '../../static/cover/baby_owls_mask.jpeg',
+    caption: 'COVID Guidelines →',
+    href: "https://docs.google.com/document/d/1fdeqdTgxgXFzpSo2Emt7BDenCO_63YPlhJYGhEaevHQ/edit?usp=sharing"
+    },
+
+    {image: '../../static/cover/data8_copy.jpg',
+    caption: 'Participant Guide →',
+    href: "https://docs.google.com/document/d/19n6HNT4CyNrsC5ahZctJaeZOU1oclij8TkmNkQj2KQM/edit?usp=sharing"
+    },
+
+    {image: '../../static/cover/bill.jpg',
+    caption: 'Bill.com Workshop →',
+    href: "https://forms.gle/cvGGZ5stu8UrVPJM8"
+    },
+
+    {image: '../../static/cover/data1.jpg',
+    caption: 'Volunteer! →',
+    href: "https://forms.gle/cHe9iQHBD5Vqa1xM9"
     }
     
 ]
