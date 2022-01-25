@@ -12,13 +12,13 @@
 }
 
 .schedule-items a {
-    color: #2B354C;
+    color: #ffffff;
     transition: 0.2s ease-in-out;
 }
 
 .schedule-items a:hover, .schedule-items a:visited {
     /*color: #748DA5;*/
-    color: #49669C;
+    color: #1F4068;
 }
 
 .schedule-events {

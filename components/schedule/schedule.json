@@ -6,7 +6,7 @@
                 {
                     "time": "7:00-8:30pm",
                     "name": "Beginner's Workshop",
-                    "link": ""
+                    "link": "https://forms.gle/cSZZeR72J6AxKB3y6"
                 }
             ]
         },
@@ -16,7 +16,12 @@
                 {
                     "time": "7:00-8:30pm",
                     "name": "Bill.com Workshop",
-                    "link": ""
+                    "link": "https://forms.gle/T8ZGJZvZvyMinr6HA"
+                },
+                {
+                    "time": "9:00-9:30pm",
+                    "name": "Google Workshop: A Talk with Dr. Ramanathan Guha",
+                    "link": "https://riceuniversity.zoom.us/j/95617400920?pwd=enlhM0xsSHV4czJNZ0h2Q2JUc0tOdz09"
                 }
             ]
         },

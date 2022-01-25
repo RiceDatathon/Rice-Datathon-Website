@@ -40,16 +40,26 @@ const Prizes = () => (
         </Flex>
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
             <Box width={370}>
-                <h1 style={{ fontWeight: 'normal' }}>1st Underclassmen Team/Beginner's Track Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>1st Underclassmen Team/Beginner's Challenge Winner</h1>
                 <h1 style={{ fontWeight: 'normal' }}>$100</h1>
             </Box>
             <Box width={370}>
-                <h1 style={{ fontWeight: 'normal' }}>2nd Underclassmen Team/Beginner's Track Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>2nd Underclassmen Team/Beginner's Challenge Winner</h1>
                 <h1 style={{ fontWeight: 'normal' }}>$75</h1>
             </Box>
             <Box width={370}>
-                <h1 style={{ fontWeight: 'normal' }}>3rd Underclassmen Team/Beginner's Track Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>3rd Underclassmen Team/Beginner's Challenge Winner</h1>
                 <h1 style={{ fontWeight: 'normal' }}>$50</h1>
+            </Box>
+        </Flex>
+        <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
+            <Box width={345}>
+                <h1 style={{ fontWeight: 'normal' }}>Best PVAMU Team</h1>
+                <h1 style={{ fontWeight: 'normal' }}>$125</h1>
+            </Box>
+            <Box width={300}>
+                <h1 style={{ fontWeight: 'normal' }}>Best TSU Team</h1>
+                <h1 style={{ fontWeight: 'normal' }}>$125</h1>
             </Box>
         </Flex>
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
