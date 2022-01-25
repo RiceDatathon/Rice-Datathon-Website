@@ -57,6 +57,14 @@ const Prizes = () => (
                 <h1 style={{ fontWeight: 'normal' }}>BakerRipley Challenge Winner</h1>
                 <h1 style={{ fontWeight: 'normal' }}>3rd-generation AirPods</h1>
             </Box>
+            <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Cognite Challenge Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>$100 Amazon Gift Card</h1>
+            </Box>
+            <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Goldman Sachs Challenge Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>Apple Watch Series 7</h1>
+            </Box>
         </Flex>
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
             <Box width={850}>
