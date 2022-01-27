@@ -64,16 +64,40 @@ const Prizes = () => (
         </Flex>
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
             <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Bill.com Challenge Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>8th-generation iPad</h1>
+            </Box>
+            <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Bill.com Challenge 2nd Place Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>$50 Amazon Gift Card</h1>
+            </Box>
+            <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Bill.com Challenge 3rd Place Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>Bill.com tumblers</h1>
+            </Box>
+        </Flex>
+        <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
+            <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Goldman Sachs Challenge Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>Apple Watch Series 7</h1>
+            </Box>
+            <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Chevron Challenge Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>Apple Watch Series 3</h1>
+            </Box>
+            <Box width={370}>
+                <h1 style={{ fontWeight: 'normal' }}>Chevron Challenge 2nd Place Winner</h1>
+                <h1 style={{ fontWeight: 'normal' }}>$100 Amazon Gift Card</h1>
+            </Box>
+        </Flex>
+        <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>
+            <Box width={370}>
                 <h1 style={{ fontWeight: 'normal' }}>BakerRipley Challenge Winner</h1>
                 <h1 style={{ fontWeight: 'normal' }}>3rd-generation AirPods</h1>
             </Box>
             <Box width={370}>
                 <h1 style={{ fontWeight: 'normal' }}>Cognite Challenge Winner</h1>
                 <h1 style={{ fontWeight: 'normal' }}>$100 Amazon Gift Card</h1>
-            </Box>
-            <Box width={370}>
-                <h1 style={{ fontWeight: 'normal' }}>Goldman Sachs Challenge Winner</h1>
-                <h1 style={{ fontWeight: 'normal' }}>Apple Watch Series 7</h1>
             </Box>
         </Flex>
         <Flex flexDirection='row' flexWrap='wrap' justifyContent='center' className='prize-list'>

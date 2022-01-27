@@ -7,6 +7,16 @@
     padding-bottom: 10%;
 }
 
+.track-list a {
+    color: #ffffff;
+    transition: 0.2s ease-in-out;
+}
+
+.track-list a:hover, .track-list a:visited {
+    /*color: #748DA5;*/
+    color: #1F4068;
+}
+
 .main-track {
     border: 2px solid #2B354C;
     padding: 20px;

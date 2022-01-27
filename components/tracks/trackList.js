@@ -1,64 +1,73 @@
 // const TrackList = []
 const TrackList = [
-    // <div>
-    //     <h2>Bill.com Challenge</h2>
-    //     <h3>Description</h3>
-    //     <p>Understanding business networks via financial transactions. </p>
-    //     <h3>Objective</h3>
-    //     <p>We want to address one of the 2 goals (or both!) <br></br>
-    //         1. Spend forecasting for the business (agencies in our dataset) AND receivables forecasting for the vendors. Quantify how to spot business that are successful vs those that might have signs of problems. <br></br>
-    //         2. Understand connectedness of the network by identifying similar businesses (or agencies) and similar vendors. Define a clear metric for similarity. Apply that understanding to recommend vendors to business.</p>
-    //     <h3>Dataset Description</h3>
-    //     <a href="https://opendata.dc.gov/datasets/purchase-card-transactions/data?page=11">https://opendata.dc.gov/datasets/purchase-card-transactions/data?page=11</a>
-    //     <p>Students can use this free dataset that have ~430K purchase card transactions. Students can also use any other transactions dataset publicly available or available to Rice students via Rice network.
-    //     </p>
-    // </div>,
+    <div>
+        <h2>Bill.com Challenge</h2>
+        <h2>Network Connections</h2>
+        {/* <h3>Description</h3>
+        <p>Bill.com is a platform that connects businesses through payments. 
+            These connections create a large network of dense and sparse connections. 
+            At Bill.com, we are interested in using this network to help our customers find new businesses to connect to, 
+            search our database, and provide recommendations, to name a few. 
+            Therefore, to emulate the challenges we face at Bill.com, 
+            we have provided a toy dataset that contains information at the entity level as well as 
+            the relationships that make up a network. <br></br>
+            <br></br>
+            For more details about Bill.com's challenge, click <a href="static/tracks2022/Bill Challenge/Bill.com Challenge - Rice Datathon 2021.docx">here</a>
+            </p>
+        <h3>Dataset</h3>
+        <a href="static/tracks2022/Bill Challenge/bill_challenge_datasets.zip">Training and test_edges files</a> */}
+    </div>,
     <div>
         <h2>Chevron Challenge</h2>
         <h2>Oil Drilling Modelling</h2>
             {/* <h3>Background</h3>
-            Every year thousands of hot dogs are toss into the garbage by Fuel Station Managers due to sanitary restrictions on how much time they are kept warm.
-            Having a robust cook plan for every day would grant the stores a sales forecast and a money saving tool.
-            During this challenge, the participants are requested to create a cook plan for certain buckets of time.
-            Stores are open from 8 am to 8 pm every day, including weekends.
-            The 3-hour time buckets provided are:
-            1 = 8am to 10 am,
-            2 = 11am to 1 pm,
-            3 = 2pm to 4 pm,
-            4 = 5pm to 8 pm.
-            <h3>Objective</h3>
-            When planning the logistics of the store, the store managers need to know with time in advance how many hot dogs are they going to sell during that month. In this Data Science Challenge, you are tasked with developing a model to predict:
-            The Gross Sold quantity of hot dogs for different days and buckets for some stores. Please keep in mind that your model must predict an integer number of hotdogs to be sold, there is no such thing as 7.5 hot dogs.
-        <h4>Download the rest of the information and the data here:</h4> */}
-        {/* <a href="../../static/tracks/Chevron_2021_Datathon_Challenge.zip">Chevron Challenge Zip File</a>
-        <p></p>
-        <a href="../../static/tracks/chevron_scoring.zip">Chevron Scoring Zip File</a> */}
+            The process of drilling new wells, especially offshore, is extremely challenging and costly. 
+            After reaching the seabed more than 3,000 feet under water, rigs in the Gulf of Mexico must drill through 
+            an additional 20,000 feet of rock. In these extreme environments, where temperatures and pressures 
+            far exceed regular drilling conditions, specialized equipment and teams are required. <br></br>
+            <br></br>
+            These operations can involve hundreds of people and equipment with very high daily drilling costs. 
+            Reducing the time it takes to drill by even a few hours per well can result in significant savings 
+            for the company and provide a significant competitive advantage as more and more wells are drilled. <br></br>
+            <br></br>
+            Your task is to use historic drilling data to build a model that can predict the rate of penetration 
+            conditional on controllable drilling parameters and/or parameters that are known before the drilling 
+            process begins.  This model could then be used as part of the “Drilling Roadmap” development process, 
+            where the WOB and RPM (Among other variables) are determined before drilling begins. <br></br>
+            <br></br>
+            For more details about Chevron's challenge, click <a href="static/tracks2022/Chevron Challenge/Chevron 2022 Datathon Challenge Synopsis.docx">here</a>
+        <h3>Dataset</h3>
+        <a href="static/tracks2022/Chevron Challenge/chevron_challenge_initial.zip">Chevron Challenge Zip File</a> */}
+        {/* <a href="static/tracks2022/Chevron Challenge/chevron_scoring.zip">Chevron Scoring Zip File</a> */}
     </div>,
     <div>
         <h2>Cognite Challenge</h2>
         <h2>Weather Analysis</h2>
         {/* <h3>Background</h3>
-        <p>In the last 3 months of 2020, Bitcoin (BTC) saw significant volatility as the price climbed from about $10,000 to nearly $30,000. A simple buy and hold strategy in this period would yield phenomenal USD returns but would see no growth in total BTC held.</p>
-        <h3>Objective</h3>
-        <p>The goal of this challenge is to develop a trading strategy to exploit market volatility to maximize the amount of BTC held in a given period. To be explicit – the success of a strategy will not be evaluated based on the USD value of the holdings but by the total BTC held at the end of the period.</p>
-        <h3>Dataset Description</h3>
-        <a href="https://rice.box.com/s/kyte1zcv83tbb5vad8d6rxz0d4orlotm" target="_blank">Quantlab x Rice Datathon 2021 Box Folder</a>
-        <p>More details can be found in the box folder. The ql_datathon folder contains a notebook that can be used by the students to obtain the data they need for this exercise.</p> */}
+        National Data Buoy Center (https://www.ndbc.noaa.gov/) stores meteorological data from various stations in the oceans. 
+        These stations are in strategic locations close to offshore oil and gas platforms and the data obtained 
+        from these stations are extremely important to understand the various conditions an offshore platform experiences. 
+        In this challenge you will build an interactive dashboard where you will enter the name of the station and 
+        will be able to retrieve the wind speed and wind direction at that station for the past 45 days. <br></br>
+        <br></br>
+        For more details about Cognite's Challenge (including data sources), click <a href="static/tracks2022/Cognite Challenge/Rice_Datathon_Cognite_Track.docx">here</a> */}
     </div>,
     <div>
         <h2>BakerRipley Challenge</h2>
         <h2>Houston City Council Investigation</h2>
-        {/* <p>As a consequence of the COVID-19 pandemic, there has been a global shift towards remote business operations. The medical field is no different, as the shift towards telemedicine was heavily accelerated by the pandemic. Data from the CDC shows that there was a 154% YoY increase in telemedicine visits during March 2020 compared to the same period in 2019<sup><a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6943a3.htm">1</a></sup>.
-            By summer 2020, however, there was a sharp decline in telemedicine appointments as patients opted to return to in-office appointments<sup><a href="https://www.statnews.com/2020/09/01/telehealth-visits-decline-covid19-hospitals/">2</a></sup>. This This distinct change in behavior brings into question what the future of telemedicine will look like.</p>
-        <h3>Objective</h3>
-        <p>Using the corpus of publications provided and any supplemental datasets of interest, identify key areas of concern or opportunity for the telemedicine industry. A successful project will be able to synthesize the results of analysis on the provided dataset in the context of the conditions of the COVID-19 pandemic. Feel free to incorporate any supplemental datasets of interest.</p>
-        <h3>Dataset Description</h3>
-        <a href="https://zenodo.org/record/4031923#.YBsadehKg2w">https://zenodo.org/record/4031923#.YBsadehKg2w</a>
-        <p>This dataset contains metadata from 143 Scopus-indexed publications, each of which features the subject “telemedicine” and was published in a “trade journal”. Among the information contained in the metadata are the publication title, authors, journal, abstract text, and article URL.</p>
-        <h3>Potential Resources of Interest:</h3>
-        <h4><a href="https://drive.google.com/file/d/1Nv9Do5yuN2eGjrKHO00kVZ5yi57AN76z/view?usp=sharing?">Study conducted by Doximity</a></h4>
-        <h4><a href="https://www.cdc.gov/pcd/issues/2020/20_0254.htm">Study published by CDC</a></h4>
-        <h4><a href="https://mhealthintelligence.com/news/what-15-medical-specialties-are-most-interested-in-telehealth">Article about telehealth adoption by various medical specialities</a></h4> */}
+        {/* <h3>Background</h3>
+        As of 2020, there are 2,304,580 Houstonians, who are represented by 16 city council members. 
+        Eleven are elected by voters within single-member districts and five at-large members are elected 
+        by all city voters. Prior to the 2023 election, the City of Houston will redraw the district maps based 
+        on the population changes that occurred between the 2010 and 2020 census. Since the 2010 census, 
+        the population of the City of Houston has grown by 205,129 people, a 9.8% increase.<br></br>
+        <br></br>
+        Your challenge is to create a redistricting map for the City of Houston based on
+        the 2020 census and changes in population since 2010. Your map can maintain the
+        status-quo of 11 single-member districts or you may choose to increase or decrease the
+        number of districts if needed to fulfill an equitable balance of power. <br></br>
+        <br></br>
+        For more details about BakerRipley's Challenge (including data sources), click <a href="static/tracks2022/BakerRipley Challenge/BakerRipley 2021 Datathon Challenge.pdf">here</a> */}
     </div>,
     <div>
     <h2>Beginner's Challenge</h2>
