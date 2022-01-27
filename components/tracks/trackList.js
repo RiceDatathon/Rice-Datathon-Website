@@ -67,22 +67,13 @@ const TrackList = [
         status-quo of 11 single-member districts or you may choose to increase or decrease the
         number of districts if needed to fulfill an equitable balance of power. <br></br>
         <br></br>
-        For more details about BakerRipley's Challenge (including data sources), click <a href="static/tracks2022/BakerRipley Challenge/BakerRipley 2021 Datathon Challenge.pdf">here</a> */}
+        For more details about BakerRipley's Challenge (including data sources), click <a href="https://drive.google.com/file/d/1-ax03HjsPE2Bf_ecKbnVt3kUZHqGzFAn/view?usp=sharing">here</a> */}
     </div>,
     <div>
     <h2>Beginner's Challenge</h2>
     <h2>Loan Analysis</h2>
-    {/* <p>As a consequence of the COVID-19 pandemic, there has been a global shift towards remote business operations. The medical field is no different, as the shift towards telemedicine was heavily accelerated by the pandemic. Data from the CDC shows that there was a 154% YoY increase in telemedicine visits during March 2020 compared to the same period in 2019<sup><a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6943a3.htm">1</a></sup>.
-        By summer 2020, however, there was a sharp decline in telemedicine appointments as patients opted to return to in-office appointments<sup><a href="https://www.statnews.com/2020/09/01/telehealth-visits-decline-covid19-hospitals/">2</a></sup>. This This distinct change in behavior brings into question what the future of telemedicine will look like.</p>
-    <h3>Objective</h3>
-    <p>Using the corpus of publications provided and any supplemental datasets of interest, identify key areas of concern or opportunity for the telemedicine industry. A successful project will be able to synthesize the results of analysis on the provided dataset in the context of the conditions of the COVID-19 pandemic. Feel free to incorporate any supplemental datasets of interest.</p>
-    <h3>Dataset Description</h3>
-    <a href="https://zenodo.org/record/4031923#.YBsadehKg2w">https://zenodo.org/record/4031923#.YBsadehKg2w</a>
-    <p>This dataset contains metadata from 143 Scopus-indexed publications, each of which features the subject “telemedicine” and was published in a “trade journal”. Among the information contained in the metadata are the publication title, authors, journal, abstract text, and article URL.</p>
-    <h3>Potential Resources of Interest:</h3>
-    <h4><a href="https://drive.google.com/file/d/1Nv9Do5yuN2eGjrKHO00kVZ5yi57AN76z/view?usp=sharing?">Study conducted by Doximity</a></h4>
-    <h4><a href="https://www.cdc.gov/pcd/issues/2020/20_0254.htm">Study published by CDC</a></h4>
-    <h4><a href="https://mhealthintelligence.com/news/what-15-medical-specialties-are-most-interested-in-telehealth">Article about telehealth adoption by various medical specialities</a></h4> */}
+        {/* <h3>Background</h3> */}
+        
     </div>
     // <div>
     //     <h2>Houston/Texas Trends Track</h2>

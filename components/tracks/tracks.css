@@ -8,13 +8,13 @@
 }
 
 .track-list a {
-    color: #ffffff;
+    color: #1F4068;
     transition: 0.2s ease-in-out;
 }
 
 .track-list a:hover, .track-list a:visited {
     /*color: #748DA5;*/
-    color: #1F4068;
+    color: #ffffff;
 }
 
 .main-track {
