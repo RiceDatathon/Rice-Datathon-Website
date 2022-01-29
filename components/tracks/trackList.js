@@ -15,7 +15,9 @@ const TrackList = [
             For more details about Bill.com's challenge, click <a href="static/tracks2022/Bill Challenge/Bill.com Challenge - Rice Datathon 2021.docx">here</a>
             </p>
         <h3>Dataset</h3>
-        <a href="static/tracks2022/Bill Challenge/bill_challenge_datasets.zip">Training and test_edges files</a>
+        <a href="static/tracks2022/Bill Challenge/bill_challenge_datasets.zip">Training and test_edges files</a><br></br>
+        <br></br>
+        <a href="static/tracks2022/Bill Challenge/bill_challenge_test_labels">Test Labels</a> (NEED THIS TO REPORT TEST ACCURACY)
     </div>,
     <div>
     <h2>Goldman Sachs Challenge</h2>
