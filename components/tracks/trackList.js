@@ -3,7 +3,7 @@ const TrackList = [
     <div>
         <h2>Bill.com Challenge</h2>
         <h2>Network Connections</h2>
-        {/* <h3>Description</h3>
+        <h3>Description</h3>
         <p>Bill.com is a platform that connects businesses through payments. 
             These connections create a large network of dense and sparse connections. 
             At Bill.com, we are interested in using this network to help our customers find new businesses to connect to, 
@@ -15,12 +15,27 @@ const TrackList = [
             For more details about Bill.com's challenge, click <a href="static/tracks2022/Bill Challenge/Bill.com Challenge - Rice Datathon 2021.docx">here</a>
             </p>
         <h3>Dataset</h3>
-        <a href="static/tracks2022/Bill Challenge/bill_challenge_datasets.zip">Training and test_edges files</a> */}
+        <a href="static/tracks2022/Bill Challenge/bill_challenge_datasets.zip">Training and test_edges files</a>
+    </div>,
+    <div>
+    <h2>Goldman Sachs Challenge</h2>
+    <h2>COVID-19 Trends</h2>
+    <h3>Background</h3>
+    The COVID pandemic has significantly impacted all industry verticals, travel and 
+    tourism being one of the most negatively impacted. Some indicators seem to suggest that travel 
+    data may be staging a nascent recovery with geographical/regional nuances. A factual data-supported 
+    analysis summarized in an executive-level report is expected that would assist in asserting the health 
+    of travel and tourism vs pre-pandemic levels by identifying contributing factors and differentiators, and 
+    thereby discerning areas of recoveries. The analysis is expected to also identify resilient leader companies 
+    in the travel/tourism industry and thereby include with strategy recommendations. These data points are inputs
+     to track macro economic developments, and also on decisions around client portfolios.<br></br>
+    <br></br>
+    For more details about Goldman Sachs' Challenge (including possible data sources), click <a href="static/tracks2022/Goldman Sachs Challenge/Rice Datathon GS Challenge_with Evaluation Criteria.pptx">here</a>
     </div>,
     <div>
         <h2>Chevron Challenge</h2>
-        <h2>Oil Drilling Modelling</h2>
-            {/* <h3>Background</h3>
+        <h2>Predicting Rate of Penetration (ROP) for New Well Plans</h2>
+            <h3>Background</h3>
             The process of drilling new wells, especially offshore, is extremely challenging and costly. 
             After reaching the seabed more than 3,000 feet under water, rigs in the Gulf of Mexico must drill through 
             an additional 20,000 feet of rock. In these extreme environments, where temperatures and pressures 
@@ -37,25 +52,25 @@ const TrackList = [
             <br></br>
             For more details about Chevron's challenge, click <a href="static/tracks2022/Chevron Challenge/Chevron 2022 Datathon Challenge Synopsis.docx">here</a>
         <h3>Dataset</h3>
-        <a href="static/tracks2022/Chevron Challenge/chevron_challenge_initial.zip">Chevron Challenge Zip File</a> */}
+        <a href="static/tracks2022/Chevron Challenge/chevron_challenge_initial.zip">Chevron Challenge Zip File</a>
         {/* <a href="static/tracks2022/Chevron Challenge/chevron_scoring.zip">Chevron Scoring Zip File</a> */}
     </div>,
     <div>
         <h2>Cognite Challenge</h2>
         <h2>Weather Analysis</h2>
-        {/* <h3>Background</h3>
+        <h3>Background</h3>
         National Data Buoy Center (https://www.ndbc.noaa.gov/) stores meteorological data from various stations in the oceans. 
         These stations are in strategic locations close to offshore oil and gas platforms and the data obtained 
         from these stations are extremely important to understand the various conditions an offshore platform experiences. 
         In this challenge you will build an interactive dashboard where you will enter the name of the station and 
         will be able to retrieve the wind speed and wind direction at that station for the past 45 days. <br></br>
         <br></br>
-        For more details about Cognite's Challenge (including data sources), click <a href="static/tracks2022/Cognite Challenge/Rice_Datathon_Cognite_Track.docx">here</a> */}
+        For more details about Cognite's Challenge (including data sources), click <a href="static/tracks2022/Cognite Challenge/Rice_Datathon_Cognite_Track.docx">here</a>
     </div>,
     <div>
         <h2>BakerRipley Challenge</h2>
-        <h2>Houston City Council Investigation</h2>
-        {/* <h3>Background</h3>
+        <h2>Redistrict Houston City's Council</h2>
+        <h3>Background</h3>
         As of 2020, there are 2,304,580 Houstonians, who are represented by 16 city council members. 
         Eleven are elected by voters within single-member districts and five at-large members are elected 
         by all city voters. Prior to the 2023 election, the City of Houston will redraw the district maps based 
@@ -67,60 +82,51 @@ const TrackList = [
         status-quo of 11 single-member districts or you may choose to increase or decrease the
         number of districts if needed to fulfill an equitable balance of power. <br></br>
         <br></br>
-        For more details about BakerRipley's Challenge (including data sources), click <a href="https://drive.google.com/file/d/1-ax03HjsPE2Bf_ecKbnVt3kUZHqGzFAn/view?usp=sharing">here</a> */}
+        For more details about BakerRipley's Challenge (including data sources), click <a href="static/tracks2022/BakerRipley Challenge/BakerRipley 2022 Datathon Challenge Proposal.pdf">here</a>
     </div>,
     <div>
     <h2>Beginner's Challenge</h2>
-    <h2>Loan Analysis</h2>
-        {/* <h3>Background</h3> */}
-        
+    <h2>Game of Loans: Home Purchases in Harris County, TX</h2>
+        <h3>Background</h3>
+        <p>According to the Consumer Financial Protection Bureau, "The Home Mortgage Disclosure Act (HMDA) 
+        requires many financial institutions to maintain, report, and publicly disclose loan-level information 
+        about mortgages. These data help show whether lenders are serving the housing needs of their communities; 
+        they give public officials information that helps them make decisions and policies; and they shed light on 
+        lending patterns that could be discriminatory." For this challenge, participants will be asked to make use 
+        of mortgage application data made available via the HMDA to construct a data science project of their own. 
+        This project may involve building a model to predict mortgage application approval, predict the level of 
+        interest for a given mortgage, identify potentially discriminatory lending patterns, or carry out an 
+        entirely separate analysis. <br></br>
+        <br></br>
+        For more details about the Beginner's Challenge, see <a href="https://docs.google.com/presentation/d/1FFNKkjTQloIvFNRWEfQ63pKi4HwBaOBZAU_I1eWzadw/edit?usp=sharing">the presentation</a>, 
+        <a href="https://youtu.be/FvoDhmmP_d0">track explanation video</a>, and <a href="https://docs.google.com/document/d/11BFLBuQMHoflIO-apOQ3EHZU8JF1o2AzZ0RurhUpEp8/edit?usp=sharing">the rubric for final presentations</a>
+        </p>
+        <h3>Dataset</h3>
+        <a href="static/tracks2022/Beginner's Challenge/track.csv">Beginner's Challenge Dataset csv</a>
+    </div>,
+    <div>
+    <h2>Open Challenge</h2>
+        <h3>Background</h3>
+        <p>
+            If you feel like none of the sponsor challenges fit you and your team's interests. You're welcome to 
+            embark on the "Open Challenge." You're free to use any publicly available dataset/data sources on the
+            internet except for Kaggle datasets. Wherever you get your data from, you must include the source
+            on your final Devpost submission, along with any web/data scraping methods you may have used. There are no
+            specific prizes attached to the Open Challenge, however, you will still be eligible for overall awards 
+            (ex. 1st, 2nd, 3rd) and honors (ex. best visualizations, best social impact, etc.)
+            <h3>Datasets</h3>
+            Some possible datasets and data sources to consider:<br></br>
+            <br></br>
+            <a href="https://datacommons.org/">Data Commons developed by Google</a> (if you utilize Data Commons, note
+            it in your submission and we will forward it to the Data Commons team to recognize you)<br></br>
+            <br></br>
+            <a href="https://www.yelp.com/dataset">Yelp Open Dataset</a><br></br>
+            <br></br>
+            <a href="https://data.cdc.gov/">CDC Data</a><br></br>
+            <br></br>
+            <a href="https://www.kinderudp.org/#/datasetCatalog">The Kinder Institute's Urban Data Platform</a><br></br>
+        </p>
     </div>
-    // <div>
-    //     <h2>Houston/Texas Trends Track</h2>
-    //     <h3>Background</h3>
-    //     <p>This track is designed for students who are specifically interested in working with a Houston or Texas related dataset.  These projects should draft a narrative about a trend observed from a local dataset.</p>
-    //     <h3>Objective</h3>
-    //     <p>The outcome of this track is a presentation that paints a coherent story with supporting figures from Houston / Texas related datasets.  Great projects might extend this presentation to include a simple policy suggestion to the Houston City Government or Texas State Government.</p>
-    //     <h3>Kinder UDP</h3>
-    //     <p>The Kinder Urban Data Platform has a wealth of data collected and maintained by the Kinder Institute.  Find datasets here: <a href="https://kinderudp.org">https://kinderudp.org</a>.</p>
-    //     <p>Sample Datasets:</p>
-    //     <ul>
-    //         <li><a href="https://www.kinderudp.org/#/datasetCatalog/7mao80j3akg7">Neighborhood Gentrification across Harris County: 1990 to 2016</a></li>
-    //         <li><a href="https://www.kinderudp.org/#/datasetCatalog/035bqkx1dwov">Public Crash Data Extract from TxDOT (2010-2016)</a></li>
-    //     </ul>
-    //     <h3>Open Data Houston</h3>
-    //     <p>Houston’s open data portal! Collected resource of publicly accessible data on Houston Local Govt. activities.</p>
-    //     <ul>
-    //         <li><a href="http://data.houstontx.gov/dataset/city-of-houston-campaign-finance-reporting">City of Houston Campaign Finance Reporting</a></li>
-    //         <li><a href="http://data.houstontx.gov/dataset/public-schools-in-the-houston-region">Public Schools in the Houston Region</a></li>
-    //     </ul>
-    //     <h3>Texas Open Data Portal</h3>
-    //     <p>Texas’ open data portal! Collected resource of publicly available data on Texas Govt. activities.</p>
-    //     <ul>
-    //         <li><a href="https://data.texas.gov/Government-and-Taxes/Active-Cigarette-Tobacco-Retailers/u5nd-4vpg">Active Cigarette/Tobacco Retailers</a></li>
-    //         <li><a href="https://data.texas.gov/Transportation/CapMetro-APC-RAW-January-2016/sfrh-ucri">CapMetro APC (RAW) - January 2016</a></li>
-    //     </ul>
-    // </div>,
-    // <div>
-    //     <h2>Other Interesting Datasets To Consider</h2>
-    //     <h3>Data.gov Education Data Search Tool</h3>
-    //     <a href="https://nces.ed.gov/ipeds/datacenter/DataFiles.aspx">Get the Dataset Here</a>
-
-    //     <h3>Various Institutional Characteristics of US Colleges and Universities</h3>
-    //     <li><a href="https://github.com/fivethirtyeight/data/tree/master/world-cup-2018">Get the Dataset Here</a></li>
-    //     <li><a href="https://nces.ed.gov/ipeds/datacenter/data/HD2018_Dict.zip">Guide to names of columns</a></li>
-
-    //     <h3>Graduation Rates and Outcomes US Colleges and Universities</h3>
-    //     <li><a href="https://nces.ed.gov/ipeds/datacenter/data/OM2018.zip">Get the Dataset Here</a></li>
-    //     <li><a href="https://nces.ed.gov/ipeds/datacenter/data/OM2018_Dict.zip">Guide to names of columns</a></li>
-
-    //     <h3>Wide Collection Of Different Type of Datasets</h3>
-    //     <a href="https://medium.com/towards-artificial-intelligence/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f ">Get the Dataset Here</a>
-
-    //     <h3>Machine Learning Geared Data Sets</h3>
-    //     <a href="https://medium.com/@ODSC/25-excellent-machine-learning-open-datasets-940ca2124dfc ">Get the Dataset Here</a>
-
-    // </div>
 ]
 
 export default TrackList;
