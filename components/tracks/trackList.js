@@ -54,8 +54,9 @@ const TrackList = [
             <br></br>
             For more details about Chevron's challenge, click <a href="static/tracks2022/Chevron Challenge/Chevron 2022 Datathon Challenge Synopsis.docx">here</a>
         <h3>Dataset</h3>
-        <a href="static/tracks2022/Chevron Challenge/chevron_challenge_initial.zip">Chevron Challenge Zip File</a>
-        {/* <a href="static/tracks2022/Chevron Challenge/chevron_scoring.zip">Chevron Scoring Zip File</a> */}
+        <a href="static/tracks2022/Chevron Challenge/chevron_challenge_initial.zip">Chevron Challenge Zip File</a><br></br>
+        <br></br>
+        <a href="static/tracks2022/Chevron Challenge/scoring.csv">Chevron Challenge Scoring File</a>
     </div>,
     <div>
         <h2>Cognite Challenge</h2>
