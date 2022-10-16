@@ -290,4 +290,15 @@ body {
   }
 }
 
+#about_scroll {
+  transition-duration: 0.5s;
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+#about_scroll:hover {
+  background-color: rgba(247, 255, 247, 0.2);
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.css.map */

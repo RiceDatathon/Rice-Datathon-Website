@@ -221,3 +221,14 @@ body{
     display: block;
   }
 }
+
+#about_scroll{
+  transition-duration: 0.5s;
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+#about_scroll:hover{
+  background-color: rgba($color3, 0.2);
+  cursor: pointer;
+}

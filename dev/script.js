@@ -17,6 +17,10 @@
         return { days, hours, minutes, seconds };
     }
     size_measure();
+    const about_elem = document.getElementById("about_scroll");
+    about_elem.addEventListener("click", () => {
+        window.scrollTo(0, w_height);
+    });
     const anim_speed = 200;
     const anim_speed_factor = 4;
     let cur_show = null;
@@ -74,10 +78,10 @@
         setTime();
 
     }, 1000);
-
     setInterval(() => {
         let cur_scrollY = scrollY;
         t_bg.style.opacity = cur_scrollY / w_height;
+        about_elem.style.opacity = cur_scrollY <= 0 ? 1 : 1 / cur_scrollY * 30;
         if (!cur_animating) {
             if (cur_scrollY < start_content) {
                 if (cur_show !== rice_bg) {

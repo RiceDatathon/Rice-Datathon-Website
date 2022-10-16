@@ -31,11 +31,11 @@
         integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<!-- <a id="mlh-trust-badge"
+<a id="mlh-trust-badge"
     style="display:block;max-width:100px;min-width:60px;position:absolute;right:50px;top:0;width:10%;z-index:10000"
     href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2023-season&utm_content=white"
     target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2023/mlh-trust-badge-2023-white.svg"
-        alt="Major League Hacking 2023 Hackathon Season" style="width:100%"></a> -->
+        alt="Major League Hacking 2023 Hackathon Season" style="width:100%"></a>
 
 <body>
     <div id="site_wrapper">
@@ -48,14 +48,17 @@
         <div class="position-fixed bottom-0 end-0 px-3 py-3">
             <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/Sveiekqu6rsF4hy46" type="button"
                 class="btn btn-color-4">
-                Pre-Registration
+                Pre-register
             </a>
         </div>
         <div class="position-fixed top-0 start-0 vh-100 w-100" id="bg-half-transparent" style="z-index:-10;">
 
         </div>
-        <div
-            class="position-absolute bottom-0 start-50 translate-middle-x px-3 py-2 d-flex flex-column justify-content-center">
+
+        <div class="position-absolute bottom-0 start-50 translate-middle-x px-3 py-2 d-flex flex-column justify-content-center my-3"
+            id="about_scroll">
+            <small class="color-3">About</small>
+            <i class="bi bi-chevron-double-down d-flex justify-content-center color-3"></i>
         </div>
         <div class="position-fixed vh-100 vw-100" id="background-div" style="overflow-x:hidden; z-index: -20;">
             <svg id="bg-0" xmlns="http://www.w3.org/2000/svg" viewBox="15 200 7800 3380" class="vh-100"
@@ -922,13 +925,37 @@
                         What's a
                         Datathon?
                     </div>
-                    <div class="mb-2 pb-4">
+                    <div class="mb-2 pb-2">
                         <p class="lead color-1">
                             A datathon is a special type of hackathon where you'll get the opportunity to solve
                             practical problems by applying data science tools and techniques. Teams work together to
                             find
                             potential solutions or produce insights, showcasing their findings to compete for huge
                             prizes!</p>
+                    </div>
+                    <div class="mb-2 pb-4">
+                        <div class="container">
+                            <div class="h5 text-center my-3"> <em> Past Datathons:</em></div>
+                            <div class="row justify-content-center mx-5">
+                                <div class="col text-center">
+                                    <a href="https://d2k.rice.edu/news/4th-annual-rice-datathon-winner-announced"
+                                        class="btn btn-color-2 my-1 w-100">2022</a>
+                                </div>
+                                <div class="col text-center">
+                                    <a href="https://d2k.rice.edu/news/congratulations-all-winners-and-participants-rice-datathon-2021"
+                                        class="btn btn-color-2 my-1 w-100">2021</a>
+                                </div>
+                                <div class="col text-center">
+                                    <a href="https://news.rice.edu/news/2020/rice-students-sweep-second-datathon"
+                                        class="btn btn-color-2 my-1 w-100">2020</a>
+                                </div>
+                                <div class="col text-center">
+                                    <a href="https://d2k.rice.edu/news/rice-datathon-2019#:~:text=The%20Rice%20Datathon%202019%20competition,25%2D26"
+                                        class="btn btn-color-2 my-1 w-100">2019</a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -1107,6 +1134,7 @@
             </div>
         </footer>
     </div>
+    <!-- <script src="dev/script.js"></script> -->
     <script src="script.min.js"></script>
 </body>
 
