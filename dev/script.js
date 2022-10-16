@@ -1,5 +1,4 @@
 (() => {
-
     let w_height;
     let end_time = new Date(2023, 0, 27, 21);
     function size_measure() {

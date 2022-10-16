@@ -1,0 +1,202 @@
+@use "sass:color";
+
+$color1: #144047;
+$color2: #4ECDC4;
+$color3: #F7FFF7;
+$color4: #FF6B6B;
+$color5: #FFE66D;
+
+// https://coolors.co/palette/f8f9fa-e9ecef-dee2e6-ced4da-adb5bd-6c757d-495057-343a40-212529
+// $color1: #212529;
+// $color2: #495057;
+// $color3: #f8f9fa;
+// $color4: #343a40;
+// $color5: #dee2e6;
+// https://coolors.co/palette/006d77-83c5be-edf6f9-ffddd2-e29578
+// $color1: #edf6f9;
+// $color2: #83c5be;
+// $color3: #006d77;
+// $color4: #ffddd2;
+// $color5: #e29578;
+
+// $color1: #050505;
+// $color2: #ff9f1c;
+// $color3: #fdfffc;
+// $color4: #e71d36;
+// $color5: #2ec4b6;
+$palette: $color1, $color2, $color3, $color4, $color5;
+section{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body, html{
+  letter-spacing: 0.3px;
+  overflow-x: hidden;
+  // font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Saira', sans-serif;
+  // font-family: 'Russo One', sans-serif;
+  // font-family: 'Patua One', cursive;
+  // font-family: 'Poiret One', cursive;
+
+}
+
+.text-alt-font{
+  // font-family: 'Quantico', sans-serif;
+  // font-family: 'Courgette', cursive;
+  font-family: 'Fugaz One', cursive;
+
+
+}
+#site_wrapper{
+  overflow-x: hidden;
+}
+
+path{
+    fill:none;
+    stroke: $color3;
+    stroke-width: 3;
+}
+
+#background-div{
+    z-index:-1;
+}
+
+body{
+  background-color:$color1;
+}
+
+@for $i from 0 through 4 {
+    #bg-#{$i} {
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+    
+  }
+  
+@for $i from 1 through 5 {
+    .color-#{$i} {
+        color: nth($palette, $i);
+    }
+    
+  }
+
+@for $i from 1 through 5 {
+    .bg-color-#{$i} {
+        background-color: nth($palette, $i);
+    }
+    
+  }
+
+  @for $i from 1 through 5 {
+    .btn-color-#{$i} {
+        background-color: nth($palette, $i);
+    }
+    .btn-color-#{$i}:hover{
+        background-color: color.scale(nth($palette, $i), $lightness: -10%);
+    }
+    
+  }
+  @for $i from 1 through 5 {
+    .border-color-#{$i} {
+        border: 1px solid nth($palette, $i);
+    }
+    
+  }
+
+  .img-div-style{
+    height:80%;
+    width: 80%;
+  }
+  .img-style{
+    object-fit: cover;
+    height:100%;
+    width: 100%;
+  }
+
+  @for $i from 1 through 5 {
+    .bg-opaque-#{$i} {
+        background-color: rgba(nth($palette, $i),0.9);
+    }
+    
+  }
+  .mail-a:hover{
+    color:$color4;
+  }
+
+  .pattern-1{
+    background-image: repeating-linear-gradient(45deg, rgba($color1,0), rgba($color1,0) 1.39em, $color5 1em, $color5 50%);
+      background-size: 2em 2em;
+  }
+  .pattern-2{
+    background-image: radial-gradient(ellipse farthest-corner at 1em 1em , rgba($color4,0.15), rgba($color4,0.15) 50%, rgba($color3,0) 50%);
+  background-size: 2em 2em;
+  }
+
+  .pattern-3{
+    background: 
+    linear-gradient(180deg, rgba($color4,0) 20%, rgba($color4,.1) 20%, rgba($color4,.1) 40%, rgba($color4,.2) 40%, rgba($color4,.2) 60%, rgba($color4,.4) 60%, rgba($color4,.4) 80%, rgba($color4,.5) 80%);
+  background-color: $color3;
+  background-size: 100% 100%;
+  min-height: 100%;
+  }
+  #desktop_logo{
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+    @media screen and (min-width: 769px)  {
+      display: block;
+    }
+  }
+  #mobile_logo{
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    @media screen and (min-width: 769px)  {
+      display: none;
+    }
+  }
+
+  #bg-half-transparent{
+    background-color: rgba($color1,0.8);
+    opacity: 0;
+  }
+  .bg-more-transparent{
+    background-color: rgba($color1,0.95);
+  }
+
+.cdown_numbers{
+  font-family: 'Roboto Mono', monospace;
+  @media screen and (max-width: 576px) {
+    font-size: 2rem;
+  }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    font-size: 4rem;
+  }
+  @media screen and (min-width: 769px)  {
+    font-size: 8.6rem;
+  }
+  
+  
+}
+.cdown_titles{
+  @media screen and (max-width: 575px) {
+    font-size: 0.5rem;
+  }
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    font-size: 1rem;
+  }
+  @media screen and (min-width: 769px)  {
+    font-size: 2rem;
+  }
+}
+
+#divider_footer{
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+  @media screen and (min-width: 769px)  {
+    display: block;
+  }
+}
