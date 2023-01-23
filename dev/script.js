@@ -18,7 +18,9 @@
     size_measure();
     const about_elem = document.getElementById("about_scroll");
     about_elem.addEventListener("click", () => {
-        window.scrollTo(0, w_height);
+        //window.scrollTo(0, w_height);
+
+        document.getElementById("countdown").scrollIntoView();
     });
     const anim_speed = 200;
     const anim_speed_factor = 4;

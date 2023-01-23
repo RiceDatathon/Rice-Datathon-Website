@@ -3,8 +3,7 @@ section {
   overflow-x: hidden;
 }
 
-body,
-html {
+body, html {
   letter-spacing: 0.3px;
   overflow-x: hidden;
   font-family: "Saira", sans-serif;
@@ -177,20 +176,40 @@ body {
   background-color: rgba(20, 64, 71, 0.9);
 }
 
+.bg-very-opaque-1 {
+  background-color: rgba(20, 64, 71, 0.5);
+}
+
 .bg-opaque-2 {
   background-color: rgba(78, 205, 196, 0.9);
+}
+
+.bg-very-opaque-2 {
+  background-color: rgba(78, 205, 196, 0.5);
 }
 
 .bg-opaque-3 {
   background-color: rgba(247, 255, 247, 0.9);
 }
 
+.bg-very-opaque-3 {
+  background-color: rgba(247, 255, 247, 0.5);
+}
+
 .bg-opaque-4 {
   background-color: rgba(255, 107, 107, 0.9);
 }
 
+.bg-very-opaque-4 {
+  background-color: rgba(255, 107, 107, 0.5);
+}
+
 .bg-opaque-5 {
   background-color: rgba(255, 230, 109, 0.9);
+}
+
+.bg-very-opaque-5 {
+  background-color: rgba(255, 230, 109, 0.5);
 }
 
 .mail-a:hover {
@@ -219,7 +238,6 @@ body {
     display: none;
   }
 }
-
 @media screen and (min-width: 769px) {
   #desktop_logo {
     display: block;
@@ -231,7 +249,6 @@ body {
     display: block;
   }
 }
-
 @media screen and (min-width: 769px) {
   #mobile_logo {
     display: none;
@@ -250,19 +267,16 @@ body {
 .cdown_numbers {
   font-family: "Roboto Mono", monospace;
 }
-
 @media screen and (max-width: 576px) {
   .cdown_numbers {
     font-size: 2rem;
   }
 }
-
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .cdown_numbers {
     font-size: 4rem;
   }
 }
-
 @media screen and (min-width: 769px) {
   .cdown_numbers {
     font-size: 8.6rem;
@@ -274,13 +288,11 @@ body {
     font-size: 0.5rem;
   }
 }
-
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .cdown_titles {
     font-size: 1rem;
   }
 }
-
 @media screen and (min-width: 769px) {
   .cdown_titles {
     font-size: 2rem;
@@ -292,7 +304,6 @@ body {
     display: none;
   }
 }
-
 @media screen and (min-width: 769px) {
   #divider_footer {
     display: block;
@@ -308,6 +319,68 @@ body {
 #about_scroll:hover {
   background-color: rgba(247, 255, 247, 0.2);
   cursor: pointer;
+}
+
+.span_gold {
+  background: #FFD700;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.span_silver {
+  background: #C0C0C0;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.span_bronze {
+  background: #cd7f32;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.span_white {
+  background: #F7FFF7;
+  padding: 0 10px;
+  border-radius: 4px;
+}
+
+.sponsor_text {
+  width: 100%;
+  text-align: center;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.sponsor_text_gold {
+  border-bottom: 2px solid #FFD700;
+}
+
+.sponsor_text_silver {
+  border-bottom: 2px solid #C0C0C0;
+}
+
+.sponsor_text_bronze {
+  border-bottom: 2px solid #cd7f32;
+}
+
+.sponsor_text_white {
+  border-bottom: 2px solid #F7FFF7;
+}
+
+.portrait-img {
+  padding: 0;
+  border-radius: 90px;
+  width: 100%;
+  border: 1px solid #144047;
+}
+
+.team-role {
+  border-bottom: 2px solid rgba(255, 107, 107, 0.3);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -5,6 +5,9 @@ $color2: #4ECDC4;
 $color3: #F7FFF7;
 $color4: #FF6B6B;
 $color5: #FFE66D;
+$gold: #FFD700;
+$silver: #C0C0C0;
+$bronze: #cd7f32;
 
 //https://coolors.co/palette/022b3a-1f7a8c-bfdbf7-e1e5f2-ffffff
 // $color1: #ffffff;
@@ -140,7 +143,9 @@ body{
     .bg-opaque-#{$i} {
         background-color: rgba(nth($palette, $i),0.9);
     }
-    
+    .bg-very-opaque-#{$i} {
+      background-color: rgba(nth($palette, $i),0.5);
+  }
   }
   .mail-a:hover{
     color:$color4;
@@ -231,4 +236,66 @@ body{
 #about_scroll:hover{
   background-color: rgba($color3, 0.2);
   cursor: pointer;
+}
+
+.span_gold{
+  background: $gold; 
+  padding:0 10px; 
+  border-radius: 4px;
+}
+
+.span_silver{
+  background: $silver; 
+  padding:0 10px; 
+  border-radius: 4px;
+}
+
+.span_bronze{
+  background: $bronze; 
+  padding:0 10px; 
+  border-radius: 4px;
+}
+
+.span_white{
+  background: $color3; 
+  padding:0 10px; 
+  border-radius: 4px;
+}
+
+.sponsor_text{
+  width: 100%; 
+   text-align: center; 
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+.sponsor_text_gold{
+  border-bottom: 2px solid $gold; 
+}
+
+.sponsor_text_silver{
+  border-bottom: 2px solid $silver; 
+}
+
+.sponsor_text_bronze{
+  border-bottom: 2px solid $bronze; 
+}
+
+.sponsor_text_white{
+  border-bottom: 2px solid $color3; 
+}
+
+.portrait-img{
+  padding: 0;
+  border-radius: 90px;
+  width:100%;
+  border: 1px solid $color1;
+}
+
+.team-role{
+  border-bottom: 2px solid rgba($color4, 0.3);
+}
+
+html{
+  scroll-behavior: smooth;
 }
