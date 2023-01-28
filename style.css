@@ -101,6 +101,10 @@ body {
   background-color: #FFE66D;
 }
 
+.bg-color-white {
+  background-color: white;
+}
+
 .btn-color-1 {
   background-color: #144047;
 }

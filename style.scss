@@ -112,7 +112,9 @@ body{
     }
     
   }
-
+  .bg-color-white {
+    background-color: white;
+}
   @for $i from 1 through 5 {
     .btn-color-#{$i} {
         background-color: nth($palette, $i);

@@ -20,13 +20,13 @@
     about_elem.addEventListener("click", () => {
         //window.scrollTo(0, w_height);
 
-        document.getElementById("countdown").scrollIntoView();
+        document.getElementById("schedule").scrollIntoView();
     });
     const anim_speed = 200;
     const anim_speed_factor = 4;
     let cur_show = null;
     let start_content = document.getElementById('start_content').offsetTop + (document.getElementById('start_content').scrollHeight / 2) - (w_height / 2);
-    let start_sponsor = document.getElementById('start_sponsor').offsetTop + (document.getElementById('start_sponsor').scrollHeight / 2) - w_height;
+    //let start_sponsor = document.getElementById('start_sponsor').offsetTop + (document.getElementById('start_sponsor').scrollHeight / 2) - w_height;
     let cur_animating = false;
     let rice_bg = new Vivus(`bg-0`, { type: 'delayed', duration: anim_speed, start: 'manual' });
     let lines_dots = new Vivus(`bg-1`, { type: 'delayed', duration: anim_speed, start: 'manual' });
@@ -44,41 +44,41 @@
         c_m = 0,
         c_s = 0;
 
-    function setTime(first = false) {
-        let { days, hours, minutes, seconds } = date_diff();
-        if (first) {
-            c_d = days;
-            c_h = hours;
-            c_m = minutes;
-            c_s = seconds;
-            cdown_days.textContent = days;
-            cdown_hours.textContent = hours;
-            cdown_minutes.textContent = minutes;
-            cdown_seconds.textContent = seconds;
-            return
-        }
-        if (c_d != days) {
-            c_d = days;
-            cdown_days.textContent = days;
-        }
-        if (c_h != hours) {
-            c_h = hours;
-            cdown_hours.textContent = hours;
-        }
-        if (c_m != minutes) {
-            c_m = minutes;
-            cdown_minutes.textContent = minutes;
-        }
-        if (c_s != seconds) {
-            c_s = seconds;
-            cdown_seconds.textContent = seconds;
-        }
-    }
-    setTime(true);
-    setInterval(() => {
-        setTime();
+    // function setTime(first = false) {
+    //     let { days, hours, minutes, seconds } = date_diff();
+    //     if (first) {
+    //         c_d = days;
+    //         c_h = hours;
+    //         c_m = minutes;
+    //         c_s = seconds;
+    //         cdown_days.textContent = days;
+    //         cdown_hours.textContent = hours;
+    //         cdown_minutes.textContent = minutes;
+    //         cdown_seconds.textContent = seconds;
+    //         return
+    //     }
+    //     if (c_d != days) {
+    //         c_d = days;
+    //         cdown_days.textContent = days;
+    //     }
+    //     if (c_h != hours) {
+    //         c_h = hours;
+    //         cdown_hours.textContent = hours;
+    //     }
+    //     if (c_m != minutes) {
+    //         c_m = minutes;
+    //         cdown_minutes.textContent = minutes;
+    //     }
+    //     if (c_s != seconds) {
+    //         c_s = seconds;
+    //         cdown_seconds.textContent = seconds;
+    //     }
+    // }
+    // setTime(true);
+    // setInterval(() => {
+    //     setTime();
 
-    }, 1000);
+    // }, 1000);
     setInterval(() => {
         let cur_scrollY = scrollY;
         t_bg.style.opacity = cur_scrollY / w_height;
