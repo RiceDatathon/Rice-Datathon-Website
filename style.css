@@ -6,11 +6,11 @@ section {
 body, html {
   letter-spacing: 0.3px;
   overflow-x: hidden;
-  font-family: "Saira", sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .text-alt-font {
-  font-family: "Fugaz One", cursive;
+  font-family: 'Exo 2', sans-serif;
 }
 
 #site_wrapper {
