@@ -66,7 +66,7 @@ body {
 }
 
 .color-2 {
-  color: #7D01FA; /* FAQ headings, Sponsors title */
+  color: #D714FA; /* FAQ headings, Sponsors title */
 }
 
 .color-3 {
@@ -74,11 +74,11 @@ body {
 }
 
 .color-4 {
-  color: #D714FA; /* Light text box title */
+  color: #7D01FA; /* Light text box title */
 }
 
 .color-5 {
-  color: #7D01FA; /* dark text box title */
+  color: #D714FA; /* dark text box title */
 }
 
 /* tbh idk what bg-color does but changing them didn't change anything i think */
@@ -218,7 +218,7 @@ body {
 }
 
 .mail-a:hover {
-  color: #D714FA; /* hover color over the mail button */
+  color: #7D01FA; /* hover color over the mail button */
 }
 
 .pattern-1 {
@@ -261,7 +261,7 @@ body {
 }
 
 #bg-half-transparent {
-  background-color: #070b3e; /* background gradient */
+  background-color: #070b3ec9; /* background gradient */
   opacity: 0;
 }
 
