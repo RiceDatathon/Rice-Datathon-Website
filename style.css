@@ -65,6 +65,10 @@ body {
   color: #0B1350; /* white background text, past Datathons buttons text */
 }
 
+.color-1:link:hover {
+  color: #7D01FA;
+}
+
 .color-2 {
   color: #D714FA; /* FAQ headings, Sponsors title */
 }
@@ -73,9 +77,18 @@ body {
   color: #FBFCFF; /* dark text box font color */
 }
 
+.color-3:hover {
+  color: #FBFCFF;
+}
+
+.color-3:link:hover {
+  color: #7D01FA;
+}
+
 .color-4 {
   color: #7D01FA; /* Light text box title */
 }
+
 
 .color-5 {
   color: #D714FA; /* dark text box title */
@@ -111,7 +124,7 @@ body {
 }
 
 .btn-color-1:hover {
-  background-color: #123a40;
+  background-color: #FBFCFF;
 }
 
 .btn-color-2 {
