@@ -400,4 +400,11 @@ html {
   scroll-behavior: smooth;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
