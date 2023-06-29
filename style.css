@@ -407,4 +407,27 @@ html {
   width: 50%;
 }
 
+/* mailchimp stuff */
+
+/* source: https://jessicaslaughter.co/blog/how-to-customize-the-mailchimp-signup-form-on-your-blog/ */
+/* Changes the style of the overall form */
+#mc_embed_signup {
+    background: #FBFCFF;
+    color: #0B1350;
+    padding: 20px;
+        text-align: left;
+}
+
+/* Adds extra space around the input boxes */
+#mc_embed_signup .mc-field-group {
+    padding: 10px 0;
+}
+
+/* Styles the input boxes */
+#mc_embed_signup  input {
+    width: 200px;
+    border: #FBFCFF;
+    border-bottom: #0B1350;
+}
+
 /*# sourceMappingURL=style.css.map */
