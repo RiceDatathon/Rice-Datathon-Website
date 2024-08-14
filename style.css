@@ -86,7 +86,7 @@ body {
 }
 
 .color-4 {
-  color: #42213d; /* Light text box title */
+  color: #19647e; /* Light text box title */
 }
 
 
@@ -100,7 +100,7 @@ body {
 }
 
 .bg-color-2 {
-  background-color: #2D18FA;
+  background-color: #da344d;
 }
 
 .bg-color-3 {
@@ -128,7 +128,7 @@ body {
 }
 
 .btn-color-2 {
-  background-color: #2D18FA;
+  background-color: #da344d;
 }
 
 .btn-color-2:hover {
@@ -274,12 +274,12 @@ body {
 }
 
 #bg-half-transparent {
-  background-color: #34442c; /* background gradient */
+  background-color: #040504; /* background gradient */
   opacity: 0;
 }
 
 .bg-more-transparent {
-  background-color: #415f32;
+  background-color: #040504;
 }
 
 .cdown_numbers {
