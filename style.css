@@ -62,15 +62,15 @@ body {
 }
 
 .color-1 {
-  color: #0B1350; /* white background text, past Datathons buttons text */
+  color: #19647e; /* white background text, past Datathons buttons text */
 }
 
 .color-1:link:hover {
-  color: #7D01FA;
+  color: #42213d;
 }
 
 .color-2 {
-  color: #D714FA; /* FAQ headings, Sponsors title */
+  color: #da344d; /* FAQ headings, Sponsors title */
 }
 
 .color-3 {
@@ -82,16 +82,16 @@ body {
 }
 
 .color-3:link:hover {
-  color: #7D01FA;
+  color: #42213d;
 }
 
 .color-4 {
-  color: #7D01FA; /* Light text box title */
+  color: #42213d; /* Light text box title */
 }
 
 
 .color-5 {
-  color: #D714FA; /* dark text box title */
+  color: #da344d; /* dark text box title */
 }
 
 /* tbh idk what bg-color does but changing them didn't change anything i think */
@@ -207,7 +207,7 @@ body {
 }
 
 .bg-opaque-3 {
-  background-color: #FBFCFF; /* light text box background color */
+  background-color: #7dbbc3; /* light text box background color */
 }
 
 .bg-very-opaque-3 {
@@ -231,7 +231,7 @@ body {
 }
 
 .mail-a:hover {
-  color: #7D01FA; /* hover color over the mail button */
+  color: #42213d; /* hover color over the mail button */
 }
 
 .pattern-1 {
@@ -274,12 +274,12 @@ body {
 }
 
 #bg-half-transparent {
-  background-color: #070b3ec9; /* background gradient */
+  background-color: #34442c; /* background gradient */
   opacity: 0;
 }
 
 .bg-more-transparent {
-  background-color: rgba(20, 64, 71, 0.95);
+  background-color: #415f32;
 }
 
 .cdown_numbers {
