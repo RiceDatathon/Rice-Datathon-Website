@@ -252,12 +252,12 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  #desktop_logo_2024 {
+  #2025_desktop_logo {
     display: none;
   }
 }
 @media screen and (min-width: 769px) {
-  #desktop_logo_2024 {
+  #2025_desktop_logo {
     display: block;
   }
 }
