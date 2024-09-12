@@ -254,11 +254,15 @@ body {
 @media screen and (max-width: 768px) {
   #2025_desktop_logo {
     display: none;
+    width: 200px;
+    height: auto;
   }
 }
 @media screen and (min-width: 769px) {
   #2025_desktop_logo {
     display: block;
+    width: 800px;
+    height: auto;
   }
 }
 
