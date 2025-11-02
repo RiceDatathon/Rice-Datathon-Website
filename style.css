@@ -19,7 +19,7 @@ body, html {
 
 path {
   fill: none;
-  stroke: #FBFCFF;
+  stroke: #FBFCFF;            
   stroke-width: 3;
 }
 
@@ -27,407 +27,203 @@ path {
   z-index: -1;
 }
 
+
 body {
-  background-color: #42213d; /* main bg color */
+  background-color: #5C94FC;  /
 }
 
-#bg-0 {
+#bg-0, #bg-1, #bg-2, #bg-3, #bg-4 {
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
 }
 
-#bg-1 {
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-}
+.text-mario{ font-family:"Press Start 2P", system-ui, sans-serif; letter-spacing: .5px; }
 
-#bg-2 {
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-}
+.splash-drop {
+    animation: splashDrop 800ms cubic-bezier(.2,.8,.2,1.1) both;
+    will-change: transform, opacity;
+  }
+  @keyframes splashDrop {
+    0%   { opacity: 0; transform: translateY(-40vh) scale(.98); filter: blur(3px); }
+    70%  { opacity: 1; transform: translateY(3vh)  scale(1.0);  filter: blur(0); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
 
-#bg-3 {
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
-}
-
-#bg-4 {
-  left: 50%;
-  transform: translateX(-50%);
-  position: absolute;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px;
+  justify-items: center; 
+  align-items: center;
 }
 
 .color-1 {
-  color: #19647e; /* white background text, past Datathons buttons text */
-}
-
-.color-1:link:hover {
-  color: #42213d;
+  color: #29A1FF;            
 }
 
 .color-2 {
-  color: #da344d; /* FAQ headings, Sponsors title */
+  color: #E52521;           
 }
 
 .color-3 {
-  color: #FBFCFF; /* dark text box font color */
+  color: #CDE7FF;          
 }
 
-.color-3:hover {
+.color-3:hover,
+.color-3:link:hover {
   color: #FBFCFF;
 }
 
-.color-3:link:hover {
-  color: #42213d;
-}
-
 .color-4 {
-  color: #19647e; /* Light text box title */
+  color: #32b24a;             
 }
-
 
 .color-5 {
-  color: #da344d; /* dark text box title */
+  color: #FFD100;             
 }
 
-/* tbh idk what bg-color does but changing them didn't change anything i think */
-.bg-color-1 {
-  background-color: #0B1350;
+.color-6 {
+  color: #FFFFFF;             
 }
 
-.bg-color-2 {
-  background-color: #da344d;
+.color-9 {
+  color: #0E0E10;
 }
 
-.bg-color-3 {
-  background-color: #FBFCFF;
+.color-10{
+  color: #0D2B7E;
 }
 
-.bg-color-4 {
-  background-color: #FF6B6B;
+
+.team-card { text-align:center;  }
+.team-name { font-weight:800; font-size:1.6rem; color:#0F1D3B; margin-top:0.6rem;  } 
+.team-role { color:#E06A6A; font-weight:600; margin-top:0.15rem; }                 
+.team-major { color:#6AA3D8; font-weight:600; margin-top:0.05rem; }               
+
+.team-card figcaption,
+.team-card .team-name,
+.team-card .team-role,
+.team-card .team-major {
+  border: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
 }
 
-.bg-color-5 {
-  background-color: #FFE66D;
-}
 
-.bg-color-white {
-  background-color: white;
-}
+.bg-color-1 { background-color: #5C94FC; }  
+.bg-color-2 { background-color: #E52521; } 
+.bg-color-3 { background-color: #FBFCFF; }  
+.bg-color-4 { background-color: #29A1FF; }  
+.bg-color-5 { background-color: #FFD100; } 
+.bg-color-white { background-color: #FFFFFF; }
 
-.btn-color-1 {
-  background-color: #144047;
-}
+/
+.btn-color-1 { background-color: #2ECC40; }        
+.btn-color-1:hover { background-color: #FBFCFF; }
 
-.btn-color-1:hover {
-  background-color: #FBFCFF;
-}
+.btn-color-2 { background-color: #E52521; }        
+.btn-color-2:hover { background-color: #5C94FC; }  
 
-.btn-color-2 {
-  background-color: #da344d;
-}
+.btn-color-3 { background-color: #FBFCFF; }       
+.btn-color-3:hover { background-color: #C9F7D2; } 
 
-.btn-color-2:hover {
-  background-color: #0B1350;
-}
+.btn-color-4 { background-color: #FFD100; }       
+.btn-color-4:hover { background-color: #E2B200; }  
 
-.btn-color-3 {
-  background-color: #FBFCFF;
-}
+.btn-color-5 { background-color: #29A1FF; }        
+.btn-color-5:hover { background-color: #1677CC; } 
 
-.btn-color-3:hover {
-  background-color: #c5ffc5;
-}
+.border-color-1 { border: 1px solid #2ECC40; }     
+.border-color-2 { border: 1px solid #29A1FF; }    
+.border-color-3 { border: 1px solid #FBFCFF; }     
+.border-color-4 { border: 1px solid #E52521; }     
+.border-color-5 { border: 1px solid #FFD100; }    
 
-.btn-color-4 {
-  background-color: #FF6B6B;
-}
+.img-div-style { height: 80%; width: 80%; }
+.img-style { object-fit: cover; height: 100%; width: 100%; }
 
-.btn-color-4:hover {
-  background-color: #ff4747;
-}
+.bg-opaque-1       { background-color: #0D2B7E; }               
+.bg-very-opaque-1  { background-color: #0D2B7E; }
 
-.btn-color-5 {
-  background-color: #FFE66D;
-}
 
-.btn-color-5:hover {
-  background-color: #ffe049;
-}
+.bg-block-1       { background-color: #f7c211; }  
 
-.border-color-1 {
-  border: 1px solid #144047;
-}
+.bg-opaque-2       { background-color: rgba(41, 161, 255, 0.9); } 
+.bg-very-opaque-2  { background-color: rgba(41, 161, 255, 0.5); }
 
-.border-color-2 {
-  border: 1px solid #4ECDC4;
-}
+.bg-opaque-3       { background-color: #CDE7FF; }               
+.bg-very-opaque-3  { background-color: rgba(251, 252, 255, 0.5); }
 
-.border-color-3 {
-  border: 1px solid #FBFCFF;
-}
+.bg-opaque-4       { background-color: rgba(229, 37, 33, 0.9); } 
+.bg-very-opaque-4  { background-color: rgba(229, 37, 33, 0.5); }
 
-.border-color-4 {
-  border: 1px solid #FF6B6B;
-}
+.bg-opaque-5       { background-color: rgba(255, 209, 0, 0.9); } 
+.bg-very-opaque-5  { background-color: rgba(255, 209, 0, 0.5); }
 
-.border-color-5 {
-  border: 1px solid #FFE66D;
-}
 
-.img-div-style {
-  height: 80%;
-  width: 80%;
-}
-
-.img-style {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-.bg-opaque-1 {
-  background-color: #0B1350; /* dark text box background color */
-}
-
-.bg-very-opaque-1 {
-  background-color: #0B1350; /* idk what this one does */
-}
-
-.bg-opaque-2 {
-  background-color: rgba(78, 205, 196, 0.9); /* idk */
-}
-
-.bg-very-opaque-2 {
-  background-color: rgba(78, 205, 196, 0.5); /* idk */
-}
-
-.bg-opaque-3 {
-  background-color: #7dbbc3; /* light text box background color */
-}
-
-.bg-very-opaque-3 {
-  background-color: rgba(247, 255, 247, 0.5); /* idk */
-}
-
-.bg-opaque-4 {
-  background-color: rgba(255, 107, 107, 0.9); /* idk */
-}
-
-.bg-very-opaque-4 {
-  background-color: rgba(255, 107, 107, 0.5); /* idk */
-}
-
-.bg-opaque-5 {
-  background-color: rgba(255, 230, 109, 0.9); /* idk */
-}
-
-.bg-very-opaque-5 {
-  background-color: rgba(255, 230, 109, 0.5); /* idk */
-}
-
-.mail-a:hover {
-  color: #42213d; /* hover color over the mail button */
-}
+.mail-a:hover { color: #0E0E10; } 
 
 .pattern-1 {
-  background-image: repeating-linear-gradient(45deg, rgba(20, 64, 71, 0), rgba(20, 64, 71, 0) 1.39em, #FFE66D 1em, #FFE66D 50%);
+  background-image: repeating-linear-gradient(45deg, rgba(46, 204, 64, 0), rgba(46, 204, 64, 0) 1.39em, #FFD100 1em, #FFD100 50%);
   background-size: 2em 2em;
 }
-
 .pattern-2 {
-  background-image: radial-gradient(ellipse farthest-corner at 1em 1em, rgba(255, 107, 107, 0.15), rgba(255, 107, 107, 0.15) 50%, rgba(247, 255, 247, 0) 50%);
+  background-image: radial-gradient(ellipse farthest-corner at 1em 1em, rgba(41, 161, 255, 0.15), rgba(41, 161, 255, 0.15) 50%, rgba(251, 252, 255, 0) 50%);
   background-size: 2em 2em;
 }
-
 .pattern-3 {
-  background: linear-gradient(180deg, rgba(255, 107, 107, 0) 20%, rgba(255, 107, 107, 0.1) 20%, rgba(255, 107, 107, 0.1) 40%, rgba(255, 107, 107, 0.2) 40%, rgba(255, 107, 107, 0.2) 60%, rgba(255, 107, 107, 0.4) 60%, rgba(255, 107, 107, 0.4) 80%, rgba(255, 107, 107, 0.5) 80%);
-  background-color: #F7FFF7;
+  background: linear-gradient(180deg, rgba(229, 37, 33, 0) 20%, rgba(229, 37, 33, 0.1) 20%, rgba(229, 37, 33, 0.1) 40%, rgba(229, 37, 33, 0.2) 40%, rgba(229, 37, 33, 0.2) 60%, rgba(229, 37, 33, 0.4) 60%, rgba(229, 37, 33, 0.4) 80%, rgba(229, 37, 33, 0.5) 80%);
+  background-color: #FBFCFF;
   background-size: 100% 100%;
   min-height: 100%;
 }
 
-@media screen and (max-width: 768px) {
-  #2025_desktop_logo {
-    display: none;
-  }
-}
-@media screen and (min-width: 769px) {
-  #2025_desktop_logo {
-    display: block;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  #mobile_logo {
-    display: block;
-  }
-}
-@media screen and (min-width: 769px) {
-  #mobile_logo {
-    display: none;
-  }
-}
+@media screen and (max-width: 768px) { #2025_desktop_logo { display: none; } }
+@media screen and (min-width: 769px) { #2025_desktop_logo { display: block; } }
+@media screen and (max-width: 768px) { #mobile_logo { display: block; } }
+@media screen and (min-width: 769px) { #mobile_logo { display: none; } }
 
-#bg-half-transparent {
-  background-color: #2d1729; /* background gradient */
-  opacity: 0;
-}
 
-.bg-more-transparent {
-  background-color: #1a1018;
-}
+#bg-half-transparent { background-color: #163B8F; opacity: 0; }
+.bg-more-transparent { background-color: #0B225F; }
 
-.cdown_numbers {
-  font-family: "Roboto Mono", monospace;
-}
-@media screen and (max-width: 576px) {
-  .cdown_numbers {
-    font-size: 2rem;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .cdown_numbers {
-    font-size: 4rem;
-  }
-}
-@media screen and (min-width: 769px) {
-  .cdown_numbers {
-    font-size: 8.6rem;
-  }
-}
 
-@media screen and (max-width: 575px) {
-  .cdown_titles {
-    font-size: 0.5rem;
-  }
-}
-@media screen and (min-width: 576px) and (max-width: 768px) {
-  .cdown_titles {
-    font-size: 1rem;
-  }
-}
-@media screen and (min-width: 769px) {
-  .cdown_titles {
-    font-size: 2rem;
-  }
-}
+.cdown_numbers { font-family: "Roboto Mono", monospace; }
+@media screen and (max-width: 576px) { .cdown_numbers { font-size: 2rem; } }
+@media screen and (min-width: 576px) and (max-width: 768px) { .cdown_numbers { font-size: 4rem; } }
+@media screen and (min-width: 769px) { .cdown_numbers { font-size: 8.6rem; } }
 
-@media screen and (max-width: 768px) {
-  #divider_footer {
-    display: none;
-  }
-}
-@media screen and (min-width: 769px) {
-  #divider_footer {
-    display: block;
-  }
-}
+@media screen and (max-width: 575px) { .cdown_titles { font-size: 0.5rem; } }
+@media screen and (min-width: 576px) and (max-width: 768px) { .cdown_titles { font-size: 1rem; } }
+@media screen and (min-width: 769px) { .cdown_titles { font-size: 2rem; } }
 
-#about_scroll {
-  transition-duration: 0.5s;
-  background-color: transparent;
-  border-radius: 30px;
-}
+@media screen and (max-width: 768px) { #divider_footer { display: none; } }
+@media screen and (min-width: 769px) { #divider_footer { display: block; } }
 
-#about_scroll:hover {
-  background-color: rgba(247, 255, 247, 0.2);
-  cursor: pointer;
-}
+#about_scroll { transition-duration: 0.5s; background-color: transparent; border-radius: 30px; }
+#about_scroll:hover { background-color: rgba(251, 252, 255, 0.2); cursor: pointer; }
 
-.span_gold {
-  background: #FFD700;
-  padding: 0 10px;
-  border-radius: 4px;
-}
 
-.span_silver {
-  background: #C0C0C0;
-  padding: 0 10px;
-  border-radius: 4px;
-}
+.span_gold   { background: #FFD700; padding: 0 10px; border-radius: 4px; }
+.span_silver { background: #C0C0C0; padding: 0 10px; border-radius: 4px; }
+.span_bronze { background: #cd7f32; padding: 0 10px; border-radius: 4px; }
+.span_white  { background: #F7FFF7; padding: 0 10px; border-radius: 4px; }
 
-.span_bronze {
-  background: #cd7f32;
-  padding: 0 10px;
-  border-radius: 4px;
-}
+.sponsor_text { width: 100%; text-align: center; line-height: 0.1em; margin: 10px 0 20px; }
+.sponsor_text_gold   { border-bottom: 2px solid #FFD700; }
+.sponsor_text_silver { border-bottom: 2px solid #C0C0C0; }
+.sponsor_text_bronze { border-bottom: 2px solid #cd7f32; }
+.sponsor_text_white  { border-bottom: 2px solid #F7FFF7; }
 
-.span_white {
-  background: #F7FFF7;
-  padding: 0 10px;
-  border-radius: 4px;
-}
+.portrait-img { padding: 0; border-radius: 10px; width: 100%; }
+.team-role { border-bottom: 2px solid rgba(229, 37, 33, 0.3); } 
 
-.sponsor_text {
-  width: 100%;
-  text-align: center;
-  line-height: 0.1em;
-  margin: 10px 0 20px;
-}
+html { scroll-behavior: smooth; }
+.center { display: block; margin-left: auto; margin-right: auto; width: 50%; }
 
-.sponsor_text_gold {
-  border-bottom: 2px solid #FFD700;
-}
 
-.sponsor_text_silver {
-  border-bottom: 2px solid #C0C0C0;
-}
-
-.sponsor_text_bronze {
-  border-bottom: 2px solid #cd7f32;
-}
-
-.sponsor_text_white {
-  border-bottom: 2px solid #F7FFF7;
-}
-
-.portrait-img {
-  padding: 0;
-  border-radius: 10px;
-  width: 100%;
-}
-
-.team-role {
-  border-bottom: 2px solid rgba(255, 107, 107, 0.3);
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-/* mailchimp stuff */
-
-/* source: https://jessicaslaughter.co/blog/how-to-customize-the-mailchimp-signup-form-on-your-blog/ */
-/* Changes the style of the overall form */
-#mc_embed_signup {
-    background: #FBFCFF;
-    color: #0B1350;
-    padding: 20px;
-        text-align: center;
-}
-
-/* Adds extra space around the input boxes */
-#mc_embed_signup .mc-field-group {
-    padding: 10px;
-}
-
-/* Styles the input boxes */
-#mc_embed_signup  input {
-    width: 200px;
-    border: #FBFCFF;
-    border-bottom: #0B1350;
-}
-
-/*# sourceMappingURL=style.css.map */
+#mc_embed_signup { background: #FBFCFF; color: #0D2B7E; padding: 20px; text-align: center; }
+#mc_embed_signup .mc-field-group { padding: 10px; }
+#mc_embed_signup input { width: 200px; border: #FBFCFF; border-bottom: #0D2B7E; }
