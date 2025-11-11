@@ -227,3 +227,36 @@ html { scroll-behavior: smooth; }
 #mc_embed_signup { background: #FBFCFF; color: #0D2B7E; padding: 20px; text-align: center; }
 #mc_embed_signup .mc-field-group { padding: 10px; }
 #mc_embed_signup input { width: 200px; border: #FBFCFF; border-bottom: #0D2B7E; }
+
+/* Smoothly scaling headline size */
+.display-fluid {
+  font-size: clamp(1.75rem, 1.2rem + 2.2vw, 3rem);
+  line-height: 1.15;
+}
+
+/* Consistent card behavior */
+.section-card { display: flex; flex-direction: column; }
+
+/* Optional: slightly smaller lead on very small screens */
+@media (max-width: 575.98px) {
+  .lead { font-size: 1.05rem; }
+}
+
+/* When the two cards stack (tablet & below) */
+@media (max-width: 991.98px) {
+  /* stack the grid and remove grid gap */
+  #start_content .grid-container { 
+    grid-template-columns: 1fr; 
+    gap: 0; 
+  }
+
+  /* ensure full width so spacing feels consistent */
+  #start_content .grid-item { width: 100%; }
+
+  /* add upper spacing to the SECOND card only
+     Use margin-top so we don't fight py-* padding,
+     and add !important to beat Bootstrap utilities. */
+  #start_content .grid-item + .grid-item {
+    margin-top: 1.25rem !important; /* tweak 1–1.5rem to match other blocks */
+  }
+}
