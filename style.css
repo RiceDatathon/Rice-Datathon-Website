@@ -116,6 +116,7 @@ body {
 .bg-color-3 { background-color: #FBFCFF; }  
 .bg-color-4 { background-color: #29A1FF; }  
 .bg-color-5 { background-color: #FFD100; } 
+.bg-color-6 { background-color: #72c281; }
 .bg-color-white { background-color: #FFFFFF; }
 
 
@@ -161,7 +162,6 @@ body {
 .bg-opaque-5       { background-color: rgba(255, 209, 0, 0.9); } 
 .bg-very-opaque-5  { background-color: rgba(255, 209, 0, 0.5); }
 
-
 .mail-a:hover { color: #0E0E10; } 
 
 .pattern-1 {
@@ -180,8 +180,8 @@ body {
 }
 
 
-@media screen and (max-width: 768px) { #2025_desktop_logo { display: none; } }
-@media screen and (min-width: 769px) { #2025_desktop_logo { display: block; } }
+@media screen and (max-width: 768px) { #2026_logo { display: none; } }
+@media screen and (min-width: 769px) { #2026_logo { display: block; } }
 @media screen and (max-width: 768px) { #mobile_logo { display: block; } }
 @media screen and (min-width: 769px) { #mobile_logo { display: none; } }
 
@@ -259,4 +259,12 @@ html { scroll-behavior: smooth; }
   #start_content .grid-item + .grid-item {
     margin-top: 1.25rem !important; /* tweak 1–1.5rem to match other blocks */
   }
+}
+
+:root {
+  --section-gap: 6rem; 
+}
+
+.section-block {
+  margin-bottom: var(--section-gap);
 }

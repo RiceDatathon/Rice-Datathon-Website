@@ -26,7 +26,6 @@
     const anim_speed_factor = 4;
     let cur_show = null;
     let start_content = document.getElementById('start_content').offsetTop + (document.getElementById('start_content').scrollHeight / 2) - (w_height / 2);
-    //let start_sponsor = document.getElementById('start_sponsor').offsetTop + (document.getElementById('start_sponsor').scrollHeight / 2) - w_height;
     let cur_animating = false;
     let rice_bg = new Vivus(`bg-0`, { type: 'delayed', duration: anim_speed, start: 'manual' });
     let lines_dots = new Vivus(`bg-1`, { type: 'delayed', duration: anim_speed, start: 'manual' });
