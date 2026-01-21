@@ -268,3 +268,89 @@ html { scroll-behavior: smooth; }
 .section-block {
   margin-bottom: var(--section-gap);
 }
+
+/* ===== Tracks grid (2x2) ===== */
+.tracks-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  padding: 0.5rem 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .tracks-grid { grid-template-columns: 1fr; }
+}
+
+/* ===== Track tile text ===== */
+.track-title {
+  margin-top: 0.75rem;
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #0F1D3B;
+  text-align: center;
+}
+
+.track-subtitle {
+  margin-top: 0.15rem;
+  font-weight: 600;
+  color: rgba(15, 29, 59, 0.75);
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+.tracks-note {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  opacity: 0.9;
+}
+
+/* ===== Flip card ===== */
+.flip-card {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 18px;
+  background: rgba(251, 252, 255, 0.35);
+  border: 3px solid rgba(13, 43, 126, 0.25);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  outline: none;
+}
+
+.flip-card:hover,
+.flip-card:focus-visible {
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.16);
+}
+
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+}
+
+.flip-face {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  backface-visibility: hidden;
+  border-radius: 18px;
+  padding: 1rem;
+}
+
+.flip-front { 
+  background: rgba(251, 252, 255, 0.55);
+}
+
+/* icon + sponsor sizing */
+.track-icon,
+.track-sponsor {
+  width: min(220px, 70%);
+  height: auto;
+  object-fit: contain;
+  user-select: none;
+  pointer-events: none;
+}
+
+
